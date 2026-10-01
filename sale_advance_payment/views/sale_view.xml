@@ -38,9 +38,12 @@
                     />
                 </div>
             </field>
-            <field name="tag_ids" position="after">
+            <xpath
+                expr="//page[@name='other_information']//group[@name='sales_person']/field[@name='tag_ids']"
+                position="after"
+            >
                 <field name="advance_payment_status" readonly="True" />
-            </field>
+            </xpath>
         </field>
     </record>
 
