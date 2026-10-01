@@ -4,9 +4,12 @@
         <field name="model">sale.order</field>
         <field name="inherit_id" ref="sale.view_order_form" />
         <field name="arch" type="xml">
-            <field name="client_order_ref" position="after">
+            <xpath
+                expr="//page[@name='other_information']//group[@name='sales_person']/field[@name='client_order_ref']"
+                position="after"
+            >
                 <field name="invoice_blocking_reason_id" />
-            </field>
+            </xpath>
         </field>
     </record>
 </odoo>
