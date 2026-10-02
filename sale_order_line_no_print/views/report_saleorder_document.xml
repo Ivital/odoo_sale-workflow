@@ -10,10 +10,14 @@
         <!-- Ensure compatibility if other modules extend the conditions matching
          just the beggining of the condition-->
         <xpath
-            expr="//t[starts-with(@t-if, 'not line.display_type')]"
-            position="replace"
+            expr="//tbody[hasclass('sale_tbody')]//td[@name='td_name']/.."
+            position="attributes"
         >
-            <t t-if="not line.display_type and line.display_in_report">$0</t>
+            <attribute
+                name="t-if"
+                add="line.display_in_report"
+                separator=" and "
+            />
         </xpath>
     </template>
     <template
@@ -24,10 +28,14 @@
         <!-- Ensure compatibility if other modules extend the conditions matching
          just the beggining of the condition-->
         <xpath
-            expr="//t[starts-with(@t-if, 'not line.display_type')]"
-            position="replace"
+            expr="//t[@name='product_line_row']"
+            position="attributes"
         >
-            <t t-if="line.display_in_report">$0</t>
+            <attribute
+                name="t-if"
+                add="line.display_in_report"
+                separator=" and "
+            />
         </xpath>
     </template>
 </odoo>
