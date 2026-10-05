@@ -96,3 +96,23 @@ msgid ""
 msgstr ""
 "Після створення запису частоти виставлення рахунків його можна призначити "
 "клієнту."
+
+#. module: sale_invoice_frequency
+#: model:sale.invoice.frequency,name:sale_invoice_frequency.sale_invoice_frequency_annual
+msgid "Annual"
+msgstr "Щорічно"
+
+#. module: sale_invoice_frequency
+#: model:sale.invoice.frequency,name:sale_invoice_frequency.sale_invoice_frequency_biannual
+msgid "Biannual"
+msgstr "Раз на пів року"
+
+#. module: sale_invoice_frequency
+#: model:sale.invoice.frequency,name:sale_invoice_frequency.sale_invoice_frequency_biweekly
+msgid "Biweekly"
+msgstr "Раз на два тижні"
+
+#. module: sale_invoice_frequency
+#: model:ir.model.fields,help:sale_invoice_frequency.field_sale_order__invoice_frequency_id
+msgid "Invoicing frequency for this order"
+msgstr "Періодичність виставлення рахунків для цього замовлення"

@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_stock_delivery_address.field_sale_order_line__dest_address_id
 msgid "Destination Address"
 msgstr "Адреса призначення"
+
+#. module: sale_stock_delivery_address
+#: model:ir.model.fields,help:sale_stock_delivery_address.field_sale_order_line__dest_address_id
+msgid ""
+"If set this address will be the delivery address instead of the one "
+"specified in the Sales Order header."
+msgstr ""
+"Якщо задано, ця адреса використовуватиметься як адреса доставки замість "
+"указаної в заголовку замовлення на продаж."

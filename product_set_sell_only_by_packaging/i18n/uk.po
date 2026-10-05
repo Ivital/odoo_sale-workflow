@@ -69,3 +69,13 @@ msgstr ""
 "                    Рекомендується перевірити їх усі.\n"
 "                    Якщо нічого не робити,\n"
 "                    cron-завдання призначить таким рядкам перше доступне пакування."
+
+#. module: product_set_sell_only_by_packaging
+#: model:ir.model.fields,help:product_set_sell_only_by_packaging.field_product_product__sell_only_by_packaging_prod_set_tocheck
+#: model:ir.model.fields,help:product_set_sell_only_by_packaging.field_product_template__sell_only_by_packaging_prod_set_tocheck
+msgid ""
+"If this flag is ON, it means you have to check all product.set associated "
+"with it"
+msgstr ""
+"Якщо цей прапорець увімкнено, потрібно перевірити всі product.set, пов’язані"
+" з ним"

@@ -179,3 +179,52 @@ msgstr "Стан замовлення на продаж"
 #: model_terms:ir.ui.view,arch_db:sale_resource_booking.sale_order_booking_confirm_view_form
 msgid "Save without sending invitations"
 msgstr "Зберегти без надсилання запрошень"
+
+#. module: sale_resource_booking
+#: model:ir.model,name:sale_resource_booking.model_sale_order_booking_confirm
+msgid "Confirmation dialog to autofill resource bookings"
+msgstr "Діалог підтвердження автозаповнення бронювань ресурсів"
+
+#. module: sale_resource_booking
+#: model:ir.model.fields,help:sale_resource_booking.field_product_product__resource_booking_type_id
+#: model:ir.model.fields,help:sale_resource_booking.field_product_template__resource_booking_type_id
+msgid "If set, one pending booking will be generated when sold."
+msgstr ""
+"Якщо встановлено, під час продажу буде створено одне бронювання в "
+"очікуванні."
+
+#. module: sale_resource_booking
+#: model:ir.model.fields,help:sale_resource_booking.field_product_product__resource_booking_type_combination_rel_id
+#: model:ir.model.fields,help:sale_resource_booking.field_product_template__resource_booking_type_combination_rel_id
+msgid ""
+"If set, the booking will be created with this resource combination. "
+"Otherwise, the combination will be assigned automatically later, when the "
+"requester schedules the booking."
+msgstr ""
+"Якщо задано, бронювання буде створено з цією комбінацією ресурсів. Інакше "
+"комбінацію буде призначено автоматично пізніше, коли заявник запланує "
+"бронювання."
+
+#. module: sale_resource_booking
+#: model:ir.model.fields,help:sale_resource_booking.field_resource_booking__sale_order_state
+msgid ""
+"If there is a related quotation and it is not confirmed, the booking will "
+"not be able to become confirmed."
+msgstr ""
+"Якщо є пов’язана комерційна пропозиція й вона не підтверджена, бронювання "
+"неможливо буде підтвердити."
+
+#. module: sale_resource_booking
+#: model:ir.model,name:sale_resource_booking.model_resource_booking_type
+msgid "Resource Booking Type"
+msgstr "Тип бронювання ресурсу"
+
+#. module: sale_resource_booking
+#: model:ir.model,name:sale_resource_booking.model_resource_booking_sale
+msgid "Sale order generator for resource booking types"
+msgstr "Генератор замовлення на продаж для типів бронювання ресурсів"
+
+#. module: sale_resource_booking
+#: model:ir.model.fields,help:sale_resource_booking.field_resource_booking__sale_order_id
+msgid "Sale order that origins this booking."
+msgstr "Замовлення на продаж, з якого походить це бронювання."

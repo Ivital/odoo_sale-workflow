@@ -32,3 +32,8 @@ msgstr "Знижка (фіксована)"
 #: model_terms:ir.ui.view,arch_db:sale_fixed_discount.sale_order_portal_content
 msgid "<span>Disc. Fixed Amount</span>"
 msgstr "<span>Фіксована сума знижки</span>"
+
+#. module: sale_fixed_discount
+#: model:ir.model.fields,help:sale_fixed_discount.field_sale_order_line__discount_fixed
+msgid "Fixed amount discount."
+msgstr "Знижка фіксованою сумою."

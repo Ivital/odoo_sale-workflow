@@ -60,7 +60,7 @@ msgstr "ID"
 #. module: sale_cancel_reason
 #: model:sale.order.cancel.reason,name:sale_cancel_reason.cancel_reason_only_quotation
 msgid "Just for Quotation"
-msgstr ""
+msgstr "Лише для комерційної пропозиції"
 
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason__write_uid
@@ -75,7 +75,7 @@ msgstr "Останнє оновлення"
 #. module: sale_cancel_reason
 #: model:sale.order.cancel.reason,name:sale_cancel_reason.cancel_reason_other_provider
 msgid "Other Service Provider selected"
-msgstr ""
+msgstr "Вибрано іншого постачальника послуг"
 
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_mass_cancel_orders__reason_id
@@ -114,7 +114,7 @@ msgstr ""
 #. module: sale_cancel_reason
 #: model:sale.order.cancel.reason,name:sale_cancel_reason.cancel_reason_no_service_needed
 msgid "Service no longer needed"
-msgstr ""
+msgstr "Послуга більше не потрібна"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

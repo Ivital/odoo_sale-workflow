@@ -47,3 +47,34 @@ msgstr "Автоматичне призначення"
 #: model_terms:ir.ui.view,arch_db:sale_automatic_workflow_auto_assign.sale_workflow_process_view_form
 msgid "Workflow automatic assignation"
 msgstr "Автоматичне призначення робочого процесу"
+
+#. module: sale_automatic_workflow_auto_assign
+#: model:ir.model.fields,help:sale_automatic_workflow_auto_assign.field_res_config_settings__sale_workflow_copy_mode
+msgid ""
+"Controls whether the automatic workflow is propagated when a sale order is duplicated (this includes order splits):\n"
+"- Don't copy: the workflow is re-derived from the auto-assign rules only.\n"
+"- Copy: the origin workflow is always copied, auto-assign is not re-run.\n"
+"- Copy if auto-assign finds none: auto-assign runs first; the origin workflow is copied only when no workflow could be auto-assigned."
+msgstr ""
+"Визначає, чи поширюється автоматичний робочий процес під час дублювання замовлення на продаж (зокрема при поділі замовлень):\n"
+"- Не копіювати: робочий процес повторно визначається лише за правилами автоматичного призначення.\n"
+"- Копіювати: початковий робочий процес завжди копіюється, автоматичне призначення повторно не запускається.\n"
+"- Копіювати, якщо автоматичне призначення нічого не знаходить: спочатку запускається автоматичне призначення; початковий робочий процес копіюється лише якщо жоден робочий процес не вдалося призначити автоматично."
+
+#. module: sale_automatic_workflow_auto_assign
+#: model:ir.model.fields,help:sale_automatic_workflow_auto_assign.field_sale_workflow_process__auto_assign_priority
+msgid ""
+"Determines the priority of the workflow when auto-assigning. Lower numbers "
+"have higher priority."
+msgstr ""
+"Визначає пріоритет робочого процесу під час автопризначення. Менше число "
+"означає вищий пріоритет."
+
+#. module: sale_automatic_workflow_auto_assign
+#: model:ir.model.fields,help:sale_automatic_workflow_auto_assign.field_sale_workflow_process__auto_assign
+msgid ""
+"When enabled the workflow will be assigned at sales order creation, if the "
+"assignation domain below applies."
+msgstr ""
+"Якщо ввімкнено, робочий процес буде призначено під час створення замовлення "
+"на продаж, якщо виконується наведений нижче домен призначення."

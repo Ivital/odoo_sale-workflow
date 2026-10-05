@@ -89,6 +89,8 @@ msgstr "Назва для відображення"
 msgid ""
 "Enable this to not add new lines for products already included in SO lines."
 msgstr ""
+"Увімкніть, щоб не додавати нові рядки для товарів, які вже є в рядках "
+"замовлення на продаж."
 
 #. module: sale_product_set
 #: model:ir.model.fields,field_description:sale_product_set.field_sale_product_set_wizard__id
@@ -140,7 +142,7 @@ msgstr "Пропускати наявні товари"
 #. module: sale_product_set
 #: model:ir.model,name:sale_product_set.model_sale_product_set_wizard
 msgid "Wizard model to add product set into a quotation"
-msgstr ""
+msgstr "Майстер додавання набору товарів у комерційну пропозицію"
 
 #. module: sale_product_set
 #. odoo-python
@@ -166,6 +168,15 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_product_set.field_res_config_settings__archive_partner_product_sets
 msgid "Sync product sets active state with partner"
 msgstr "Синхронізувати активний стан наборів товарів із контрагентом"
+
+#. module: sale_product_set
+#: model:ir.model.fields,help:sale_product_set.field_res_config_settings__archive_partner_product_sets
+msgid ""
+"When a partner is archived or un-archived             its product sets are "
+"archived or un-archived as well."
+msgstr ""
+"Коли партнера архівують або відновлюють,             його набори товарів "
+"також архівуються або відновлюються."
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

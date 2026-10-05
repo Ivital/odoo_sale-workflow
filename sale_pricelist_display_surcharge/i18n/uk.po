@@ -17,3 +17,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_pricelist_display_surcharge.field_product_pricelist_item__show_surcharge
 msgid "Show Surcharge"
 msgstr "Показувати надбавку"
+
+#. module: sale_pricelist_display_surcharge
+#: model:ir.model.fields,help:sale_pricelist_display_surcharge.field_product_pricelist_item__show_surcharge
+msgid ""
+"If enabled, when the price is computed will show the customer the surcharge."
+msgstr ""
+"Якщо ввімкнено, під час розрахунку ціни клієнту буде показано надбавку."

@@ -72,3 +72,8 @@ msgstr "Кількість доступна сьогодні"
 #: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__virtual_available_at_date
 msgid "Virtual Available At Date"
 msgstr "Віртуально доступно на дату"
+
+#. module: sale_stock_product_recommendation
+#: model:ir.model,name:sale_stock_product_recommendation.model_sale_order_recommendation_line
+msgid "Recommended product for current sale order"
+msgstr "Рекомендований товар для поточного замовлення на продаж"

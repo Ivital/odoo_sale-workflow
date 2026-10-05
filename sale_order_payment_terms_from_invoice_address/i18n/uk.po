@@ -17,3 +17,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_payment_terms_from_invoice_address.field_res_config_settings__compute_so_payment_terms_from_partner_invoice
 msgid "Compute Sale Order Payment Terms from Invoice Address"
 msgstr "Обчислювати умови оплати замовлення продажу з адреси рахунка"
+
+#. module: sale_order_payment_terms_from_invoice_address
+#: model:ir.model.fields,help:sale_order_payment_terms_from_invoice_address.field_res_config_settings__compute_so_payment_terms_from_partner_invoice
+msgid ""
+"If checked, the 'payment terms' on sale orders will be based on the payment "
+"terms of the invoice partner ('invoice address') instead of the base partner"
+" of the sale order ('customer')"
+msgstr ""
+"Якщо позначено, «умови оплати» в замовленнях на продаж визначатимуться за "
+"умовами оплати партнера рахунку («адреса рахунку»), а не основного партнера "
+"замовлення («клієнт»)."

@@ -59,3 +59,22 @@ msgid ""
 msgstr ""
 "Комерційні пропозиції автоматично скасовуватимуться після дати завершення "
 "дії плюс указана кількість днів."
+
+#. module: sale_validity_auto_cancel
+#: model:ir.model.fields,help:sale_validity_auto_cancel.field_res_company__sale_validity_auto_cancel_days
+#: model:ir.model.fields,help:sale_validity_auto_cancel.field_res_config_settings__sale_validity_auto_cancel_days
+msgid ""
+"Quotations will be cancelled after the specified number of days since the "
+"expiration date."
+msgstr ""
+"Комерційні пропозиції буде скасовано через вказану кількість днів після дати"
+" завершення їх дії."
+
+#. module: sale_validity_auto_cancel
+#: model:ir.model.constraint,message:sale_validity_auto_cancel.constraint_res_company_sale_validity_auto_cancel_days_positive
+msgid ""
+"The value of the field 'Auto-cancel expired quotations after' must be "
+"positive or 0."
+msgstr ""
+"Значення поля «Автоскасування прострочених пропозицій через» має бути "
+"додатним або 0."

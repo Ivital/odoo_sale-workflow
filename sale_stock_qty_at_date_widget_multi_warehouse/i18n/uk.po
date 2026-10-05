@@ -23,3 +23,12 @@ msgstr "Разом"
 #: model:ir.model.fields,field_description:sale_stock_qty_at_date_widget_multi_warehouse.field_sale_order_line__qty_at_date_per_warehouse
 msgid "Qty At Date Per Warehouse"
 msgstr "Кількість на дату за складом"
+
+#. module: sale_stock_qty_at_date_widget_multi_warehouse
+#: model:ir.model.fields,help:sale_stock_qty_at_date_widget_multi_warehouse.field_sale_order_line__qty_at_date_per_warehouse
+msgid ""
+"Technical field feeding the Qty at Date widget with the forecasted "
+"availability of the product on every warehouse at the scheduled date."
+msgstr ""
+"Технічне поле, що передає віджету «Кількість на дату» прогнозовану "
+"доступність товару на кожному складі на заплановану дату."

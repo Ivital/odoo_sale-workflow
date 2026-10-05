@@ -147,3 +147,23 @@ msgstr "Історія цін за клієнтом"
 #: model:ir.model.fields,field_description:sale_order_line_price_history.field_sale_order_line_price_history_line__history_sale_order_line_id
 msgid "history sale order line"
 msgstr "Історія рядка замовлення на продаж"
+
+#. module: sale_order_line_price_history
+#: model:ir.model.fields,help:sale_order_line_price_history.field_sale_order_line_price_history__include_commercial_partner
+msgid "Include commercial entity and its contacts in the sale history"
+msgstr "Включати комерційну організацію та її контакти в історію продажів"
+
+#. module: sale_order_line_price_history
+#: model:ir.model.fields,help:sale_order_line_price_history.field_sale_order_line_price_history__include_quotations
+msgid "Include quotations lines in the sale history"
+msgstr "Включати рядки комерційних пропозицій в історію продажів"
+
+#. module: sale_order_line_price_history
+#: model:ir.model,name:sale_order_line_price_history.model_sale_order_line_price_history
+msgid "Sale order line price history"
+msgstr "Історія цін рядка замовлення на продаж"
+
+#. module: sale_order_line_price_history
+#: model:ir.model,name:sale_order_line_price_history.model_sale_order_line_price_history_line
+msgid "Sale order line price history line"
+msgstr "Рядок історії цін рядка замовлення на продаж"

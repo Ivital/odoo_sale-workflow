@@ -32,3 +32,17 @@ msgstr "Запускати кожні (у секундах)"
 #: model_terms:ir.ui.view,arch_db:sale_automatic_workflow_periodicity.sale_workflow_process_view_form
 msgid "Workflow execution periodicity"
 msgstr "Періодичність виконання робочого процесу"
+
+#. module: sale_automatic_workflow_periodicity
+#: model:ir.model.fields,help:sale_automatic_workflow_periodicity.field_sale_workflow_process__periodicity
+msgid "Sets a periodicity for this workflow to be executed (in seconds)"
+msgstr ""
+"Встановлює періодичність виконання цього робочого процесу (у секундах)"
+
+#. module: sale_automatic_workflow_periodicity
+#: model:ir.model.fields,help:sale_automatic_workflow_periodicity.field_sale_workflow_process__periodicity_check_create_date
+msgid ""
+"When checked only sales created before the last execution will be processed."
+msgstr ""
+"Якщо позначено, оброблятимуться лише продажі, створені до останнього "
+"виконання."

@@ -106,3 +106,13 @@ msgstr "Рядок замовлення на продаж"
 #: model:ir.actions.server,name:sale_partner_primeship.ir_cron_check_primeship_expired_ir_actions_server
 msgid "Check for Expired Partner Primeships"
 msgstr "Перевірити прострочені партнерські Primeship"
+
+#. module: sale_partner_primeship
+#: model:ir.model.constraint,message:sale_partner_primeship.constraint_sale_primeship_unique_order_line
+msgid "A sale order line can only have one primeship!"
+msgstr "Рядок замовлення на продаж може мати лише один primeship!"
+
+#. module: sale_partner_primeship
+#: model:ir.model,name:sale_partner_primeship.model_sale_primeship
+msgid "Sale Prime Memberships"
+msgstr "Prime-членства продажів"

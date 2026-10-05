@@ -48,3 +48,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_team_from_product.field_res_config_settings__skip_sales_team_if_set
 msgid "Skip if team is already set"
 msgstr "Пропустити, якщо команду вже встановлено"
+
+#. module: sale_order_team_from_product
+#: model:ir.model.fields,help:sale_order_team_from_product.field_res_config_settings__skip_sales_team_if_set
+msgid ""
+"If enabled, the Sales Team from products will not override an already set "
+"Sales Team on the quotation."
+msgstr ""
+"Якщо ввімкнено, команда продажів із товарів не замінюватиме вже задану "
+"команду продажів у пропозиції."
+
+#. module: sale_order_team_from_product
+#: model:ir.model.fields,help:sale_order_team_from_product.field_res_config_settings__set_sales_team_from_products
+msgid ""
+"If enabled, the Sales Team on a quotation will be set based on the Sales "
+"Team defined on the products."
+msgstr ""
+"Якщо ввімкнено, команда продажів у пропозиції визначатиметься за командою "
+"продажів, указаною в товарах."

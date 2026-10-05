@@ -39,3 +39,31 @@ msgid ""
 msgstr ""
 "Обмежити використання цього товару в рядках замовлення на продаж без "
 "визначеного пакування"
+
+#. module: sell_only_by_packaging
+#: model:ir.model.fields,help:sell_only_by_packaging.field_product_packaging__force_sale_qty
+msgid ""
+"Determine if during the creation of a sale order line, the quantity should be forced with a multiple of the packaging.\n"
+"Example:\n"
+"You sell a product by packaging of 5 products.\n"
+"When the user will put 3 as quantity, the system can force the quantity to the superior unit (5 for this example)."
+msgstr ""
+"Визначає, чи потрібно під час створення рядка замовлення на продаж примусово встановлювати кількість, кратну пакуванню.\n"
+"Приклад:\n"
+"Ви продаєте товар упаковками по 5 одиниць.\n"
+"Якщо користувач введе кількість 3, система може примусово підвищити її до наступної одиниці пакування (у цьому прикладі — 5)."
+
+#. module: sell_only_by_packaging
+#: model:ir.model,name:sell_only_by_packaging.model_product_packaging_level
+msgid "Level management for product.packaging"
+msgstr "Керування рівнями для product.packaging"
+
+#. module: sell_only_by_packaging
+#: model:ir.model.fields,help:sell_only_by_packaging.field_product_product__min_sellable_qty
+#: model:ir.model.fields,help:sell_only_by_packaging.field_product_template__min_sellable_qty
+msgid ""
+"Minimum sellable quantity, according to the available packagings, if Only "
+"Sell by Packaging is set."
+msgstr ""
+"Мінімальна кількість для продажу відповідно до доступних пакувань, якщо "
+"ввімкнено «Продавати лише пакуваннями»."

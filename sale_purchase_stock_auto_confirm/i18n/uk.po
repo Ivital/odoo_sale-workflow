@@ -32,3 +32,13 @@ msgid ""
 msgstr ""
 "Автоматично підтверджувати замовлення на закупівлю, створені із замовлень на"
 " продаж за правилами MTO або дропшипінгу."
+
+#. module: sale_purchase_stock_auto_confirm
+#: model:ir.model.fields,help:sale_purchase_stock_auto_confirm.field_res_company__purchase_auto_validation
+#: model:ir.model.fields,help:sale_purchase_stock_auto_confirm.field_res_config_settings__purchase_auto_validation
+msgid ""
+"When a purchase order is created from a sales order using the MTO or "
+"Dropship rule for this company, it will be automatically validated."
+msgstr ""
+"Коли замовлення на закупівлю створюється із замовлення на продаж за правилом"
+" MTO або Dropship для цієї компанії, воно автоматично підтверджується."

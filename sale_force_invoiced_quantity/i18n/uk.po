@@ -22,3 +22,12 @@ msgstr "Примусово виставлено рахунок"
 #: model:ir.model.fields,field_description:sale_force_invoiced_quantity.field_sale_order_line__force_invoiced_quantity
 msgid "Force Invoiced Quantity"
 msgstr "Примусово виставлена кількість"
+
+#. module: sale_force_invoiced_quantity
+#: model:ir.model.fields,help:sale_force_invoiced_quantity.field_sale_order_line__force_invoiced_quantity
+msgid ""
+"This amount will be deducted from quantity to invoice.\n"
+"quantity to invoice = delivered - invoiced - force invoiced"
+msgstr ""
+"Ця сума буде віднята від кількості до виставлення рахунка.\n"
+"кількість до рахунка = доставлено - виставлено - примусово виставлено"

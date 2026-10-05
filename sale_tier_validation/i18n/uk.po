@@ -132,3 +132,8 @@ msgstr "Сповіщення про відхилення багаторівне�
 #: model:mail.message.subtype,name:sale_tier_validation.sale_order_tier_validation_requested
 msgid "Tier Validation Requested"
 msgstr "Запитано багаторівневу перевірку"
+
+#. module: sale_tier_validation
+#: model:ir.model,name:sale_tier_validation.model_report_sale_report_saleorder
+msgid "Sale Order Report"
+msgstr "Звіт замовлення на продаж"

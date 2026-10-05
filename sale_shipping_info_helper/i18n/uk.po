@@ -42,3 +42,33 @@ msgstr "Загальна сума доставки"
 #: model:ir.model.fields,field_description:sale_shipping_info_helper.field_sale_order__shipping_amount_untaxed
 msgid "Shipping Amount Untaxed"
 msgstr "Сума доставки без податків"
+
+#. module: sale_shipping_info_helper
+#: model:ir.model.fields,help:sale_shipping_info_helper.field_sale_order__item_amount_tax
+msgid "Tax portion of the item amount"
+msgstr "Податкова частина суми елемента"
+
+#. module: sale_shipping_info_helper
+#: model:ir.model.fields,help:sale_shipping_info_helper.field_sale_order__shipping_amount_tax
+msgid "Tax portion of the shipping amount"
+msgstr "Податкова частина суми доставки"
+
+#. module: sale_shipping_info_helper
+#: model:ir.model.fields,help:sale_shipping_info_helper.field_sale_order__item_amount_total
+msgid "Total amount for items excluding shipping"
+msgstr "Загальна сума за елементи без доставки"
+
+#. module: sale_shipping_info_helper
+#: model:ir.model.fields,help:sale_shipping_info_helper.field_sale_order__shipping_amount_total
+msgid "Total shipping amount including taxes"
+msgstr "Загальна сума доставки з податками"
+
+#. module: sale_shipping_info_helper
+#: model:ir.model.fields,help:sale_shipping_info_helper.field_sale_order__item_amount_untaxed
+msgid "Untaxed portion of the item amount"
+msgstr "Неоподатковувана частина суми елемента"
+
+#. module: sale_shipping_info_helper
+#: model:ir.model.fields,help:sale_shipping_info_helper.field_sale_order__shipping_amount_untaxed
+msgid "Untaxed portion of the shipping amount"
+msgstr "Неоподатковувана частина суми доставки"

@@ -43,3 +43,8 @@ msgstr "Товари-послуги рахунка"
 #: model:ir.model.fields,field_description:sale_order_invoicing_picking_filter.field_sale_advance_payment_inv__there_are_service_product
 msgid "There are a Service Product"
 msgstr "Є товар-послуга"
+
+#. module: sale_order_invoicing_picking_filter
+#: model:ir.model.fields,help:sale_order_invoicing_picking_filter.field_sale_advance_payment_inv__inv_service_products
+msgid "If selected and there is a service type product, it will be invoiced."
+msgstr "Якщо вибрано і є товар типу послуги, його буде виставлено в рахунку."

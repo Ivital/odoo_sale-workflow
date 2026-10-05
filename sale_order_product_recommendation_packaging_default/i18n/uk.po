@@ -22,3 +22,13 @@ msgstr "Пакування"
 #: model:ir.model.fields,field_description:sale_order_product_recommendation_packaging_default.field_sale_order_recommendation_line__product_packaging_qty
 msgid "Packaging Qty."
 msgstr "Кількість пакування"
+
+#. module: sale_order_product_recommendation_packaging_default
+#: model:ir.model.fields,help:sale_order_product_recommendation_packaging_default.field_sale_order_recommendation_line__product_packaging_id
+msgid "Packaging used for selling this product."
+msgstr "Пакування, що використовується для продажу цього товару."
+
+#. module: sale_order_product_recommendation_packaging_default
+#: model:ir.model.fields,help:sale_order_product_recommendation_packaging_default.field_sale_order_recommendation_line__product_packaging_qty
+msgid "Quantity of packagings to sell."
+msgstr "Кількість пакувань для продажу."

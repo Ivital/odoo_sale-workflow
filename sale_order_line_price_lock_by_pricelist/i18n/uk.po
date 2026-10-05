@@ -42,3 +42,32 @@ msgstr "Блокувати ціну, коли правило застосова�
 #: model:ir.model.fields,field_description:sale_order_line_price_lock_by_pricelist.field_sale_order_line__origin_pricelist_item_id
 msgid "Origin Pricelist Item"
 msgstr "Початкова позиція прайс-листа"
+
+#. module: sale_order_line_price_lock_by_pricelist
+#: model:ir.model.fields,help:sale_order_line_price_lock_by_pricelist.field_product_pricelist__lock_product_prices_applied_on
+msgid ""
+"Avoid that salesmen change prices based on this scope. Rules applied on base"
+" pricelist take into account the items of those pricelists with the rule of "
+"the pricelist applied on the sale order"
+msgstr ""
+"Заборонити продавцям змінювати ціни в межах цієї області. Правила базового "
+"прайс-листа враховують елементи цих прайс-листів разом із правилом прайс-"
+"листа, застосованого до замовлення на продаж."
+
+#. module: sale_order_line_price_lock_by_pricelist
+#: model:ir.model.fields,help:sale_order_line_price_lock_by_pricelist.field_sale_order_line__origin_pricelist_item_id
+msgid ""
+"Technical field to get the base pricelist item that has the origin price "
+"calculation"
+msgstr ""
+"Технічне поле для отримання базового елемента прайс-листа, що містить "
+"початковий розрахунок ціни"
+
+#. module: sale_order_line_price_lock_by_pricelist
+#: model:ir.model.fields,help:sale_order_line_price_lock_by_pricelist.field_sale_order_line__price_locked
+msgid ""
+"This flag will make the price_unit and discount readonly based on the "
+"pricelist locking criterias"
+msgstr ""
+"Цей прапорець зробить price_unit і discount лише для читання відповідно до "
+"критеріїв блокування прайс-листа"

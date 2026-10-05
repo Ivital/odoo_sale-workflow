@@ -176,7 +176,7 @@ msgstr "Новий"
 #. module: sale_order_type
 #: model:sale.order.type,name:sale_order_type.normal_sale_type
 msgid "Normal Order"
-msgstr ""
+msgstr "Звичайне замовлення"
 
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__payment_term_id

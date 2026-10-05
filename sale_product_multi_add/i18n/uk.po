@@ -96,3 +96,13 @@ msgstr "або"
 #: model_terms:ir.ui.view,arch_db:sale_product_multi_add.sale_order_mass_import_form
 msgid "Add multiple products"
 msgstr "Додати кілька товарів"
+
+#. module: sale_product_multi_add
+#: model:ir.model,name:sale_product_multi_add.model_sale_import_products
+msgid "Sale Import Products"
+msgstr "Імпорт товарів продажу"
+
+#. module: sale_product_multi_add
+#: model:ir.model,name:sale_product_multi_add.model_sale_import_products_items
+msgid "Sale Import Products Items"
+msgstr "Елементи імпорту товарів продажу"

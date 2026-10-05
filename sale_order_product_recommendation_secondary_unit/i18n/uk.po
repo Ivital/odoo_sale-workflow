@@ -42,3 +42,13 @@ msgstr "Включені одиниці"
 #: model:ir.model.fields,field_description:sale_order_product_recommendation_secondary_unit.field_sale_order_recommendation_line__product_uom_readonly
 msgid "Product Uom Readonly"
 msgstr "Одиниця виміру товару лише для читання"
+
+#. module: sale_order_product_recommendation_secondary_unit
+#: model:ir.model,name:sale_order_product_recommendation_secondary_unit.model_sale_order_recommendation
+msgid "Recommended products for current sale order"
+msgstr "Рекомендовані товари для поточного замовлення на продаж"
+
+#. module: sale_order_product_recommendation_secondary_unit
+#: model:ir.model.fields,help:sale_order_product_recommendation_secondary_unit.field_sale_order_recommendation_line__product_tmpl_id
+msgid "To filter secondary uom available"
+msgstr "Для фільтрації доступних вторинних одиниць виміру"

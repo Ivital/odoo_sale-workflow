@@ -98,3 +98,9 @@ msgstr "Успішна максимальна ціна семафора"
 #: model:ir.model.fields,field_description:sale_semaphore.field_sale_order_line__semaphore_max_price_warning
 msgid "Semaphore Max Price Warning"
 msgstr "Попередження максимальної ціни семафора"
+
+#. module: sale_semaphore
+#: model:ir.model.fields,help:sale_semaphore.field_product_product__semaphore_active
+#: model:ir.model.fields,help:sale_semaphore.field_product_template__semaphore_active
+msgid "If the value is blank, it will be inherited from the category."
+msgstr "Якщо значення порожнє, воно успадковуватиметься з категорії."

@@ -58,3 +58,12 @@ msgstr "Очікувані доставки"
 #: model:ir.model.fields,field_description:sale_delivery_state.field_sale_order_line__skip_sale_delivery_state
 msgid "Skip Delivery State"
 msgstr "Пропускати стан доставки"
+
+#. module: sale_delivery_state
+#: model:ir.model.fields,help:sale_delivery_state.field_sale_order__force_delivery_state
+msgid ""
+"Allow to enforce done state of delivery, for instance if some quantities "
+"were cancelled"
+msgstr ""
+"Дозволити примусово встановлювати стан доставки «Виконано», наприклад якщо "
+"деякі кількості було скасовано"

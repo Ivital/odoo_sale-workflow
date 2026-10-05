@@ -209,3 +209,55 @@ msgstr "Ціна опрацювання:"
 #: model_terms:ir.ui.view,arch_db:sale_elaboration.elaboration_view_search
 msgid "Elaborations Search"
 msgstr "Пошук опрацювань"
+
+#. module: sale_elaboration
+#: model:ir.model.constraint,message:sale_elaboration.constraint_product_elaboration_code_uniq
+msgid "Code must be unique!"
+msgstr "Код має бути унікальним!"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,help:sale_elaboration.field_product_elaboration__active
+msgid ""
+"If unchecked, it will allow you to hide the product elaborations without "
+"removing it."
+msgstr ""
+"Якщо вимкнено, опрацювання товарів можна буде приховати без їх видалення."
+
+#. module: sale_elaboration
+#: model:res.groups,name:sale_elaboration.group_elaboration_note_on_delivery_slip
+msgid "Include elaboration notes on delivery slip"
+msgstr "Включати примітки опрацювання в накладну доставки"
+
+#. module: sale_elaboration
+#: model:res.groups,name:sale_elaboration.group_elaboration_note_on_picking_operations
+msgid "Include elaboration notes on picking operations"
+msgstr "Включати примітки опрацювання в операції переміщення"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,help:sale_elaboration.field_product_product__elaboration_profile_id
+#: model:ir.model.fields,help:sale_elaboration.field_product_template__elaboration_profile_id
+msgid ""
+"Keep this field empty to use the default value from the product category."
+msgstr ""
+"Залиште це поле порожнім, щоб використовувати значення за замовчуванням із "
+"категорії товару."
+
+#. module: sale_elaboration
+#: model:ir.model.constraint,message:sale_elaboration.constraint_product_elaboration_name_uniq
+msgid "Name must be unique!"
+msgstr "Назва має бути унікальною!"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_product_elaboration_mixin
+msgid "Product Elaboration Mixin"
+msgstr "Міксин опрацювання товару"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_product_elaboration_profile
+msgid "Product elaboration profiles"
+msgstr "Профілі опрацювання товару"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_product_elaboration
+msgid "Product elaborations"
+msgstr "Опрацювання товару"

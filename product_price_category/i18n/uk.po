@@ -101,7 +101,7 @@ msgstr ""
 #. module: product_price_category
 #: model:ir.model,name:product_price_category.model_product_price_category
 msgid "Product Price Category"
-msgstr ""
+msgstr "Категорія ціни товару"
 
 #. module: product_price_category
 #: model:ir.model.fields,help:product_price_category.field_product_pricelist_item__price_category_id
@@ -109,3 +109,5 @@ msgid ""
 "Specify a product price category if this rule only applies to one price "
 "category. Keep empty otherwise."
 msgstr ""
+"Укажіть категорію ціни товару, якщо правило застосовується лише до однієї "
+"категорії. Інакше залиште порожнім."

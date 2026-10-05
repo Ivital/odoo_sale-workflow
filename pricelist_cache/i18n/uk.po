@@ -132,3 +132,8 @@ msgstr "Батьківський прайс-лист"
 #: model:ir.actions.server,name:pricelist_cache.cron_reset_pricelist_cache_ir_actions_server
 msgid "Reset pricelist cache"
 msgstr "Скинути кеш прайс-листа"
+
+#. module: pricelist_cache
+#: model:ir.model,name:pricelist_cache.model_product_pricelist_cache_wizard
+msgid "Wizard for pricelist cache"
+msgstr "Майстер кешу прайс-листа"

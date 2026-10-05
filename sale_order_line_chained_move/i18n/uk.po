@@ -27,3 +27,11 @@ msgstr "Зберігати окремі рядки замовлення на п�
 #: model:ir.model.fields,field_description:sale_order_line_chained_move.field_stock_move__related_sale_line_id
 msgid "Related Sale Line"
 msgstr "Пов’язаний рядок продажу"
+
+#. module: sale_order_line_chained_move
+#: model:ir.model.fields,help:sale_order_line_chained_move.field_stock_rule__preserve_separate_so_lines
+msgid ""
+"Prevents Odoo's default behaviour of merging moves with the same product."
+msgstr ""
+"Запобігає типовій поведінці Odoo щодо об’єднання переміщень з однаковим "
+"товаром."

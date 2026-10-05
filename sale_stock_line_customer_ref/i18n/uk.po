@@ -35,3 +35,20 @@ msgstr "Має посилання клієнта"
 #: model:ir.model.fields,field_description:sale_stock_line_customer_ref.field_stock_move__customer_ref_sale_line_id
 msgid "Sale Line With Customer Ref."
 msgstr "Рядок продажу з посиланням клієнта"
+
+#. module: sale_stock_line_customer_ref
+#: model:ir.model.fields,help:sale_stock_line_customer_ref.field_stock_quant_package__customer_ref
+msgid "Customer reference coming from the sale order line."
+msgstr "Посилання клієнта з рядка замовлення на продаж."
+
+#. module: sale_stock_line_customer_ref
+#: model:ir.model.fields,help:sale_stock_line_customer_ref.field_stock_package_level__has_customer_ref
+msgid "Technical field to display 'Customer Ref' column in a package level."
+msgstr ""
+"Технічне поле для відображення стовпця «Посилання клієнта» на рівні пакунка."
+
+#. module: sale_stock_line_customer_ref
+#: model:ir.model.fields,help:sale_stock_line_customer_ref.field_stock_picking__has_customer_ref
+msgid "Technical field to display 'Customer Ref' column on moves."
+msgstr ""
+"Технічне поле для відображення стовпця «Посилання клієнта» у переміщеннях."

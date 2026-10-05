@@ -185,3 +185,8 @@ msgstr "Рядки переміщень платежу"
 #: model:ir.model.fields,field_description:sale_advance_payment.field_sale_order__amount_residual
 msgid "Residual amount"
 msgstr "Залишкова сума"
+
+#. module: sale_advance_payment
+#: model:ir.model,name:sale_advance_payment.model_account_voucher_wizard
+msgid "Account Voucher Wizard"
+msgstr "Майстер ваучера рахунку"

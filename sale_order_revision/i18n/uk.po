@@ -57,3 +57,8 @@ msgstr "Кількість попередніх версій"
 #: model_terms:ir.ui.view,arch_db:sale_order_revision.view_order_form
 msgid "New Revision of Quotation"
 msgstr "Нова ревізія комерційної пропозиції"
+
+#. module: sale_order_revision
+#: model:ir.model.constraint,message:sale_order_revision.constraint_sale_order_revision_unique
+msgid "Order Reference and revision must be unique per Company."
+msgstr "Посилання замовлення та редакція мають бути унікальними для компанії."

@@ -37,3 +37,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_order_show_currency_rate.res_config_settings_view_form
 msgid "Report Reference Currency"
 msgstr "Довідкова валюта звіту"
+
+#. module: sale_order_show_currency_rate
+#: model:ir.model.fields,help:sale_order_show_currency_rate.field_res_company__sale_order_currency_report_id
+#: model:ir.model.fields,help:sale_order_show_currency_rate.field_res_config_settings__sale_order_currency_report_id
+msgid ""
+"Currency shown as informative exchange rate on sale order PDF reports when "
+"the order currency matches the company currency."
+msgstr ""
+"Валюта, що показується як інформаційний курс обміну у PDF-звітах замовлення "
+"на продаж, коли валюта замовлення збігається з валютою компанії."

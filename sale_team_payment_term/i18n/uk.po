@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_team_payment_term.field_crm_team__team_payment_term_id
 msgid "Payment term"
 msgstr "Умова оплати"
+
+#. module: sale_team_payment_term
+#: model:ir.model.fields,help:sale_team_payment_term.field_crm_team__team_payment_term_id
+msgid ""
+"This payment method will be used if none is indicated on the customer "
+"profil, and will apply on sale orders and invoices."
+msgstr ""
+"Цей спосіб оплати використовуватиметься, якщо в профілі клієнта нічого не "
+"вказано, і застосовуватиметься до замовлень на продаж та рахунків."

@@ -34,3 +34,24 @@ msgstr "Є прикріпленим рядком"
 #: model:ir.model.fields,field_description:sale_attached_product.field_sale_order_line__attached_from_line_id
 msgid "Attached From Line"
 msgstr "Прикріплено з рядка"
+
+#. module: sale_attached_product
+#: model:ir.model.fields,help:sale_attached_product.field_sale_order_line__is_attached_line
+msgid "Flag products that are attached to their main counterpart"
+msgstr "Позначати товари, прикріплені до їх основного відповідника"
+
+#. module: sale_attached_product
+#: model:ir.model,name:sale_attached_product.model_sale_attached_product_mixin
+msgid "Mixin class for sale attached product features"
+msgstr "Клас-міксин для функцій прикріпленого товару продажу"
+
+#. module: sale_attached_product
+#: model:ir.model.fields,help:sale_attached_product.field_product_product__attached_product_ids
+#: model:ir.model.fields,help:sale_attached_product.field_product_template__attached_product_ids
+msgid ""
+"Similar to optional products, although they're added automatically to "
+"thesale order and optionally removed when the main product goes away."
+msgstr ""
+"Подібні до необов’язкових товарів, але додаються до замовлення на продаж "
+"автоматично й за потреби видаляються, коли основний товар більше не "
+"використовується."

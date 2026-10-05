@@ -104,7 +104,7 @@ msgstr "Дата створення"
 #. module: sale_exception
 #: model:exception.rule,name:sale_exception.exception_partner_sale_warning
 msgid "Customer sale warning"
-msgstr ""
+msgstr "Попередження продажу клієнту"
 
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_exception_confirm__display_name
@@ -123,7 +123,7 @@ msgstr ""
 #. module: sale_exception
 #: model:ir.model,name:sale_exception.model_exception_rule
 msgid "Exception Rule"
-msgstr ""
+msgstr "Правило винятку"
 
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_order__exception_ids
@@ -179,7 +179,7 @@ msgstr "Основний виняток"
 #: model:exception.rule,description:sale_exception.excep_no_zip
 #: model:exception.rule,name:sale_exception.excep_no_zip
 msgid "No ZIP code on destination"
-msgstr ""
+msgstr "У місці призначення немає поштового індексу"
 
 #. module: sale_exception
 #: model:exception.rule,name:sale_exception.excep_no_dumping
@@ -200,12 +200,12 @@ msgstr ""
 #: model:exception.rule,description:sale_exception.excep_no_stock
 #: model:exception.rule,name:sale_exception.excep_no_stock
 msgid "Not Enough Virtual Stock"
-msgstr ""
+msgstr "Недостатньо віртуального запасу"
 
 #. module: sale_exception
 #: model:exception.rule,name:sale_exception.exception_product_sale_warning
 msgid "Product warning"
-msgstr ""
+msgstr "Попередження про товар"
 
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_exception_confirm__related_model_id
@@ -227,7 +227,7 @@ msgstr "Правила винятків продажу"
 #. module: sale_exception
 #: model:ir.model,name:sale_exception.model_sale_exception_confirm
 msgid "Sale exception confirm wizard"
-msgstr ""
+msgstr "Майстер підтвердження винятку продажу"
 
 #. module: sale_exception
 #: model:ir.model.fields.selection,name:sale_exception.selection__exception_rule__model__sale_order
@@ -262,12 +262,12 @@ msgstr "Тестові чернетки замовлень"
 #. module: sale_exception
 #: model:exception.rule,description:sale_exception.exception_partner_sale_warning
 msgid "The customer has a sale warning in his form"
-msgstr ""
+msgstr "Клієнт має попередження про продаж у своїй формі"
 
 #. module: sale_exception
 #: model:exception.rule,description:sale_exception.exception_product_sale_warning
 msgid "The product has a warning in his form"
-msgstr ""
+msgstr "Товар має попередження у своїй формі"
 
 #. module: sale_exception
 #: model:exception.rule,description:sale_exception.excep_no_free

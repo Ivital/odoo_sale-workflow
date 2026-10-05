@@ -48,6 +48,8 @@ msgid ""
 "Be careful, if you save the order with this setting, it could be auto-"
 "confirmed, even if you are editing it."
 msgstr ""
+"Будьте уважні: якщо зберегти замовлення з цим параметром, воно може "
+"автоматично підтвердитися навіть під час редагування."
 
 #. module: sale_automatic_workflow
 #: model:ir.model,name:sale_automatic_workflow.model_res_config_settings
@@ -133,6 +135,8 @@ msgstr "ID"
 msgid ""
 "If set, displays the message when an userselects the process on a sale order"
 msgstr ""
+"Якщо задано, відображає повідомлення, коли користувач вибирає процес у "
+"замовленні на продаж"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,help:sale_automatic_workflow.field_sale_workflow_process__invoice_service_delivery
@@ -140,6 +144,8 @@ msgid ""
 "If this box is checked, when the first invoice is created The service sale "
 "order lines will be included and will be marked as delivered"
 msgstr ""
+"Якщо встановити цей прапорець, під час створення першого рахунку рядки "
+"замовлення на продаж послуг буде включено та позначено як доставлені."
 
 #. module: sale_automatic_workflow
 #: model_terms:ir.ui.view,arch_db:sale_automatic_workflow.sale_workflow_process_view_form
@@ -264,12 +270,12 @@ msgstr "Надіслати лист підтвердження замовлен�
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,help:sale_automatic_workflow.field_sale_workflow_process__property_journal_id
 msgid "Set default journal to use on invoice"
-msgstr ""
+msgstr "Установити типовий журнал для рахунка"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,help:sale_automatic_workflow.field_sale_workflow_process__property_payment_journal_id
 msgid "Set default journal to use on payment"
-msgstr ""
+msgstr "Установити типовий журнал для платежу"
 
 #. module: sale_automatic_workflow
 #: model_terms:ir.ui.view,arch_db:sale_automatic_workflow.sale_workflow_process_view_form
@@ -307,11 +313,13 @@ msgid ""
 "When checked, after order confirmation, a confirmation email will be sent "
 "(if not already sent)."
 msgstr ""
+"Якщо позначено, після підтвердження замовлення буде надіслано лист-"
+"підтвердження (якщо його ще не надіслано)."
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,help:sale_automatic_workflow.field_sale_workflow_process__invoice_date_is_order_date
 msgid "When checked, the invoice date will be the same than the order's date"
-msgstr ""
+msgstr "Якщо позначено, дата рахунку буде такою самою, як дата замовлення"
 
 #. module: sale_automatic_workflow
 #: model_terms:ir.ui.view,arch_db:sale_automatic_workflow.sale_workflow_process_view_form

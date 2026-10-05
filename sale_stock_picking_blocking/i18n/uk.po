@@ -108,7 +108,7 @@ msgstr "Зняти блокування доставки"
 #. module: sale_stock_picking_blocking
 #: model:res.groups,name:sale_stock_picking_blocking.group_sale_delivery_block
 msgid "Release Delivery Block in Sales Orders"
-msgstr ""
+msgstr "Зняти блокування доставки в замовленнях на продаж"
 
 #. module: sale_stock_picking_blocking
 #: model:ir.actions.act_window,name:sale_stock_picking_blocking.action_sale_stock_picking_blocking_reason
@@ -147,6 +147,8 @@ msgid ""
 "Set a reason to block by default the deliveries in this payment term sales "
 "orders."
 msgstr ""
+"Задайте типову причину блокування доставок у замовленнях на продаж із цим "
+"терміном оплати."
 
 #. module: sale_stock_picking_blocking
 #. odoo-python

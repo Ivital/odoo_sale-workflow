@@ -18,3 +18,15 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_line_no_print.field_sale_order_line__display_in_report
 msgid "Display In Report"
 msgstr "Показувати у звіті"
+
+#. module: sale_order_line_no_print
+#: model:ir.model.fields,help:sale_order_line_no_print.field_account_move_line__display_in_report
+msgid "Disable it to hide it in the invoice reports that customer sees"
+msgstr "Вимкніть, щоб приховати його у звітах рахунків, які бачить клієнт"
+
+#. module: sale_order_line_no_print
+#: model:ir.model.fields,help:sale_order_line_no_print.field_sale_order_line__display_in_report
+msgid "Disable it to hide it in the quotations/sale orders that customer sees"
+msgstr ""
+"Вимкніть, щоб приховати це в комерційних пропозиціях/замовленнях на продаж, "
+"які бачить клієнт"

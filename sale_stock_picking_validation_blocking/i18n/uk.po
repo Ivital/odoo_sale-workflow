@@ -43,3 +43,12 @@ msgstr "Перевірку заблоковано замовленням про�
 msgid "Warning: The validation of this picking is prevented by sale order"
 msgstr ""
 "Попередження: перевірку цього переміщення заблоковано замовленням продажу"
+
+#. module: sale_stock_picking_validation_blocking
+#: model:ir.model.fields,help:sale_stock_picking_validation_blocking.field_sale_order__hide_button_picking_validation_blocked
+msgid ""
+"Technical field to determine whether the picking validation buttons should "
+"be displayed"
+msgstr ""
+"Технічне поле для визначення, чи потрібно відображати кнопки підтвердження "
+"комплектування"

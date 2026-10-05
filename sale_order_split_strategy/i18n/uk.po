@@ -133,3 +133,13 @@ msgstr "Деякі рядки цього замовлення продажу б�
 #: model_terms:ir.ui.view,arch_db:sale_order_split_strategy.split_from
 msgid "This sale order was created after splitting lines from"
 msgstr "Це замовлення продажу створено після розділення рядків із"
+
+#. module: sale_order_split_strategy
+#: model:ir.model,name:sale_order_split_strategy.model_sale_order_split_strategy
+msgid "Order split strategy"
+msgstr "Стратегія розділення замовлення"
+
+#. module: sale_order_split_strategy
+#: model:ir.model.fields,help:sale_order_split_strategy.field_sale_order__split_strategy_id
+msgid "The strategy that will be used to split the sales order"
+msgstr "Стратегія, що використовуватиметься для поділу замовлення на продаж"

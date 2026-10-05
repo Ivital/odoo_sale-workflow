@@ -337,3 +337,25 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_order_product_recommendation.sale_order_recommendation_view_form
 msgid "You will lose any changes you have made. Are you sure?"
 msgstr "Усі внесені зміни буде втрачено. Ви впевнені?"
+
+#. module: sale_order_product_recommendation
+#: model:ir.model.fields,help:sale_order_product_recommendation.field_sale_order_recommendation__months
+msgid "Consider these months backwards to generate recommendations."
+msgstr "Враховувати ці місяці назад для формування рекомендацій."
+
+#. module: sale_order_product_recommendation
+#: model:ir.model.fields,help:sale_order_product_recommendation.field_res_config_settings__sale_line_recommendation_domain
+msgid "Domain applied to find SO lines to propose as recommended products."
+msgstr ""
+"Домен для пошуку рядків замовлення на продаж, які пропонуються як "
+"рекомендовані товари."
+
+#. module: sale_order_product_recommendation
+#: model:ir.model.fields,help:sale_order_product_recommendation.field_sale_order_recommendation_line__pricelist_id
+msgid "If you change the pricelist, only newly added lines will be affected."
+msgstr "Якщо змінити прайс-лист, це вплине лише на нові додані рядки."
+
+#. module: sale_order_product_recommendation
+#: model:ir.model.fields,help:sale_order_product_recommendation.field_sale_order_recommendation__line_amount
+msgid "The less, the faster they will be found."
+msgstr "Чим менше значення, тим швидше їх буде знайдено."

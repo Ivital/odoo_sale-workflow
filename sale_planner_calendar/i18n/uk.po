@@ -1129,3 +1129,42 @@ msgstr "Відписати попереднього продавця"
 #: model:ir.model.fields,help:sale_planner_calendar.field_sale_planner_calendar_summary__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,help:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__new_event_categ_ids
+#: model:ir.model.fields,help:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__new_event_categ_ids
+msgid ""
+"Forces new tags for the specified period. Leave empty to keep current tags."
+msgstr ""
+"Примусово встановлює нові теги для вказаного періоду. Залиште порожнім, щоб "
+"зберегти поточні теги."
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,help:sale_planner_calendar.field_calendar_event__target_partner_id
+msgid "Is the partner used in planner"
+msgstr "Чи використовується партнер у планувальнику"
+
+#. module: sale_planner_calendar
+#: model:ir.model,name:sale_planner_calendar.model_sale_payment_sheet_line
+msgid "Sale Payment Sheet Line"
+msgstr "Рядок платіжного листа продажу"
+
+#. module: sale_planner_calendar
+#: model:ir.model,name:sale_planner_calendar.model_sale_planner_calendar_wizard
+msgid "Sale planner calendar Wizard"
+msgstr "Майстер календаря планувальника продажів"
+
+#. module: sale_planner_calendar
+#: model:ir.model,name:sale_planner_calendar.model_sale_planner_calendar_issue_type
+msgid "Sale planner calendar issue type"
+msgstr "Тип проблеми календаря планувальника продажів"
+
+#. module: sale_planner_calendar
+#: model:ir.model,name:sale_planner_calendar.model_sale_planner_calendar_reassign_line_wiz
+msgid "Sale planner calendar reassign lines wizard"
+msgstr "Майстер рядків перепризначення календаря планувальника продажів"
+
+#. module: sale_planner_calendar
+#: model:ir.model,name:sale_planner_calendar.model_sale_planner_calendar_reassign_wiz
+msgid "Sale planner calendar reassign wizard"
+msgstr "Майстер перепризначення календаря планувальника продажів"

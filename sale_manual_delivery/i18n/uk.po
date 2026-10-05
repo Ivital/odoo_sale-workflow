@@ -183,3 +183,44 @@ msgstr "Незапланована доставка"
 #: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery__route_id
 msgid "Use specific Route"
 msgstr "Використовувати конкретний маршрут"
+
+#. module: sale_manual_delivery
+#: model:ir.model.fields,help:sale_manual_delivery.field_crm_team__manual_delivery
+#: model:ir.model.fields,help:sale_manual_delivery.field_sale_order__manual_delivery
+msgid ""
+"If enabled, the deliveries are not created at SO confirmation. You need to "
+"use the Create Delivery button in order to reserve and ship the goods."
+msgstr ""
+"Якщо ввімкнено, доставки не створюються під час підтвердження замовлення на "
+"продаж. Для резервування й відвантаження товарів потрібно натиснути "
+"«Створити доставку»."
+
+#. module: sale_manual_delivery
+#: model:ir.model.fields,help:sale_manual_delivery.field_manual_delivery__route_id
+msgid "Leave it blank to use the same route that is in the sale line"
+msgstr ""
+"Залиште порожнім, щоб використовувати той самий маршрут, що й у рядку "
+"продажу"
+
+#. module: sale_manual_delivery
+#: model:ir.model,name:sale_manual_delivery.model_manual_delivery_line
+msgid "Manual Delivery Line"
+msgstr "Рядок ручної доставки"
+
+#. module: sale_manual_delivery
+#: model:ir.model.fields,help:sale_manual_delivery.field_manual_delivery_line__qty_procured
+#: model:ir.model.fields,help:sale_manual_delivery.field_sale_order_line__qty_procured
+msgid "Quantity already planned or shipped (stock movements already created)"
+msgstr ""
+"Кількість, уже запланована або відвантажена (складські переміщення вже "
+"створено)"
+
+#. module: sale_manual_delivery
+#: model:ir.model.fields,help:sale_manual_delivery.field_manual_delivery_line__qty_ordered
+msgid "Quantity ordered in the related Sale Order"
+msgstr "Кількість, замовлена у пов’язаному замовленні на продаж"
+
+#. module: sale_manual_delivery
+#: model:ir.model.fields,help:sale_manual_delivery.field_sale_order_line__qty_to_procure
+msgid "There is Pending qty to add to a delivery"
+msgstr "Є кількість в очікуванні для додавання до доставки"

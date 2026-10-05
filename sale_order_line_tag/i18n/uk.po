@@ -53,3 +53,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:sale_order_line_tag.field_sale_order_line_tag__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: sale_order_line_tag
+#: model:ir.model,name:sale_order_line_tag.model_sale_order_line_tag
+msgid "Sales Order Line Tag Model"
+msgstr "Модель тегу рядка замовлення на продаж"

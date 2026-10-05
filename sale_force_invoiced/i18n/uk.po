@@ -17,3 +17,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_force_invoiced.field_sale_order__force_invoiced
 msgid "Force Invoiced"
 msgstr "Примусово виставлено рахунок"
+
+#. module: sale_force_invoiced
+#: model:res.groups,name:sale_force_invoiced.group_force_invoiced
+msgid "Enable Force Invoiced"
+msgstr "Увімкнути примусове виставлення рахунка"
+
+#. module: sale_force_invoiced
+#: model:ir.model.fields,help:sale_force_invoiced.field_sale_order__force_invoiced
+msgid ""
+"When you set this field, the sales order will be considered as fully "
+"invoiced, even when there may be ordered or delivered quantities pending to "
+"invoice."
+msgstr ""
+"Якщо встановити це поле, замовлення на продаж вважатиметься повністю "
+"виставленим у рахунок, навіть якщо залишаються замовлені або доставлені "
+"кількості, які ще потрібно виставити в рахунок."

@@ -53,3 +53,13 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:sale_invoice_blocking.field_sale_order__invoice_blocking_reason_id
 msgid "Blocking for invoicing"
 msgstr "Блокування виставлення рахунка"
+
+#. module: sale_invoice_blocking
+#: model:ir.model,name:sale_invoice_blocking.model_invoice_blocking_reason
+msgid "Sale invoice blocking reason"
+msgstr "Причина блокування рахунка продажу"
+
+#. module: sale_invoice_blocking
+#: model:ir.model.constraint,message:sale_invoice_blocking.constraint_invoice_blocking_reason_name_uniq
+msgid "You cannot have two invoice blocking reasons with the same name."
+msgstr "Не можна мати дві причини блокування рахунку з однаковою назвою."

@@ -43,3 +43,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_partner_address_restrict.field_sale_order__partner_address_restriction_domain
 msgid "Partner Address Restriction Domain"
 msgstr "Домен обмеження адреси контрагента"
+
+#. module: sale_partner_address_restrict
+#: model:ir.model.fields,help:sale_partner_address_restrict.field_res_company__sale_partner_address_restriction
+#: model:ir.model.fields,help:sale_partner_address_restrict.field_res_config_settings__sale_partner_address_restriction
+msgid ""
+"Check this box if you want to restrict partner addresses selection in sale "
+"orders. They should depends on the Customer filled in."
+msgstr ""
+"Позначте, якщо потрібно обмежити вибір адрес партнера в замовленнях на "
+"продаж. Вони мають залежати від указаного клієнта."
+
+#. module: sale_partner_address_restrict
+#: model:ir.model.fields,help:sale_partner_address_restrict.field_sale_order__partner_address_restriction_domain
+msgid ""
+"This is the computed domain to filter delivery and invoicing addresses."
+msgstr ""
+"Це обчислений домен для фільтрації адрес доставки та виставлення рахунків."

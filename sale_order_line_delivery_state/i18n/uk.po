@@ -53,3 +53,12 @@ msgstr "Скасувати примусове завершення достав�
 #: model:ir.model.fields.selection,name:sale_order_line_delivery_state.selection__sale_order_line__delivery_state__unprocessed
 msgid "Unprocessed"
 msgstr "Необроблено"
+
+#. module: sale_order_line_delivery_state
+#: model:ir.model.fields,help:sale_order_line_delivery_state.field_sale_order_line__force_delivery_state
+msgid ""
+"Allow to enforce done state of delivery, for instance if some quantities "
+"were cancelled"
+msgstr ""
+"Дозволити примусово встановлювати стан доставки «Виконано», наприклад якщо "
+"деякі кількості було скасовано"

@@ -18,3 +18,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_lot_generator.field_product_template__auto_generate_prodlot
 msgid "Auto Generate Lot"
 msgstr "Автоматично генерувати партію"
+
+#. module: sale_order_lot_generator
+#: model:ir.model.fields,help:sale_order_lot_generator.field_product_product__auto_generate_prodlot
+#: model:ir.model.fields,help:sale_order_lot_generator.field_product_template__auto_generate_prodlot
+msgid ""
+"Forces to specify a Serial Number for all lines containing this product "
+"since the confirmation of the Sale Order"
+msgstr ""
+"Примусово вимагати серійний номер для всіх рядків із цим товаром від моменту"
+" підтвердження замовлення на продаж"

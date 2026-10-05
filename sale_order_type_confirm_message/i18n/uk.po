@@ -73,3 +73,8 @@ msgstr "Повідомлення підтвердження"
 #: model:ir.model.fields,field_description:sale_order_type_confirm_message.field_sale_order_type__has_confirmation_message
 msgid "Has Confirmation Message"
 msgstr "Є повідомлення підтвердження"
+
+#. module: sale_order_type_confirm_message
+#: model:ir.model,name:sale_order_type_confirm_message.model_sale_order_type_confirm_wizard
+msgid "Sale Order Type Confirm Message Wizard"
+msgstr "Майстер повідомлення підтвердження типу замовлення на продаж"

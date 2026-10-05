@@ -46,3 +46,13 @@ msgstr "Загальна знижка"
 #: model:ir.model.fields,field_description:sale_order_general_discount.field_res_users__sale_discount
 msgid "Sale Discount"
 msgstr "Знижка продажу"
+
+#. module: sale_order_general_discount
+#: model:ir.model.fields,help:sale_order_general_discount.field_product_product__bypass_general_discount
+#: model:ir.model.fields,help:sale_order_general_discount.field_product_template__bypass_general_discount
+msgid ""
+"If this checkbox is not ticked, it means changing general discount on sale "
+"order will impact sale order lines with this related product."
+msgstr ""
+"Якщо прапорець не встановлено, зміна загальної знижки в замовленні на продаж"
+" впливатиме на рядки замовлення з цим пов’язаним товаром."

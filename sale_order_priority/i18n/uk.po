@@ -30,3 +30,12 @@ msgstr "Звичайний"
 #: model:ir.model.fields.selection,name:sale_order_priority.selection__sale_order_line__priority__1
 msgid "Urgent"
 msgstr "Терміново"
+
+#. module: sale_order_priority
+#: model:ir.model.fields,help:sale_order_priority.field_sale_order__priority
+msgid ""
+"Priority for this sale order. Setting manually a value here would set it as "
+"priority for all the order lines"
+msgstr ""
+"Пріоритет цього замовлення на продаж. Ручне встановлення значення тут "
+"задасть його як пріоритет для всіх рядків замовлення"

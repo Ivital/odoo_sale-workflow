@@ -18,3 +18,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_order_line_remove.res_config_settings_view_form_sale
 msgid "Allow Sale Order Line Remove"
 msgstr "Дозволити видалення рядка замовлення на продаж"
+
+#. module: sale_order_line_remove
+#: model:ir.model.fields,help:sale_order_line_remove.field_res_config_settings__restrict_sale_order_line_remove
+msgid ""
+"Allow removing confirmed sale order lines only if they are not invoiced or "
+"delivered."
+msgstr ""
+"Дозволити видалення підтверджених рядків замовлення на продаж лише якщо їх "
+"не виставлено в рахунку й не доставлено."

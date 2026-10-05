@@ -100,3 +100,27 @@ msgstr "Обов'язкова ідентифікація"
 #: model_terms:ir.ui.view,arch_db:sale_product_identification.confirm_identification_view
 msgid "Confirm identifications"
 msgstr "Підтвердити ідентифікації"
+
+#. module: sale_product_identification
+#: model:ir.model.fields,help:sale_product_identification.field_product_template_id_category__message
+msgid ""
+"Allows you to define a description of why this identification is being added.\n"
+"Example: Asking the customer for identification"
+msgstr ""
+"Дозволяє описати, чому додається ця ідентифікація.\n"
+"Приклад: запит ідентифікації в клієнта"
+
+#. module: sale_product_identification
+#: model:ir.model,name:sale_product_identification.model_confirm_identification
+msgid "Confirm Identification Wizard"
+msgstr "Майстер підтвердження ідентифікації"
+
+#. module: sale_product_identification
+#: model:ir.model.fields,help:sale_product_identification.field_product_template_id_category__is_mandatory
+msgid "Defines whether identification is mandatory."
+msgstr "Визначає, чи є ідентифікація обов’язковою."
+
+#. module: sale_product_identification
+#: model:ir.model,name:sale_product_identification.model_product_template_id_category
+msgid "Product Template Identification Category"
+msgstr "Категорія ідентифікації шаблону товару"

@@ -74,3 +74,8 @@ msgstr "Шаблон умов та положень"
 #: model:ir.model.fields,field_description:sale_order_note_template.field_sale_terms_template__text
 msgid "Terms template"
 msgstr "Шаблон умов"
+
+#. module: sale_order_note_template
+#: model:ir.model,name:sale_order_note_template.model_sale_terms_template
+msgid "Sale terms template"
+msgstr "Шаблон умов продажу"

@@ -57,3 +57,12 @@ msgstr ""
 msgid "This will be the default invoice policy for sale orders."
 msgstr ""
 "Це буде типовою політикою виставлення рахунків для замовлень на продаж."
+
+#. module: sale_invoice_policy
+#: model:ir.model.fields,help:sale_invoice_policy.field_sale_order__invoice_policy
+msgid ""
+"Ordered Quantity: Invoice based on the quantity the customer ordered.\n"
+"Delivered Quantity: Invoiced based on the quantity the vendor delivered (time or deliveries)."
+msgstr ""
+"Замовлена кількість: рахунок виставляється за кількістю, замовленою клієнтом.\n"
+"Доставлена кількість: рахунок виставляється за кількістю, доставленою постачальником (час або поставки)."

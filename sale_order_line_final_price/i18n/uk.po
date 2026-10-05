@@ -22,3 +22,23 @@ msgstr "Кінцева ціна"
 #: model:ir.model.fields,field_description:sale_order_line_final_price.field_sale_order_line__price_edit_allowed
 msgid "Price Edit Allowed"
 msgstr "Редагування ціни дозволено"
+
+#. module: sale_order_line_final_price
+#: model:ir.model.fields,help:sale_order_line_final_price.field_sale_order_line__price_edit_allowed
+msgid ""
+"Technical field to know whether the current user is allowed to edit the unit"
+" price and the discount of the line."
+msgstr ""
+"Технічне поле, що визначає, чи дозволено поточному користувачу редагувати "
+"ціну за одиницю та знижку рядка."
+
+#. module: sale_order_line_final_price
+#: model:ir.model.fields,help:sale_order_line_final_price.field_sale_order_line__price_final
+msgid ""
+"Unit price once the discount is applied. Set here the price agreed with the "
+"customer and the discount will be computed accordingly, keeping the unit "
+"price given by the pricelist."
+msgstr ""
+"Ціна за одиницю після застосування знижки. Вкажіть тут погоджену з клієнтом "
+"ціну, і знижку буде обчислено відповідно, зберігаючи ціну за одиницю з "
+"прайс-листа."

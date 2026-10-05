@@ -587,3 +587,8 @@ msgstr "Мінімальна кількість товару, яку можна 
 #: model:ir.model.fields,help:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_multiple_of_qty
 msgid "The multiple-of quantity of product that can be sold."
 msgstr "Кратність кількості товару, яку можна продати."
+
+#. module: sale_restricted_qty
+#: model:ir.model,name:sale_restricted_qty.model_sale_product_restricted_qty_mixin
+msgid "Product Restricted Qty Mixin"
+msgstr "Міксин обмеженої кількості товару"

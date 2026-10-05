@@ -91,3 +91,8 @@ msgstr "тег..."
 #: model:ir.model.constraint,message:sale_order_tag.constraint_sale_order_tag_name_uniq
 msgid "Tag name already exists!"
 msgstr "Тег із такою назвою вже існує!"
+
+#. module: sale_order_tag
+#: model:ir.model,name:sale_order_tag.model_sale_order_tag
+msgid "Sale Order Tag"
+msgstr "Тег замовлення на продаж"
