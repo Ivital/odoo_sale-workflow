@@ -44,3 +44,9 @@ msgstr "Використовувати групи підтвердження SO"
 #: model:ir.model.fields,field_description:sale_confirm_group.field_sale_order__user_can_confirm
 msgid "User Can Confirm"
 msgstr "Користувач може підтверджувати"
+
+#. module: sale_confirm_group
+#. odoo-python
+#: code:addons/sale_confirm_group/models/sale_order.py:0
+msgid "User %s cannot confirm Sale(s) %s"
+msgstr "Користувач %s не може підтвердити продаж(і) %s"

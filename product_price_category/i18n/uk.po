@@ -76,7 +76,7 @@ msgstr "Цінова категорія"
 #: code:addons/product_price_category/models/product_pricelist_item.py:0
 #, python-format
 msgid "Price Category: %s"
-msgstr ""
+msgstr "Цінова категорія: %s"
 
 #. module: product_price_category
 #: model:ir.model,name:product_price_category.model_product_pricelist

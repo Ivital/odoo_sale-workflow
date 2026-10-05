@@ -60,3 +60,13 @@ msgid ""
 "This is the computed domain to filter delivery and invoicing addresses."
 msgstr ""
 "Це обчислений домен для фільтрації адрес доставки та виставлення рахунків."
+
+#. module: sale_partner_address_restrict
+#. odoo-python
+#: code:addons/sale_partner_address_restrict/models/sale_order.py:0
+msgid ""
+"Invoice and shipping addresses must be child addresses of the selected "
+"partner or the selected partner itself."
+msgstr ""
+"Адреси рахунку й доставки мають бути дочірніми адресами вибраного партнера "
+"або самим вибраним партнером."

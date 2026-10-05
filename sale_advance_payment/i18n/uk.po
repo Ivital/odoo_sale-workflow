@@ -190,3 +190,31 @@ msgstr "Залишкова сума"
 #: model:ir.model,name:sale_advance_payment.model_account_voucher_wizard
 msgid "Account Voucher Wizard"
 msgstr "Майстер ваучера рахунку"
+
+#. module: sale_advance_payment
+#. odoo-python
+#: code:addons/sale_advance_payment/wizard/sale_advance_payment_wzd.py:0
+msgid "Amount of advance must be positive."
+msgstr "Сума авансу має бути додатною."
+
+#. module: sale_advance_payment
+#. odoo-python
+#: code:addons/sale_advance_payment/wizard/sale_advance_payment_wzd.py:0
+msgid "Inbound amount of advance is greater than residual amount on sale"
+msgstr "Вхідна сума авансу перевищує залишкову суму продажу"
+
+#. module: sale_advance_payment
+#. odoo-python
+#: code:addons/sale_advance_payment/wizard/sale_advance_payment_wzd.py:0
+msgid "Outbound amount of advance is greater than the advanced paid amount"
+msgstr "Вихідна сума авансу перевищує сплачену авансову суму"
+
+#. module: sale_advance_payment
+#. odoo-python
+#: code:addons/sale_advance_payment/wizard/sale_advance_payment_wzd.py:0
+msgid ""
+"The amount to advance must always be positive. Please use the payment type "
+"to indicate if this is an inbound or an outbound payment."
+msgstr ""
+"Сума авансу завжди має бути додатною. Використовуйте тип платежу, щоб "
+"указати вхідний чи вихідний платіж."

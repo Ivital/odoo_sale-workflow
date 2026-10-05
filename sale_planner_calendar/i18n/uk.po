@@ -1168,3 +1168,35 @@ msgstr "Майстер рядків перепризначення календ�
 #: model:ir.model,name:sale_planner_calendar.model_sale_planner_calendar_reassign_wiz
 msgid "Sale planner calendar reassign wizard"
 msgstr "Майстер перепризначення календаря планувальника продажів"
+
+#. module: sale_planner_calendar
+#. odoo-python
+#: code:addons/sale_planner_calendar/models/sale_planner_calendar_summary.py:0
+msgid ""
+"Already exists a summary with same user, date and event type\n"
+"Access with 'Sale planner calendar summary' menu option"
+msgstr ""
+"Уже існує підсумок із тим самим користувачем, датою та типом події\n"
+"Доступ через пункт меню «Підсумок календаря планувальника продажу»"
+
+#. module: sale_planner_calendar
+#. odoo-javascript
+#: code:addons/sale_planner_calendar/static/src/xml/sale_planner_calendar_event_sales.xml:0
+msgid "New Quotation"
+msgstr "Нова комерційна пропозиція"
+
+#. module: sale_planner_calendar
+#. odoo-python
+#: code:addons/sale_planner_calendar/models/sale_order.py:0
+msgid "Sale off planning"
+msgstr "Продаж поза плануванням"
+
+#. module: sale_planner_calendar
+#. odoo-python
+#: code:addons/sale_planner_calendar/models/res_partner.py:0
+msgid ""
+"This partner has sale planned events\n"
+"You must change salesperson from the planner wizard"
+msgstr ""
+"Для цього партнера заплановано події продажу\n"
+"Потрібно змінити продавця в майстрі планування"

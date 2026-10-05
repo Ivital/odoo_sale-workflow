@@ -42,3 +42,9 @@ msgid ""
 msgstr ""
 "Коли замовлення на закупівлю створюється із замовлення на продаж за правилом"
 " MTO або Dropship для цієї компанії, воно автоматично підтверджується."
+
+#. module: sale_purchase_stock_auto_confirm
+#. odoo-python
+#: code:addons/sale_purchase_stock_auto_confirm/tests/test_sale_purchase_stock_auto_confirm.py:0
+msgid "Replenish on Order (MTO)"
+msgstr "Поповнення під замовлення (MTO)"

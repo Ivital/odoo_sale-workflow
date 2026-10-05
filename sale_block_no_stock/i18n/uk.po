@@ -233,3 +233,25 @@ msgid ""
 msgstr ""
 "Це поле буде позначено, щоб блокувати рядки замовлення на продаж, якщо "
 "кількості недостатньо"
+
+#. module: sale_block_no_stock
+#. odoo-python
+#: code:addons/sale_block_no_stock/wizard/sale_order_block_wizard.py:0
+msgid ""
+"Cannot launch wizard from sale orders\n"
+"                    from different companies."
+msgstr ""
+"Неможливо запустити майстер із замовлень продажу\n"
+"                    різних компаній."
+
+#. module: sale_block_no_stock
+#. odoo-python
+#: code:addons/sale_block_no_stock/wizard/sale_order_block_wizard.py:0
+msgid "Order confirmed with errors by %s."
+msgstr "Замовлення підтверджено з помилками користувачем %s."
+
+#. module: sale_block_no_stock
+#. odoo-python
+#: code:addons/sale_block_no_stock/wizard/sale_order_block_wizard.py:0
+msgid "You are not allowed to confirm these orders."
+msgstr "Вам не дозволено підтверджувати ці замовлення."

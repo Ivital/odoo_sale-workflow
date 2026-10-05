@@ -150,6 +150,8 @@ msgstr "Майстер додавання набору товарів у ком�
 #, python-format
 msgid "You can use a sale order assigned only to following partner(s): {}"
 msgstr ""
+"Можна використовувати замовлення продажу, призначене лише таким "
+"партнеру(ам): {}"
 
 #. module: sale_product_set
 #: model_terms:ir.ui.view,arch_db:sale_product_set.res_config_settings_inherit_view

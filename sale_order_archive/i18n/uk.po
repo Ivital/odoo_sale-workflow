@@ -18,3 +18,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_order_archive.sale_order_archive_search_view
 msgid "Archived"
 msgstr "Архівовано"
+
+#. module: sale_order_archive
+#. odoo-python
+#: code:addons/sale_order_archive/models/sale_order.py:0
+msgid "Only 'Locked' or 'Canceled' orders can be archived"
+msgstr ""
+"Архівувати можна лише замовлення зі станом «Заблоковано» або «Скасовано»"

@@ -17,3 +17,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_order_line_move_to_optional.view_order_form_move_line_optional
 msgid "Move to optional"
 msgstr "Перемістити до необов’язкових"
+
+#. module: sale_order_line_move_to_optional
+#. odoo-python
+#: code:addons/sale_order_line_move_to_optional/models/sale_order.py:0
+msgid "You cannot add options to a confirmed order."
+msgstr "Не можна додавати опції до підтвердженого замовлення."

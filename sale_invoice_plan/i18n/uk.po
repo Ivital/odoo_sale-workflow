@@ -367,3 +367,59 @@ msgstr "Цей відсоток використовуватиметься дл�
 #: model:ir.model,name:sale_invoice_plan.model_sale_make_planned_invoice
 msgid "Wizard when create invoice by plan"
 msgstr "Майстер створення рахунка за планом"
+
+#. module: sale_invoice_plan
+#. odoo-python
+#: code:addons/sale_invoice_plan/models/sale_invoice_plan.py:0
+msgid ""
+"Installment %s: already used and not allowed to delete.\n"
+"Please discard changes."
+msgstr ""
+"Платіж %s уже використовується, тому його не можна видалити.\n"
+"Скасуйте зміни."
+
+#. module: sale_invoice_plan
+#. odoo-python
+#: code:addons/sale_invoice_plan/models/sale.py:0
+msgid "Invoice plan total percentage must not exceed 100%"
+msgstr "Загальний відсоток плану рахунків не може перевищувати 100%"
+
+#. module: sale_invoice_plan
+#. odoo-python
+#: code:addons/sale_invoice_plan/tests/test_sale_invoice_plan.py:0
+msgid "No installment raises following error : %s"
+msgstr "Для жодного платежу частинами не виникає така помилка: %s"
+
+#. module: sale_invoice_plan
+#. odoo-python
+#: code:addons/sale_invoice_plan/models/sale_invoice_plan.py:0
+msgid "No matched order line for invoice line"
+msgstr "Не знайдено відповідного рядка замовлення для рядка рахунку"
+
+#. module: sale_invoice_plan
+#. odoo-python
+#: code:addons/sale_invoice_plan/wizard/sale_create_invoice_plan.py:0
+msgid "Number Installment must greater than 1"
+msgstr "Кількість платежів має бути більшою за 1"
+
+#. module: sale_invoice_plan
+#. odoo-python
+#: code:addons/sale_invoice_plan/models/sale_invoice_plan.py:0
+msgid ""
+"Plan quantity: %(plan_qty)s, exceed invoiceable quantity: %(invoiceable_qty)s\n"
+"Product should be delivered before invoice"
+msgstr ""
+"Планова кількість: %(plan_qty)s, перевищує кількість для виставлення рахунку: %(invoiceable_qty)s\n"
+"Товар має бути доставлений до виставлення рахунку"
+
+#. module: sale_invoice_plan
+#. odoo-python
+#: code:addons/sale_invoice_plan/models/sale.py:0
+msgid "Please fill percentage for all invoice plan lines"
+msgstr "Заповніть відсоток для всіх рядків плану рахунків"
+
+#. module: sale_invoice_plan
+#. odoo-python
+#: code:addons/sale_invoice_plan/models/sale.py:0
+msgid "Use Invoice Plan selected, but no plan created"
+msgstr "Вибрано використання плану рахунків, але план не створено"

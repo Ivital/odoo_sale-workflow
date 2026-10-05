@@ -49,3 +49,29 @@ msgstr "Кінець запитаної доставки"
 #: model_terms:ir.ui.view,arch_db:sale_order_requested_delivery.view_order_form
 msgid "Requested Delivery start"
 msgstr "Початок запитаної доставки"
+
+#. module: sale_order_requested_delivery
+#. odoo-python
+#: code:addons/sale_order_requested_delivery/models/sale_order.py:0
+msgid "From %s"
+msgstr "Від %s"
+
+#. module: sale_order_requested_delivery
+#. odoo-python
+#: code:addons/sale_order_requested_delivery/models/sale_order.py:0
+msgid "INVALID PERIOD"
+msgstr "НЕДІЙСНИЙ ПЕРІОД"
+
+#. module: sale_order_requested_delivery
+#. odoo-python
+#: code:addons/sale_order_requested_delivery/models/sale_order.py:0
+#: code:addons/sale_order_requested_delivery/models/sale_order_line.py:0
+msgid "The start of the requested delivery period cannot be after the end."
+msgstr ""
+"Початок запитаного періоду доставки не може бути після його завершення."
+
+#. module: sale_order_requested_delivery
+#. odoo-python
+#: code:addons/sale_order_requested_delivery/models/sale_order.py:0
+msgid "Until %s"
+msgstr "До %s"

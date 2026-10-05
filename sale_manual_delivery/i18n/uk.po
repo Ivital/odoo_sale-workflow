@@ -224,3 +224,29 @@ msgstr "Кількість, замовлена у пов’язаному зам
 #: model:ir.model.fields,help:sale_manual_delivery.field_sale_order_line__qty_to_procure
 msgid "There is Pending qty to add to a delivery"
 msgstr "Є кількість в очікуванні для додавання до доставки"
+
+#. module: sale_manual_delivery
+#. odoo-python
+#: code:addons/sale_manual_delivery/wizard/manual_delivery.py:0
+msgid "Please select one partner at a time"
+msgstr "Будь ласка, вибирайте по одному партнеру"
+
+#. module: sale_manual_delivery
+#. odoo-python
+#: code:addons/sale_manual_delivery/wizard/manual_delivery_line.py:0
+msgid ""
+"You can not deliver more than the remaining quantity. If you need to do so, "
+"please edit the sale order first."
+msgstr ""
+"Не можна доставити більше за залишкову кількість. Якщо це потрібно, спочатку"
+" змініть замовлення продажу."
+
+#. module: sale_manual_delivery
+#. odoo-python
+#: code:addons/sale_manual_delivery/models/sale_order.py:0
+msgid ""
+"You can only change to/from manual delivery in a quote, not a confirmed "
+"order"
+msgstr ""
+"Перемикати ручну доставку можна лише в пропозиції, а не в підтвердженому "
+"замовленні"

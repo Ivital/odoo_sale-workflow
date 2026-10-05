@@ -17,3 +17,39 @@ msgstr ""
 #: model:ir.model,name:sale_automatic_workflow_job.model_queue_job
 msgid "Queue Job"
 msgstr "Завдання черги"
+
+#. module: sale_automatic_workflow_job
+#. odoo-python
+#: code:addons/sale_automatic_workflow_job/models/automatic_workflow_job.py:0
+msgid "Create invoices for sales order %s"
+msgstr "Створити рахунки для замовлення на продаж %s"
+
+#. module: sale_automatic_workflow_job
+#. odoo-python
+#: code:addons/sale_automatic_workflow_job/models/automatic_workflow_job.py:0
+msgid "Mark sales order %s as done"
+msgstr "Позначити замовлення на продаж %s виконаним"
+
+#. module: sale_automatic_workflow_job
+#. odoo-python
+#: code:addons/sale_automatic_workflow_job/models/queue_job.py:0
+msgid "Sale Automatic Workflow Job"
+msgstr "Завдання автоматичного робочого процесу продажу"
+
+#. module: sale_automatic_workflow_job
+#. odoo-python
+#: code:addons/sale_automatic_workflow_job/models/automatic_workflow_job.py:0
+msgid "Send order %s confirmation mail"
+msgstr "Надіслати лист підтвердження замовлення %s"
+
+#. module: sale_automatic_workflow_job
+#. odoo-python
+#: code:addons/sale_automatic_workflow_job/models/automatic_workflow_job.py:0
+msgid "Validate invoice %s"
+msgstr "Підтвердити рахунок %s"
+
+#. module: sale_automatic_workflow_job
+#. odoo-python
+#: code:addons/sale_automatic_workflow_job/models/automatic_workflow_job.py:0
+msgid "Validate sales order %s"
+msgstr "Підтвердити замовлення на продаж %s"

@@ -79,3 +79,13 @@ msgid ""
 msgstr ""
 "Якщо цей прапорець увімкнено, потрібно перевірити всі product.set, пов’язані"
 " з ним"
+
+#. module: product_set_sell_only_by_packaging
+#. odoo-python
+#: code:addons/product_set_sell_only_by_packaging/models/product_set_line.py:0
+msgid ""
+"The following product(s) can be sold only by packaging: \n"
+"   %s"
+msgstr ""
+"Такі товари можна продавати лише в пакуванні:\n"
+"   %s"

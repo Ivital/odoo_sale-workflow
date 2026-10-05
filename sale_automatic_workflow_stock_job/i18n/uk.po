@@ -21,3 +21,9 @@ msgid ""
 msgstr ""
 "Планувальник, який автоматично виконуватиме підтвердження рахунків, "
 "комплектувань..."
+
+#. module: sale_automatic_workflow_stock_job
+#. odoo-python
+#: code:addons/sale_automatic_workflow_stock_job/models/automatic_workflow_job.py:0
+msgid "Validate transfer %s"
+msgstr "Підтвердити переміщення %s"

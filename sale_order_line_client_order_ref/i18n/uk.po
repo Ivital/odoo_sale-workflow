@@ -131,3 +131,9 @@ msgid ""
 msgstr ""
 "Якщо ввімкнено, опис рядка рахунку починатиметься з посилання на замовлення "
 "клієнта, потім нового рядка та початкового опису."
+
+#. module: sale_order_line_client_order_ref
+#. odoo-python
+#: code:addons/sale_order_line_client_order_ref/models/sale_order_line.py:0
+msgid "Customer Order Ref:"
+msgstr "Посилання замовлення клієнта:"

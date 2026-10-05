@@ -116,3 +116,15 @@ msgstr "Рядок замовлення на продаж може мати ли
 #: model:ir.model,name:sale_partner_primeship.model_sale_primeship
 msgid "Sale Prime Memberships"
 msgstr "Prime-членства продажів"
+
+#. module: sale_partner_primeship
+#. odoo-python
+#: code:addons/sale_partner_primeship/models/sale_primeship.py:0
+msgid "Primeships cannot overlaps"
+msgstr "Періоди пріоритетного партнерства не можуть перекриватися"
+
+#. module: sale_partner_primeship
+#. odoo-python
+#: code:addons/sale_partner_primeship/models/sale_primeship.py:0
+msgid "The end date cannot be before start date"
+msgstr "Дата завершення не може бути раніше дати початку"

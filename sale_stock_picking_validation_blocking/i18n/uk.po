@@ -52,3 +52,9 @@ msgid ""
 msgstr ""
 "Технічне поле для визначення, чи потрібно відображати кнопки підтвердження "
 "комплектування"
+
+#. module: sale_stock_picking_validation_blocking
+#. odoo-python
+#: code:addons/sale_stock_picking_validation_blocking/models/stock_picking.py:0
+msgid "Validation is blocked by SO for picking %s"
+msgstr "Перевірку переміщення %s заблоковано замовленням продажу"

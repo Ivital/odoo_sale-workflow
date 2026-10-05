@@ -330,7 +330,7 @@ msgstr "Параметри робочого процесу"
 #. odoo-python
 #: code:addons/sale_automatic_workflow/models/sale_order.py:0
 msgid "Workflow Warning"
-msgstr ""
+msgstr "Попередження робочого процесу"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

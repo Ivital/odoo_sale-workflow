@@ -137,3 +137,9 @@ msgstr "Скинути кеш прайс-листа"
 #: model:ir.model,name:pricelist_cache.model_product_pricelist_cache_wizard
 msgid "Wizard for pricelist cache"
 msgstr "Майстер кешу прайс-листа"
+
+#. module: pricelist_cache
+#. odoo-python
+#: code:addons/pricelist_cache/models/res_partner.py:0
+msgid "Pricelist caching in progress. Retry later"
+msgstr "Кешування прайс-листа триває. Спробуйте пізніше"

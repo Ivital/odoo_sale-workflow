@@ -42,3 +42,15 @@ msgstr "Дата вилучення"
 #: model:ir.model.fields,field_description:sale_stock_expiry_date_on_qty_at_date_widget.field_sale_order_line__predicted_first_expiration_date
 msgid "Predicted First Expiration Date"
 msgstr "Прогнозована перша дата закінчення строку"
+
+#. module: sale_stock_expiry_date_on_qty_at_date_widget
+#. odoo-javascript
+#: code:addons/sale_stock_expiry_date_on_qty_at_date_widget/static/src/widgets/qty_at_date_widget.xml:0
+msgid "Next Expiry Date"
+msgstr "Наступна дата закінчення"
+
+#. module: sale_stock_expiry_date_on_qty_at_date_widget
+#. odoo-javascript
+#: code:addons/sale_stock_expiry_date_on_qty_at_date_widget/static/src/widgets/qty_at_date_widget.xml:0
+msgid "View Stock"
+msgstr "Переглянути запас"

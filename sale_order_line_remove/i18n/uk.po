@@ -27,3 +27,15 @@ msgid ""
 msgstr ""
 "Дозволити видалення підтверджених рядків замовлення на продаж лише якщо їх "
 "не виставлено в рахунку й не доставлено."
+
+#. module: sale_order_line_remove
+#. odoo-python
+#: code:addons/sale_order_line_remove/models/sale_order.py:0
+msgid "You can not remove an order line that has been delivered"
+msgstr "Не можна видалити рядок замовлення, який уже доставлено"
+
+#. module: sale_order_line_remove
+#. odoo-python
+#: code:addons/sale_order_line_remove/models/sale_order.py:0
+msgid "You can not remove an order line that has been invoiced"
+msgstr "Не можна видалити рядок замовлення, за яким уже виставлено рахунок"

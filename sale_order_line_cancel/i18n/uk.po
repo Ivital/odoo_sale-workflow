@@ -112,3 +112,15 @@ msgstr "Залишилося доставити"
 #: model:ir.model,name:sale_order_line_cancel.model_sale_order_line_cancel
 msgid "Cancel Remaining Wizard"
 msgstr "Майстер скасування залишку"
+
+#. module: sale_order_line_cancel
+#. odoo-python
+#: code:addons/sale_order_line_cancel/models/sale_order_line.py:0
+msgid "<b>%(product)s</b>: The order line has been canceled"
+msgstr "<b>%(product)s</b>: рядок замовлення скасовано"
+
+#. module: sale_order_line_cancel
+#. odoo-python
+#: code:addons/sale_order_line_cancel/wizards/sale_order_line_cancel.py:0
+msgid "No sale order line ID found"
+msgstr "ID рядка замовлення на продаж не знайдено"

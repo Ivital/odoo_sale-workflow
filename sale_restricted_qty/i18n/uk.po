@@ -592,3 +592,27 @@ msgstr "Кратність кількості товару, яку можна п
 #: model:ir.model,name:sale_restricted_qty.model_sale_product_restricted_qty_mixin
 msgid "Product Restricted Qty Mixin"
 msgstr "Міксин обмеженої кількості товару"
+
+#. module: sale_restricted_qty
+#. odoo-python
+#: code:addons/sale_restricted_qty/models/sale.py:0
+msgid "%(order_name)s - Product \"%(product_name)s\": %(failed_constraints)s"
+msgstr "%(order_name)s - Товар «%(product_name)s»: %(failed_constraints)s"
+
+#. module: sale_restricted_qty
+#. odoo-python
+#: code:addons/sale_restricted_qty/models/sale.py:0
+msgid "maximal quantity is %(max_qty)s"
+msgstr "максимальна кількість — %(max_qty)s"
+
+#. module: sale_restricted_qty
+#. odoo-python
+#: code:addons/sale_restricted_qty/models/sale.py:0
+msgid "minimal quantity is %(min_qty)s"
+msgstr "мінімальна кількість — %(min_qty)s"
+
+#. module: sale_restricted_qty
+#. odoo-python
+#: code:addons/sale_restricted_qty/models/sale.py:0
+msgid "quantity should be multiple of %(multiple_of_qty)s"
+msgstr "кількість має бути кратною %(multiple_of_qty)s"

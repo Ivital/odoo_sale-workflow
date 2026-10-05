@@ -32,3 +32,9 @@ msgid ""
 msgstr ""
 "Технічне поле, що передає віджету «Кількість на дату» прогнозовану "
 "доступність товару на кожному складі на заплановану дату."
+
+#. module: sale_stock_qty_at_date_widget_multi_warehouse
+#. odoo-javascript
+#: code:addons/sale_stock_qty_at_date_widget_multi_warehouse/static/src/widgets/qty_at_date_widget.xml:0
+msgid "Availability per Warehouse"
+msgstr "Доступність за складом"

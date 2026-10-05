@@ -45,3 +45,9 @@ msgstr ""
 "Коли замовлення на закупівлю створено із замовлення на продаж за правилом "
 "MTO або Dropship для цієї компанії й замовлення на продаж скасовано, "
 "закупівлю буде автоматично скасовано."
+
+#. module: sale_purchase_stock_auto_cancel
+#. odoo-python
+#: code:addons/sale_purchase_stock_auto_cancel/tests/test_sale_purchase_stock_auto_cancel.py:0
+msgid "Replenish on Order (MTO)"
+msgstr "Поповнення під замовлення (MTO)"

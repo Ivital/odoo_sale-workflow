@@ -137,3 +137,9 @@ msgstr "Запитано багаторівневу перевірку"
 #: model:ir.model,name:sale_tier_validation.model_report_sale_report_saleorder
 msgid "Sale Order Report"
 msgstr "Звіт замовлення на продаж"
+
+#. module: sale_tier_validation
+#. odoo-python
+#: code:addons/sale_tier_validation/reports/sale_report.py:0
+msgid "Quotation printing is blocked until the order is approved."
+msgstr "Друк комерційної пропозиції заблоковано до схвалення замовлення."

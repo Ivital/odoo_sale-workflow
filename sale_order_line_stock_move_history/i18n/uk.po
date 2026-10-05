@@ -42,3 +42,9 @@ msgstr "Історія рухів запасів"
 #: model_terms:ir.ui.view,arch_db:sale_order_line_stock_move_history.view_order_form_inherit_stock_moves
 msgid "View Stock Moves History"
 msgstr "Переглянути історію переміщень запасів"
+
+#. module: sale_order_line_stock_move_history
+#. odoo-python
+#: code:addons/sale_order_line_stock_move_history/models/sale_order_line.py:0
+msgid "Stock Moves History for %s"
+msgstr "Історія переміщень запасу для %s"

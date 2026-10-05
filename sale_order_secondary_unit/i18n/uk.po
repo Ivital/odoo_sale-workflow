@@ -85,3 +85,15 @@ msgid ""
 msgstr ""
 "Щоб установити значення, спочатку додайте принаймні один запис у «Вторинна "
 "одиниця вимірювання»"
+
+#. module: sale_order_secondary_unit
+#. odoo-python
+#: code:addons/sale_order_secondary_unit/models/product_template.py:0
+msgid ""
+"Product variants have distinct sale secondary uom:\n"
+"{secondary_uom}\n"
+"All variants will be written with new secondary uom"
+msgstr ""
+"Варіанти товару мають різні вторинні одиниці продажу:\n"
+"{secondary_uom}\n"
+"Усі варіанти буде записано з новою вторинною одиницею"

@@ -17,3 +17,13 @@ msgstr ""
 #: model:res.groups,name:sale_readonly_security.group_sale_readonly_security_admin
 msgid "Sale orders edition"
 msgstr "Редагування замовлень на продаж"
+
+#. module: sale_readonly_security
+#. odoo-python
+#: code:addons/sale_readonly_security/models/sale_order.py:0
+msgid ""
+"Sorry, you are not allowed to create/edit sale orders. Please contact your "
+"administrator for further information."
+msgstr ""
+"На жаль, вам не дозволено створювати/редагувати замовлення продажу. "
+"Зверніться до адміністратора."

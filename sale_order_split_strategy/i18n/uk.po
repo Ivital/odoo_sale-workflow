@@ -143,3 +143,31 @@ msgstr "Стратегія розділення замовлення"
 #: model:ir.model.fields,help:sale_order_split_strategy.field_sale_order__split_strategy_id
 msgid "The strategy that will be used to split the sales order"
 msgstr "Стратегія, що використовуватиметься для поділу замовлення на продаж"
+
+#. module: sale_order_split_strategy
+#. odoo-python
+#: code:addons/sale_order_split_strategy/models/sale_order.py:0
+msgid ""
+"Cannot split order %(order_name)s according to its strategy because there "
+"are no matching lines"
+msgstr ""
+"Не можна розділити замовлення %(order_name)s за його стратегією, оскільки "
+"немає відповідних рядків"
+
+#. module: sale_order_split_strategy
+#. odoo-python
+#: code:addons/sale_order_split_strategy/models/sale_order.py:0
+msgid "Cannot split orders %(order_names)s without any split strategy defined"
+msgstr ""
+"Не можна розділити замовлення %(order_names)s без визначеної стратегії "
+"поділу"
+
+#. module: sale_order_split_strategy
+#. odoo-python
+#: code:addons/sale_order_split_strategy/models/sale_order.py:0
+msgid ""
+"This sale order was not split using strategy %(strategy)s because there "
+"would not be any lines left on this order."
+msgstr ""
+"Це замовлення продажу не було розділено за стратегією %(strategy)s, оскільки"
+" після цього в ньому не залишилося б рядків."

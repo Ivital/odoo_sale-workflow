@@ -67,3 +67,40 @@ msgid ""
 msgstr ""
 "Мінімальна кількість для продажу відповідно до доступних пакувань, якщо "
 "ввімкнено «Продавати лише пакуваннями»."
+
+#. module: sell_only_by_packaging
+#. odoo-python
+#: code:addons/sell_only_by_packaging/models/product_packaging_level.py:0
+msgid ""
+"Packaging level %s must stay with \"Can be sold\", at least one product "
+"configured as \"sell only by packaging\" is using it."
+msgstr ""
+"Рівень пакування %s має залишатися з «Можна продавати», оскільки його "
+"використовує щонайменше один товар із налаштуванням «продавати лише в "
+"пакуванні»."
+
+#. module: sell_only_by_packaging
+#. odoo-python
+#: code:addons/sell_only_by_packaging/models/sale_order_line.py:0
+msgid "Product %s can only be sold with a packaging and a packaging quantity."
+msgstr "Товар %s можна продавати лише з пакуванням і кількістю пакування."
+
+#. module: sell_only_by_packaging
+#. odoo-python
+#: code:addons/sell_only_by_packaging/models/product_template.py:0
+msgid ""
+"Product %s cannot be defined to be sold only by packaging if it cannot be "
+"sold."
+msgstr ""
+"Товар %s не можна налаштувати для продажу лише в пакуванні, якщо його не "
+"можна продавати."
+
+#. module: sell_only_by_packaging
+#. odoo-python
+#: code:addons/sell_only_by_packaging/models/product_template.py:0
+msgid ""
+"Product %s cannot be defined to be sold only by packaging if it does not "
+"have any packaging that can be sold defined."
+msgstr ""
+"Товар %s не можна налаштувати для продажу лише в пакуванні, якщо для нього "
+"не визначено жодного пакування, яке можна продавати."

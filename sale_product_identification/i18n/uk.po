@@ -124,3 +124,45 @@ msgstr "Визначає, чи є ідентифікація обов’язко
 #: model:ir.model,name:sale_product_identification.model_product_template_id_category
 msgid "Product Template Identification Category"
 msgstr "Категорія ідентифікації шаблону товару"
+
+#. module: sale_product_identification
+#. odoo-python
+#: code:addons/sale_product_identification/models/res_partner_id_number.py:0
+msgid "A client is required to verify identifications."
+msgstr "Для перевірки ідентифікацій потрібен клієнт."
+
+#. module: sale_product_identification
+#. odoo-python
+#: code:addons/sale_product_identification/models/sale_order.py:0
+msgid "Confirm identification"
+msgstr "Підтвердити ідентифікацію"
+
+#. module: sale_product_identification
+#. odoo-python
+#: code:addons/sale_product_identification/models/sale_order.py:0
+msgid ""
+"The following identifications are required for partner, please verify.\n"
+" %(identifications)s"
+msgstr ""
+"Для партнера потрібні такі ідентифікації, перевірте їх.\n"
+" %(identifications)s"
+
+#. module: sale_product_identification
+#. odoo-python
+#: code:addons/sale_product_identification/models/sale_order.py:0
+msgid ""
+"The following identifications require verification, please validate before continuing:\n"
+" %(identifications)s"
+msgstr ""
+"Такі ідентифікації потребують перевірки, підтвердьте їх перед продовженням:\n"
+" %(identifications)s"
+
+#. module: sale_product_identification
+#. odoo-python
+#: code:addons/sale_product_identification/models/product_template.py:0
+msgid ""
+"There are repeated categories in the identifications configuration, the quantities are shown below.\n"
+"%(categories)s"
+msgstr ""
+"У конфігурації ідентифікацій є повторювані категорії, кількості наведено нижче.\n"
+"%(categories)s"

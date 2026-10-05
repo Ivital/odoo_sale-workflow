@@ -359,3 +359,9 @@ msgstr "Якщо змінити прайс-лист, це вплине лише 
 #: model:ir.model.fields,help:sale_order_product_recommendation.field_sale_order_recommendation__line_amount
 msgid "The less, the faster they will be found."
 msgstr "Чим менше значення, тим швидше їх буде знайдено."
+
+#. module: sale_order_product_recommendation
+#. odoo-python
+#: code:addons/sale_order_product_recommendation/wizards/sale_order_recommendation.py:0
+msgid "Nothing found! Modify your criteria or fill the order manually."
+msgstr "Нічого не знайдено! Змініть критерії або заповніть замовлення вручну."

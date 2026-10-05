@@ -50,3 +50,9 @@ msgstr "Фільтр примусового виставлення рахунк�
 #: model:ir.model.fields,field_description:sale_automatic_workflow_force_invoiced.field_sale_workflow_process__force_invoice_order_filter_domain
 msgid "Force Invoice Order Filter Domain"
 msgstr "Домен фільтра примусового виставлення рахунка"
+
+#. module: sale_automatic_workflow_force_invoiced
+#. odoo-python
+#: code:addons/sale_automatic_workflow_force_invoiced/models/sale_workflow_process.py:0
+msgid "Force invoice option is not compatible with: %s"
+msgstr "Опція примусового виставлення рахунку несумісна з: %s"

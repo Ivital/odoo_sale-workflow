@@ -58,3 +58,54 @@ msgid ""
 msgstr ""
 "Якщо цю опцію активовано, користувач повинен буде ввести дату початку й дату"
 " завершення в рядках рахунку, що містять цей товар."
+
+#. module: sale_start_end_dates
+#. odoo-python
+#: code:addons/sale_start_end_dates/models/sale_order.py:0
+msgid ""
+"Default start date (%(start_date)s) should be before or be the same as "
+"default end date (%(end_date)s) for sale order '%(name)s'."
+msgstr ""
+"Типова дата початку (%(start_date)s) має бути раніше або дорівнювати типовій"
+" даті завершення (%(end_date)s) для замовлення продажу «%(name)s»."
+
+#. module: sale_start_end_dates
+#. odoo-python
+#: code:addons/sale_start_end_dates/models/sale_order.py:0
+msgid "Missing End Date for sale order line with Product '%s'."
+msgstr "Для рядка замовлення продажу з товаром «%s» відсутня дата завершення."
+
+#. module: sale_start_end_dates
+#. odoo-python
+#: code:addons/sale_start_end_dates/models/sale_order.py:0
+msgid "Missing Start Date for sale order line with Product '%s'."
+msgstr "Для рядка замовлення продажу з товаром «%s» відсутня дата початку."
+
+#. module: sale_start_end_dates
+#. odoo-python
+#: code:addons/sale_start_end_dates/models/sale_order.py:0
+msgid ""
+"On sale order line with product '%(product_name)s', the number of days is "
+"negative (%(number_of_days)s) ; this is not allowed. The number of days has "
+"been forced to 1."
+msgstr ""
+"У рядку замовлення на продаж із товаром '%(product_name)s' кількість днів "
+"від’ємна (%(number_of_days)s); це не дозволено. Кількість днів примусово "
+"встановлено на 1."
+
+#. module: sale_start_end_dates
+#. odoo-python
+#: code:addons/sale_start_end_dates/models/sale_order.py:0
+msgid ""
+"Start date (%(start_date)s) should be before or be the same as end date "
+"(%(end_date)s) for sale order line with product '%(product_name)s'."
+msgstr ""
+"Дата початку (%(start_date)s) має бути раніше або дорівнювати даті "
+"завершення (%(end_date)s) для рядка замовлення продажу з товаром "
+"«%(product_name)s»."
+
+#. module: sale_start_end_dates
+#. odoo-python
+#: code:addons/sale_start_end_dates/models/sale_order.py:0
+msgid "Wrong number of days"
+msgstr "Неправильна кількість днів"
