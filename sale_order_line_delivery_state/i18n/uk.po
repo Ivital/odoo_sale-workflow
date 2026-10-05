@@ -17,3 +17,39 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale_order_line_delivery_state.selection__sale_order_line__delivery_state__done
 msgid "Done"
 msgstr "Готово"
+
+#. module: sale_order_line_delivery_state
+#: model:ir.model.fields,field_description:sale_order_line_delivery_state.field_sale_order_line__delivery_state
+#: model_terms:ir.ui.view,arch_db:sale_order_line_delivery_state.view_order_form
+msgid "Delivery State"
+msgstr "Стан доставки"
+
+#. module: sale_order_line_delivery_state
+#: model:ir.model.fields,field_description:sale_order_line_delivery_state.field_sale_order_line__force_delivery_state
+msgid "Force Delivery State"
+msgstr "Примусовий стан доставки"
+
+#. module: sale_order_line_delivery_state
+#: model_terms:ir.ui.view,arch_db:sale_order_line_delivery_state.view_order_form
+msgid "Force delivery done"
+msgstr "Примусово завершити доставку"
+
+#. module: sale_order_line_delivery_state
+#: model:ir.model.fields.selection,name:sale_order_line_delivery_state.selection__sale_order_line__delivery_state__no
+msgid "No delivery"
+msgstr "Без доставки"
+
+#. module: sale_order_line_delivery_state
+#: model:ir.model.fields.selection,name:sale_order_line_delivery_state.selection__sale_order_line__delivery_state__partially
+msgid "Partially processed"
+msgstr "Частково оброблено"
+
+#. module: sale_order_line_delivery_state
+#: model_terms:ir.ui.view,arch_db:sale_order_line_delivery_state.view_order_form
+msgid "Unforce delivery done"
+msgstr "Скасувати примусове завершення доставки"
+
+#. module: sale_order_line_delivery_state
+#: model:ir.model.fields.selection,name:sale_order_line_delivery_state.selection__sale_order_line__delivery_state__unprocessed
+msgid "Unprocessed"
+msgstr "Необроблено"

@@ -17,3 +17,23 @@ msgstr "Додає додаткову одиницю вимірювання до
 #: model:ir.model.fields,field_description:sale_order_product_recommendation_secondary_unit.field_sale_order_recommendation_line__secondary_uom_id
 msgid "Second unit"
 msgstr "Друга одиниця"
+
+#. module: sale_order_product_recommendation_secondary_unit
+#: model:ir.model.fields,field_description:sale_order_product_recommendation_secondary_unit.field_sale_order_recommendation_line__product_tmpl_id
+msgid "Product Template"
+msgstr "Шаблон товару"
+
+#. module: sale_order_product_recommendation_secondary_unit
+#: model:ir.model.fields,field_description:sale_order_product_recommendation_secondary_unit.field_sale_order_recommendation_line__secondary_uom_qty
+msgid "Secondary Qty"
+msgstr "Вторинна кількість"
+
+#. module: sale_order_product_recommendation_secondary_unit
+#: model:ir.model.fields,field_description:sale_order_product_recommendation_secondary_unit.field_sale_order_recommendation_line__secondary_uom_name
+msgid "Secondary Unit"
+msgstr "Вторинна одиниця"
+
+#. module: sale_order_product_recommendation_secondary_unit
+#: model:ir.model.fields,field_description:sale_order_product_recommendation_secondary_unit.field_sale_order_recommendation_line__units_included
+msgid "Units Included"
+msgstr "Включені одиниці"

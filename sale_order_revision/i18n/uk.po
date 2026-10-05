@@ -22,3 +22,33 @@ msgstr "Активний"
 #: model:ir.model.fields,field_description:sale_order_revision.field_sale_order__revision_number
 msgid "Revision"
 msgstr "Ревізія"
+
+#. module: sale_order_revision
+#: model:ir.model.fields,field_description:sale_order_revision.field_sale_order__current_revision_id
+msgid "Current revision"
+msgstr "Поточна ревізія"
+
+#. module: sale_order_revision
+#: model:ir.model.fields,field_description:sale_order_revision.field_sale_order__has_old_revisions
+msgid "Has Old Revisions"
+msgstr "Має старі ревізії"
+
+#. module: sale_order_revision
+#: model:ir.model.fields,field_description:sale_order_revision.field_sale_order__old_revision_ids
+msgid "Old revisions"
+msgstr "Старі ревізії"
+
+#. module: sale_order_revision
+#: model:ir.model.fields,field_description:sale_order_revision.field_sale_order__unrevisioned_name
+msgid "Original Reference"
+msgstr "Початкове посилання"
+
+#. module: sale_order_revision
+#: model_terms:ir.ui.view,arch_db:sale_order_revision.view_order_form
+msgid "Prev. revisions"
+msgstr "Попередні редакції"
+
+#. module: sale_order_revision
+#: model:ir.model.fields,field_description:sale_order_revision.field_sale_order__revision_count
+msgid "Previous versions count"
+msgstr "Кількість попередніх версій"

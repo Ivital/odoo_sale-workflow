@@ -54,3 +54,62 @@ msgstr "Послідовність"
 #: model_terms:ir.ui.view,arch_db:sale_order_split_strategy.sale_order_split_strategy_view_tree
 msgid "Split Strategies"
 msgstr "Стратегії розподілу"
+
+#. module: sale_order_split_strategy
+#: model:ir.model.fields,field_description:sale_order_split_strategy.field_sale_order_split_strategy__copy_sections
+msgid "Copy Sections"
+msgstr "Копіювати розділи"
+
+#. module: sale_order_split_strategy
+#: model:ir.model.fields.selection,name:sale_order_split_strategy.selection__res_company__sale_order_split_strategy_errors__do_nothing
+msgid "Do nothing"
+msgstr "Нічого не робити"
+
+#. module: sale_order_split_strategy
+#: model:ir.model.fields,field_description:sale_order_split_strategy.field_sale_order_split_strategy__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_order_split_strategy
+#: model:ir.model.fields,field_description:sale_order_split_strategy.field_sale_order_split_strategy__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sale_order_split_strategy
+#: model:ir.model.fields.selection,name:sale_order_split_strategy.selection__res_company__sale_order_split_strategy_errors__post_message
+msgid "Post message"
+msgstr "Опублікувати повідомлення"
+
+#. module: sale_order_split_strategy
+#: model:ir.model.fields.selection,name:sale_order_split_strategy.selection__res_company__sale_order_split_strategy_errors__raise_errors
+msgid "Raise errors"
+msgstr "Викликати помилки"
+
+#. module: sale_order_split_strategy
+#: model:ir.model.fields,field_description:sale_order_split_strategy.field_res_company__sale_order_split_strategy_errors
+#: model:ir.model.fields,field_description:sale_order_split_strategy.field_res_config_settings__sale_order_split_strategy_errors
+msgid "Sale Order Split Strategy Errors"
+msgstr "Помилки стратегії розділення замовлення на продаж"
+
+#. module: sale_order_split_strategy
+#: model_terms:ir.ui.view,arch_db:sale_order_split_strategy.view_order_form
+msgid "Split"
+msgstr "Розділити"
+
+#. module: sale_order_split_strategy
+#: model:ir.model.fields,field_description:sale_order_split_strategy.field_sale_order__split_strategy_id
+#: model_terms:ir.ui.view,arch_db:sale_order_split_strategy.sale_order_split_strategy_view_form
+msgid "Split Strategy"
+msgstr "Стратегія розділення"
+
+#. module: sale_order_split_strategy
+#: model_terms:ir.ui.view,arch_db:sale_order_split_strategy.split_from
+#: model_terms:ir.ui.view,arch_db:sale_order_split_strategy.split_to
+msgid "strategy."
+msgstr "стратегія."
+
+#. module: sale_order_split_strategy
+#: model_terms:ir.ui.view,arch_db:sale_order_split_strategy.split_from
+#: model_terms:ir.ui.view,arch_db:sale_order_split_strategy.split_to
+msgid "using"
+msgstr "використовуючи"

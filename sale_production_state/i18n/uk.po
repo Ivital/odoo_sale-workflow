@@ -18,3 +18,27 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale_production_state.selection__sale_order_line__production_state__done
 msgid "Done"
 msgstr "Готово"
+
+#. module: sale_production_state
+#: model:ir.model.fields,field_description:sale_production_state.field_sale_order__production_state
+#: model:ir.model.fields,field_description:sale_production_state.field_sale_order_line__production_state
+msgid "Manufacturing state"
+msgstr "Стан виробництва"
+
+#. module: sale_production_state
+#: model:ir.model.fields.selection,name:sale_production_state.selection__sale_order__production_state__no
+#: model:ir.model.fields.selection,name:sale_production_state.selection__sale_order_line__production_state__no
+msgid "No manufacturing"
+msgstr "Без виробництва"
+
+#. module: sale_production_state
+#: model:ir.model.fields.selection,name:sale_production_state.selection__sale_order__production_state__partially
+#: model:ir.model.fields.selection,name:sale_production_state.selection__sale_order_line__production_state__partially
+msgid "Partially processed"
+msgstr "Частково оброблено"
+
+#. module: sale_production_state
+#: model:ir.model.fields.selection,name:sale_production_state.selection__sale_order__production_state__unprocessed
+#: model:ir.model.fields.selection,name:sale_production_state.selection__sale_order_line__production_state__unprocessed
+msgid "Unprocessed"
+msgstr "Необроблено"

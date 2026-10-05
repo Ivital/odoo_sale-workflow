@@ -23,3 +23,10 @@ msgstr "Підлягає виставленню рахунка"
 #: model:ir.model.fields,field_description:sale_order_invoicing_finished_task.field_sale_order_line__task_ids
 msgid "Tasks"
 msgstr "Завдання"
+
+#. module: sale_order_invoicing_finished_task
+#: model:ir.model.fields,field_description:sale_order_invoicing_finished_task.field_product_product__invoicing_finished_task
+#: model:ir.model.fields,field_description:sale_order_invoicing_finished_task.field_product_template__invoicing_finished_task
+#: model:ir.model.fields,field_description:sale_order_invoicing_finished_task.field_project_task__invoicing_finished_task
+msgid "Invoicing control by task"
+msgstr "Контроль виставлення рахунків за завданням"

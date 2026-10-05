@@ -32,3 +32,13 @@ msgstr "Замовлення на продаж"
 #: model:ir.model.fields,field_description:sale_substate.field_sale_order__substate_id
 msgid "Sub State"
 msgstr "Підстан"
+
+#. module: sale_substate
+#: model:target.state.value,name:sale_substate.target_state_value_draft
+msgid "Quotation"
+msgstr "Комерційна пропозиція"
+
+#. module: sale_substate
+#: model_terms:ir.ui.view,arch_db:sale_substate.view_sales_order_filter
+msgid "Substate"
+msgstr "Підстан"

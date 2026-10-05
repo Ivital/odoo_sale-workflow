@@ -38,3 +38,13 @@ msgstr "Причини блокування виставлення рахунк�
 #: model:ir.model.fields,field_description:sale_invoice_blocking.field_invoice_blocking_reason__name
 msgid "Reason"
 msgstr "Причина"
+
+#. module: sale_invoice_blocking
+#: model:ir.model.fields,field_description:sale_invoice_blocking.field_invoice_blocking_reason__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_invoice_blocking
+#: model:ir.model.fields,field_description:sale_invoice_blocking.field_invoice_blocking_reason__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

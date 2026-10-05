@@ -53,3 +53,48 @@ msgstr "Підтверджено"
 #: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__review_ids
 msgid "Validations"
 msgstr "Погодження"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,help:sale_tier_validation.field_res_company__sale_report_print_block
+#: model:ir.model.fields,help:sale_tier_validation.field_res_config_settings__sale_report_print_block
+#: model_terms:ir.ui.view,arch_db:sale_tier_validation.sale_config_settings_form_view
+msgid ""
+"Block the printing of the sale order report if the order is not validated."
+msgstr ""
+"Блокувати друк звіту замовлення на продаж, якщо замовлення не перевірено."
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__need_validation
+msgid "Need Validation"
+msgstr "Потрібна перевірка"
+
+#. module: sale_tier_validation
+#: model_terms:ir.ui.view,arch_db:sale_tier_validation.view_sale_order_filter
+msgid "Needs my Review"
+msgstr "Потребує мого перегляду"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__rejected_message
+msgid "Rejected Message"
+msgstr "Відхилене повідомлення"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_res_company__sale_report_print_block
+#: model:ir.model.fields,field_description:sale_tier_validation.field_res_config_settings__sale_report_print_block
+msgid "Sale Report Print Block"
+msgstr "Блокування друку звіту продажу"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__to_validate_message
+msgid "To Validate Message"
+msgstr "Повідомлення для перевірки"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__validated_message
+msgid "Validated Message"
+msgstr "Перевірене повідомлення"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__validation_status
+msgid "Validation Status"
+msgstr "Статус перевірки"

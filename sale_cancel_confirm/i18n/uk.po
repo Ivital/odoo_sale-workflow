@@ -22,3 +22,30 @@ msgstr "Скасував"
 #: model:ir.model.fields,field_description:sale_cancel_confirm.field_sale_order__cancel_date
 msgid "Cancel Date"
 msgstr "Дата скасування"
+
+#. module: sale_cancel_confirm
+#: model:ir.model.fields,help:sale_cancel_confirm.field_res_company__sale_cancel_confirm
+#: model:ir.model.fields,help:sale_cancel_confirm.field_res_config_settings__sale_cancel_confirm
+#: model:ir.model.fields,help:sale_cancel_confirm.field_sale_order_cancel__sale_cancel_confirm
+#: model_terms:ir.ui.view,arch_db:sale_cancel_confirm.res_config_settings_view_form
+msgid "Ask for an optional reason when cancelling a sales order."
+msgstr ""
+"Запитувати необов'язкову причину під час скасування замовлення на продаж."
+
+#. module: sale_cancel_confirm
+#: model:ir.model.fields,field_description:sale_cancel_confirm.field_sale_order__cancel_confirm
+msgid "Cancel Confirmed"
+msgstr "Скасувати підтверджені"
+
+#. module: sale_cancel_confirm
+#: model:ir.model.fields,field_description:sale_cancel_confirm.field_sale_order__cancel_reason
+#: model:ir.model.fields,field_description:sale_cancel_confirm.field_sale_order_cancel__cancel_reason
+msgid "Cancel Reason"
+msgstr "Причина скасування"
+
+#. module: sale_cancel_confirm
+#: model:ir.model.fields,field_description:sale_cancel_confirm.field_res_company__sale_cancel_confirm
+#: model:ir.model.fields,field_description:sale_cancel_confirm.field_res_config_settings__sale_cancel_confirm
+#: model:ir.model.fields,field_description:sale_cancel_confirm.field_sale_order_cancel__sale_cancel_confirm
+msgid "Sale Cancellation Reason"
+msgstr "Причина скасування продажу"

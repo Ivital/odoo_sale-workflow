@@ -23,3 +23,26 @@ msgstr "Знижка"
 #: model_terms:ir.ui.view,arch_db:sale_order_general_discount.sale_order_general_discount_form_view
 msgid "Discount (%)"
 msgstr "Знижка (%)"
+
+#. module: sale_order_general_discount
+#: model:ir.model.fields,field_description:sale_order_general_discount.field_product_product__bypass_general_discount
+#: model:ir.model.fields,field_description:sale_order_general_discount.field_product_template__bypass_general_discount
+msgid "Bypass General Discount"
+msgstr "Обійти загальну знижку"
+
+#. module: sale_order_general_discount
+#: model_terms:ir.ui.view,arch_db:sale_order_general_discount.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:sale_order_general_discount.product_template_only_form_view
+msgid "Don't apply general discount"
+msgstr "Не застосовувати загальну знижку"
+
+#. module: sale_order_general_discount
+#: model:ir.model.fields,field_description:sale_order_general_discount.field_sale_order__general_discount
+msgid "General Discount"
+msgstr "Загальна знижка"
+
+#. module: sale_order_general_discount
+#: model:ir.model.fields,field_description:sale_order_general_discount.field_res_partner__sale_discount
+#: model:ir.model.fields,field_description:sale_order_general_discount.field_res_users__sale_discount
+msgid "Sale Discount"
+msgstr "Знижка продажу"

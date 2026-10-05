@@ -17,3 +17,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_probability_amount.view_quotation_tree
 msgid "Total"
 msgstr "Разом"
+
+#. module: sale_probability_amount
+#: model:ir.model.fields,field_description:sale_probability_amount.field_sale_order__probability
+msgid "Winning sale %"
+msgstr "Виграні продажі %"

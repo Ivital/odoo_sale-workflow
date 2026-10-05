@@ -18,3 +18,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_stock_line_customer_ref.field_stock_move_line__customer_ref
 msgid "Customer Ref"
 msgstr "Посилання клієнта"
+
+#. module: sale_stock_line_customer_ref
+#: model:ir.model.fields,field_description:sale_stock_line_customer_ref.field_sale_order_line__customer_ref
+#: model:ir.model.fields,field_description:sale_stock_line_customer_ref.field_stock_quant_package__customer_ref
+msgid "Customer Ref."
+msgstr "Посилання клієнта"
+
+#. module: sale_stock_line_customer_ref
+#: model:ir.model.fields,field_description:sale_stock_line_customer_ref.field_stock_package_level__has_customer_ref
+#: model:ir.model.fields,field_description:sale_stock_line_customer_ref.field_stock_picking__has_customer_ref
+msgid "Has Customer Ref"
+msgstr "Має посилання клієнта"
+
+#. module: sale_stock_line_customer_ref
+#: model:ir.model.fields,field_description:sale_stock_line_customer_ref.field_stock_move__customer_ref_sale_line_id
+msgid "Sale Line With Customer Ref."
+msgstr "Рядок продажу з посиланням клієнта"

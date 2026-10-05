@@ -52,3 +52,42 @@ msgstr "Кількість"
 #: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products_items__wizard_id
 msgid "Wizard"
 msgstr "Майстер"
+
+#. module: sale_product_multi_add
+#: model_terms:ir.ui.view,arch_db:sale_product_multi_add.view_import_product_to_sale
+#: model_terms:ir.ui.view,arch_db:sale_product_multi_add.view_import_product_to_sale2
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: sale_product_multi_add
+#: model_terms:ir.ui.view,arch_db:sale_product_multi_add.view_import_product_to_sale2
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: sale_product_multi_add
+#: model:ir.actions.act_window,name:sale_product_multi_add.action_import_product_to_sale
+msgid "Import Products"
+msgstr "Імпортувати товари"
+
+#. module: sale_product_multi_add
+#: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products__write_uid
+#: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products_items__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_product_multi_add
+#: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products__write_date
+#: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products_items__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sale_product_multi_add
+#: model_terms:ir.ui.view,arch_db:sale_product_multi_add.view_import_product_to_sale
+msgid "Set quantities"
+msgstr "Встановити кількості"
+
+#. module: sale_product_multi_add
+#: model_terms:ir.ui.view,arch_db:sale_product_multi_add.view_import_product_to_sale
+#: model_terms:ir.ui.view,arch_db:sale_product_multi_add.view_import_product_to_sale2
+msgid "or"
+msgstr "або"

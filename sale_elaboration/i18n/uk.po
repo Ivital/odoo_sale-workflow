@@ -126,3 +126,56 @@ msgstr "Продавець"
 #: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_profile__code
 msgid "Short Code"
 msgstr "Короткий код"
+
+#. module: sale_elaboration
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.view_move_search
+msgid "After Date"
+msgstr "Після дати"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_mixin__elaboration_note
+#: model:ir.model.fields,field_description:sale_elaboration.field_sale_order_line__elaboration_note
+#: model:ir.model.fields,field_description:sale_elaboration.field_stock_move__elaboration_note
+#: model:ir.model.fields,field_description:sale_elaboration.field_stock_move_line__elaboration_note
+msgid "Elaboration Note"
+msgstr "Примітка опрацювання"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_category__elaboration_profile_id
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_product__elaboration_profile_id
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_template__elaboration_profile_id
+#: model:ir.model.fields,field_description:sale_elaboration.field_sale_order_line__elaboration_profile_id
+msgid "Elaboration Profile"
+msgstr "Профіль опрацювання"
+
+#. module: sale_elaboration
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.elaboration_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_mixin__is_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_product__is_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_template__is_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_sale_order_line__is_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_stock_move__is_elaboration
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.view_move_search
+msgid "Is Elaboration"
+msgstr "Є опрацюванням"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__write_uid
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_profile__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__write_date
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_profile__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_stock_move__sequence_code
+msgid "Sequence Code"
+msgstr "Код послідовності"

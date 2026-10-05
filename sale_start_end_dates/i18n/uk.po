@@ -24,3 +24,23 @@ msgstr "Дата завершення"
 #: model:ir.model.fields,field_description:sale_start_end_dates.field_sale_report__start_date
 msgid "Start Date"
 msgstr "Дата початку"
+
+#. module: sale_start_end_dates
+#: model:ir.model.fields,field_description:sale_start_end_dates.field_sale_order__default_end_date
+msgid "Default End Date"
+msgstr "Дата завершення за замовчуванням"
+
+#. module: sale_start_end_dates
+#: model:ir.model.fields,field_description:sale_start_end_dates.field_sale_order_line__must_have_dates
+msgid "Must Have Start/End Dates"
+msgstr "Мають бути дати початку/закінчення"
+
+#. module: sale_start_end_dates
+#: model:ir.model.fields,field_description:sale_start_end_dates.field_sale_report__number_of_days
+msgid "Number Of Days"
+msgstr "Кількість днів"
+
+#. module: sale_start_end_dates
+#: model:ir.model.fields,field_description:sale_start_end_dates.field_sale_order_line__number_of_days
+msgid "Number of Days"
+msgstr "Кількість днів"

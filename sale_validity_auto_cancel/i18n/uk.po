@@ -17,3 +17,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_validity_auto_cancel.field_sale_order__auto_cancel_expired_so
 msgid "Auto Cancel"
 msgstr "Автоскасування"
+
+#. module: sale_validity_auto_cancel
+#: model_terms:ir.ui.view,arch_db:sale_validity_auto_cancel.res_config_settings_view_form
+msgid "<span> days</span>"
+msgstr "<span> днів</span>"
+
+#. module: sale_validity_auto_cancel
+#: model:ir.model.fields,field_description:sale_validity_auto_cancel.field_res_partner__auto_cancel_expired_so
+#: model:ir.model.fields,field_description:sale_validity_auto_cancel.field_res_users__auto_cancel_expired_so
+msgid "Auto Cancel Expired SaleOrder"
+msgstr "Автоматично скасовувати прострочене замовлення на продаж"
+
+#. module: sale_validity_auto_cancel
+#: model:ir.model.fields,field_description:sale_validity_auto_cancel.field_res_company__sale_validity_auto_cancel_days
+#: model:ir.model.fields,field_description:sale_validity_auto_cancel.field_res_config_settings__sale_validity_auto_cancel_days
+msgid "Auto-cancel expired quotations after (days)"
+msgstr "Автоматично скасовувати прострочені пропозиції через (днів)"

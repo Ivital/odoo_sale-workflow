@@ -23,3 +23,15 @@ msgstr "Разом"
 #: model:ir.model.fields,field_description:sale_company_currency.field_sale_order__amount_total_curr
 msgid "Total Amount"
 msgstr "Загальна сума"
+
+#. module: sale_company_currency
+#: model:ir.model.fields,field_description:sale_company_currency.field_sale_order__company_currency_id
+msgid "Company Currency"
+msgstr "Валюта компанії"
+
+#. module: sale_company_currency
+#: model_terms:ir.ui.view,arch_db:sale_company_currency.view_order_form
+#: model_terms:ir.ui.view,arch_db:sale_company_currency.view_order_tree
+#: model_terms:ir.ui.view,arch_db:sale_company_currency.view_quotation_tree
+msgid "Total (Company Currency)"
+msgstr "Разом (валюта компанії)"

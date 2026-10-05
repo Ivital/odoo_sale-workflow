@@ -33,3 +33,40 @@ msgstr "Од. вим."
 #: code:addons/sale_order_secondary_unit/models/product_template.py:0
 msgid "Warning"
 msgstr "Попередження"
+
+#. module: sale_order_secondary_unit
+#: model:ir.model.fields,field_description:sale_order_secondary_unit.field_sale_order_line__secondary_uom_unit_price
+msgid "2nd unit price"
+msgstr "Ціна 2-ї одиниці"
+
+#. module: sale_order_secondary_unit
+#: model:ir.model.fields,field_description:sale_order_secondary_unit.field_product_product__sale_secondary_uom_id
+#: model:ir.model.fields,field_description:sale_order_secondary_unit.field_product_template__sale_secondary_uom_id
+msgid "Default secondary unit for sales"
+msgstr "Типова вторинна одиниця для продажу"
+
+#. module: sale_order_secondary_unit
+#: model_terms:ir.ui.view,arch_db:sale_order_secondary_unit.product_secondary_unit_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: sale_order_secondary_unit
+#: model_terms:ir.ui.view,arch_db:sale_order_secondary_unit.product_secondary_unit_view_search
+msgid "Product Template"
+msgstr "Шаблон товару"
+
+#. module: sale_order_secondary_unit
+#: model:ir.model,name:sale_order_secondary_unit.model_product_product
+#: model_terms:ir.ui.view,arch_db:sale_order_secondary_unit.product_secondary_unit_view_search
+msgid "Product Variant"
+msgstr "Варіант товару"
+
+#. module: sale_order_secondary_unit
+#: model:ir.model.fields,field_description:sale_order_secondary_unit.field_sale_order_line__secondary_uom_qty
+msgid "Secondary Qty"
+msgstr "Вторинна кількість"
+
+#. module: sale_order_secondary_unit
+#: model:ir.actions.act_window,name:sale_order_secondary_unit.product_secondary_unit_action
+msgid "Secondary Unit"
+msgstr "Вторинна одиниця"

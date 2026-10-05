@@ -19,3 +19,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:partner_prospect.res_partner_prospect_search_view
 msgid "Prospect"
 msgstr "Потенційний клієнт"
+
+#. module: partner_prospect
+#: model_terms:ir.ui.view,arch_db:partner_prospect.res_partner_prospect_search_view
+msgid "Actual Customer"
+msgstr "Фактичний клієнт"

@@ -22,3 +22,18 @@ msgstr "Дата замовлення"
 #: model_terms:ir.ui.view,arch_db:sale_last_price_info.product_last_sale_info_form_view
 msgid "Sale"
 msgstr "Продаж"
+
+#. module: sale_last_price_info
+#: model:ir.model.fields,field_description:sale_last_price_info.field_product_product__last_customer_id
+msgid "Last Customer"
+msgstr "Останній клієнт"
+
+#. module: sale_last_price_info
+#: model:ir.model.fields,field_description:sale_last_price_info.field_product_product__last_sale_date
+msgid "Last Sale Date"
+msgstr "Дата останнього продажу"
+
+#. module: sale_last_price_info
+#: model:ir.model.fields,field_description:sale_last_price_info.field_product_product__last_sale_price
+msgid "Last Sale Price"
+msgstr "Остання ціна продажу"

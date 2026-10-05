@@ -18,3 +18,15 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_priority.field_sale_order_line__priority
 msgid "Priority"
 msgstr "Пріоритет"
+
+#. module: sale_order_priority
+#: model:ir.model.fields.selection,name:sale_order_priority.selection__sale_order__priority__0
+#: model:ir.model.fields.selection,name:sale_order_priority.selection__sale_order_line__priority__0
+msgid "Normal"
+msgstr "Звичайний"
+
+#. module: sale_order_priority
+#: model:ir.model.fields.selection,name:sale_order_priority.selection__sale_order__priority__1
+#: model:ir.model.fields.selection,name:sale_order_priority.selection__sale_order_line__priority__1
+msgid "Urgent"
+msgstr "Терміново"

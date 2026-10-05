@@ -23,3 +23,20 @@ msgstr "Комерційні пропозиції"
 #: model_terms:ir.ui.view,arch_db:product_form_sale_link.product_template_form_view
 msgid "Sales"
 msgstr "Продажі"
+
+#. module: product_form_sale_link
+#: model:ir.model.fields,field_description:product_form_sale_link.field_product_product__sale_lines_count
+#: model:ir.model.fields,field_description:product_form_sale_link.field_product_template__sale_lines_count
+msgid "Sale Lines Count"
+msgstr "Кількість рядків продажу"
+
+#. module: product_form_sale_link
+#: model:ir.actions.act_window,name:product_form_sale_link.action_product_product_sale_list
+#: model:ir.actions.act_window,name:product_form_sale_link.action_product_template_sale_list
+msgid "Sale Order Lines"
+msgstr "Рядки замовлення на продаж"
+
+#. module: product_form_sale_link
+#: model_terms:ir.ui.view,arch_db:product_form_sale_link.view_sales_order_line_filter
+msgid "Sales Orders"
+msgstr "Замовлення на продаж"

@@ -30,3 +30,56 @@ msgstr "Активний"
 #: model_terms:ir.ui.view,arch_db:sale_semaphore.view_order_product_search
 msgid "Semaphore"
 msgstr "Семафор"
+
+#. module: sale_semaphore
+#: model:ir.model.fields,field_description:sale_semaphore.field_product_category__semaphore_discount_danger
+#: model:ir.model.fields,field_description:sale_semaphore.field_product_product__semaphore_discount_danger
+#: model:ir.model.fields,field_description:sale_semaphore.field_product_template__semaphore_discount_danger
+msgid "Discount Danger"
+msgstr "Небезпечна знижка"
+
+#. module: sale_semaphore
+#: model:ir.model.fields,field_description:sale_semaphore.field_product_category__semaphore_discount_success
+#: model:ir.model.fields,field_description:sale_semaphore.field_product_product__semaphore_discount_success
+#: model:ir.model.fields,field_description:sale_semaphore.field_product_template__semaphore_discount_success
+msgid "Discount Success"
+msgstr "Успішна знижка"
+
+#. module: sale_semaphore
+#: model:ir.model.fields,field_description:sale_semaphore.field_product_category__semaphore_discount_warning
+#: model:ir.model.fields,field_description:sale_semaphore.field_product_product__semaphore_discount_warning
+#: model:ir.model.fields,field_description:sale_semaphore.field_product_template__semaphore_discount_warning
+msgid "Discount Warning"
+msgstr "Попередження про знижку"
+
+#. module: sale_semaphore
+#: model:ir.model.fields.selection,name:sale_semaphore.selection__product_product__semaphore_active__no
+#: model:ir.model.fields.selection,name:sale_semaphore.selection__product_template__semaphore_active__no
+msgid "No"
+msgstr "Ні"
+
+#. module: sale_semaphore
+#: model:ir.model.fields,field_description:sale_semaphore.field_sale_order__price_below_semaphore
+#: model:ir.model.fields,field_description:sale_semaphore.field_sale_order_line__price_below_semaphore
+msgid "Price Below Semaphore"
+msgstr "Ціна нижче семафора"
+
+#. module: sale_semaphore
+#. odoo-javascript
+#: code:addons/sale_semaphore/static/src/semaphore/semaphore.xml:0
+msgid "Reset"
+msgstr "Скинути"
+
+#. module: sale_semaphore
+#: model:ir.model.fields,field_description:sale_semaphore.field_product_category__semaphore_active
+#: model:ir.model.fields,field_description:sale_semaphore.field_product_product__semaphore_active
+#: model:ir.model.fields,field_description:sale_semaphore.field_product_template__semaphore_active
+#: model:ir.model.fields,field_description:sale_semaphore.field_sale_order_line__semaphore_active
+msgid "Semaphore Active"
+msgstr "Семафор активний"
+
+#. module: sale_semaphore
+#: model:ir.model.fields.selection,name:sale_semaphore.selection__product_product__semaphore_active__yes
+#: model:ir.model.fields.selection,name:sale_semaphore.selection__product_template__semaphore_active__yes
+msgid "Yes"
+msgstr "Так"

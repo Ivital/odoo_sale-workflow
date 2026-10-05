@@ -88,3 +88,414 @@ msgstr "Значення"
 #: model:ir.model.fields.selection,name:sale_restricted_qty.selection__sale_product_restricted_qty_mixin__sale_restrict_multiple_of_qty__warning
 msgid "Warning"
 msgstr "Попередження"
+
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_category_form
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_template_form
+msgid ""
+"<span class=\"o_form_label oe_inline fst-italic text-muted\" "
+"invisible=\"is_sale_own_max_qty_set\"> (inherited)</span>"
+msgstr ""
+"<span class=\"o_form_label oe_inline fst-italic text-muted\" "
+"invisible=\"is_sale_own_max_qty_set\"> (успадковано)</span>"
+
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_category_form
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_template_form
+msgid ""
+"<span class=\"o_form_label oe_inline fst-italic text-muted\" "
+"invisible=\"is_sale_own_min_qty_set\"> (inherited)</span>"
+msgstr ""
+"<span class=\"o_form_label oe_inline fst-italic text-muted\" "
+"invisible=\"is_sale_own_min_qty_set\"> (успадковано)</span>"
+
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_category_form
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_template_form
+msgid ""
+"<span class=\"o_form_label oe_inline fst-italic text-muted\" "
+"invisible=\"is_sale_own_multiple_of_qty_set\"> (inherited)</span>"
+msgstr ""
+"<span class=\"o_form_label oe_inline fst-italic text-muted\" "
+"invisible=\"is_sale_own_multiple_of_qty_set\"> (успадковано)</span>"
+
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_category_form
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_template_form
+msgid ""
+"<span class=\"o_form_label oe_inline fst-italic text-muted\" "
+"invisible=\"is_sale_own_restrict_max_qty_set\"> (inherited)</span>"
+msgstr ""
+"<span class=\"o_form_label oe_inline fst-italic text-muted\" "
+"invisible=\"is_sale_own_restrict_max_qty_set\"> (успадковано)</span>"
+
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_category_form
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_template_form
+msgid ""
+"<span class=\"o_form_label oe_inline fst-italic text-muted\" "
+"invisible=\"is_sale_own_restrict_min_qty_set\"> (inherited)</span>"
+msgstr ""
+"<span class=\"o_form_label oe_inline fst-italic text-muted\" "
+"invisible=\"is_sale_own_restrict_min_qty_set\"> (успадковано)</span>"
+
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_category_form
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_template_form
+msgid ""
+"<span class=\"o_form_label oe_inline fst-italic text-muted\" "
+"invisible=\"is_sale_own_restrict_multiple_of_qty_set\"> (inherited)</span>"
+msgstr ""
+"<span class=\"o_form_label oe_inline fst-italic text-muted\" "
+"invisible=\"is_sale_own_restrict_multiple_of_qty_set\"> (успадковано)</span>"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_category__sale_inherited_restrict_max_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_category__sale_inherited_restrict_min_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_category__sale_inherited_restrict_multiple_of_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_category__sale_own_restrict_max_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_category__sale_own_restrict_min_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_category__sale_own_restrict_multiple_of_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_category__sale_restrict_max_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_category__sale_restrict_min_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_category__sale_restrict_multiple_of_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_product__sale_inherited_restrict_max_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_product__sale_inherited_restrict_min_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_product__sale_inherited_restrict_multiple_of_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_product__sale_own_restrict_max_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_product__sale_own_restrict_min_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_product__sale_own_restrict_multiple_of_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_product__sale_restrict_max_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_product__sale_restrict_min_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_product__sale_restrict_multiple_of_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_template__sale_inherited_restrict_max_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_template__sale_inherited_restrict_min_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_template__sale_inherited_restrict_multiple_of_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_template__sale_own_restrict_max_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_template__sale_own_restrict_min_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_template__sale_own_restrict_multiple_of_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_template__sale_restrict_max_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_template__sale_restrict_min_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_template__sale_restrict_multiple_of_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__sale_product_restricted_qty_mixin__sale_inherited_restrict_max_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__sale_product_restricted_qty_mixin__sale_inherited_restrict_min_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__sale_product_restricted_qty_mixin__sale_inherited_restrict_multiple_of_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__sale_product_restricted_qty_mixin__sale_own_restrict_max_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__sale_product_restricted_qty_mixin__sale_own_restrict_min_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__sale_product_restricted_qty_mixin__sale_own_restrict_multiple_of_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__sale_product_restricted_qty_mixin__sale_restrict_max_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__sale_product_restricted_qty_mixin__sale_restrict_min_qty__blocking
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__sale_product_restricted_qty_mixin__sale_restrict_multiple_of_qty__blocking
+msgid "Blocking"
+msgstr "Блокування"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__is_above_max_qty
+msgid "Is Above Max Qty"
+msgstr "Вище максимальної кількості"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__is_below_min_qty
+msgid "Is Below Min Qty"
+msgstr "Нижче мінімальної кількості"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__is_max_qty_set
+msgid "Is Max Qty Set"
+msgstr "Максимальну кількість задано"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__is_min_qty_set
+msgid "Is Min Qty Set"
+msgstr "Мінімальну кількість задано"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_inherited_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_inherited_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_inherited_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_inherited_max_qty_set
+msgid "Is Sale Inherited Max Qty Set"
+msgstr "Встановлено успадковану максимальну кількість продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_inherited_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_inherited_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_inherited_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_inherited_min_qty_set
+msgid "Is Sale Inherited Min Qty Set"
+msgstr "Встановлено успадковану мінімальну кількість продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_inherited_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_inherited_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_inherited_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_inherited_multiple_of_qty_set
+msgid "Is Sale Inherited Multiple Of Qty Set"
+msgstr "Встановлено успадковану кратність кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_inherited_restrict_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_inherited_restrict_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_inherited_restrict_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_inherited_restrict_max_qty_set
+msgid "Is Sale Inherited Restrict Max Qty Set"
+msgstr "Встановлено успадковане обмеження максимальної кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_inherited_restrict_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_inherited_restrict_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_inherited_restrict_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_inherited_restrict_min_qty_set
+msgid "Is Sale Inherited Restrict Min Qty Set"
+msgstr "Встановлено успадковане обмеження мінімальної кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_inherited_restrict_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_inherited_restrict_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_inherited_restrict_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_inherited_restrict_multiple_of_qty_set
+msgid "Is Sale Inherited Restrict Multiple Of Qty Set"
+msgstr "Встановлено успадковане обмеження кратності кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_max_qty_set
+msgid "Is Sale Max Qty Set"
+msgstr "Встановлено максимальну кількість продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_min_qty_set
+msgid "Is Sale Min Qty Set"
+msgstr "Встановлено мінімальну кількість продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_multiple_of_qty_set
+msgid "Is Sale Multiple Of Qty Set"
+msgstr "Встановлено кратність кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_own_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_own_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_own_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_own_max_qty_set
+msgid "Is Sale Own Max Qty Set"
+msgstr "Встановлено власну максимальну кількість продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_own_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_own_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_own_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_own_min_qty_set
+msgid "Is Sale Own Min Qty Set"
+msgstr "Встановлено власну мінімальну кількість продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_own_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_own_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_own_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_own_multiple_of_qty_set
+msgid "Is Sale Own Multiple Of Qty Set"
+msgstr "Встановлено власну кратність кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_own_restrict_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_own_restrict_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_own_restrict_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_own_restrict_max_qty_set
+msgid "Is Sale Own Restrict Max Qty Set"
+msgstr "Встановлено власне обмеження максимальної кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_own_restrict_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_own_restrict_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_own_restrict_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_own_restrict_min_qty_set
+msgid "Is Sale Own Restrict Min Qty Set"
+msgstr "Встановлено власне обмеження мінімальної кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_own_restrict_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_own_restrict_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_own_restrict_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_own_restrict_multiple_of_qty_set
+msgid "Is Sale Own Restrict Multiple Of Qty Set"
+msgstr "Встановлено власне обмеження кратності кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_restrict_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_restrict_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_restrict_max_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_restrict_max_qty_set
+msgid "Is Sale Restrict Max Qty Set"
+msgstr "Встановлено обмеження максимальної кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_restrict_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_restrict_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_restrict_min_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_restrict_min_qty_set
+msgid "Is Sale Restrict Min Qty Set"
+msgstr "Встановлено обмеження мінімальної кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__is_sale_restrict_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__is_sale_restrict_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__is_sale_restrict_multiple_of_qty_set
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__is_sale_restrict_multiple_of_qty_set
+msgid "Is Sale Restrict Multiple Of Qty Set"
+msgstr "Встановлено обмеження кратності кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__multiple_of_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_category_form
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_template_form
+msgid "Multiple-Of Qty"
+msgstr "Кратність кількості"
+
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_category_form
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_template_form
+msgid "Restrict"
+msgstr "Обмежити"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_inherited_max_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_inherited_max_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_inherited_max_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_inherited_max_qty
+msgid "Sale Inherited Max Qty"
+msgstr "Успадкована максимальна кількість продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_inherited_min_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_inherited_min_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_inherited_min_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_inherited_min_qty
+msgid "Sale Inherited Min Qty"
+msgstr "Успадкована мінімальна кількість продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_inherited_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_inherited_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_inherited_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_inherited_multiple_of_qty
+msgid "Sale Inherited Multiple Of Qty"
+msgstr "Успадкована кратність кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_inherited_restrict_max_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_inherited_restrict_max_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_inherited_restrict_max_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_inherited_restrict_max_qty
+msgid "Sale Inherited Restrict Max Qty"
+msgstr "Успадковане обмеження максимальної кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_inherited_restrict_min_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_inherited_restrict_min_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_inherited_restrict_min_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_inherited_restrict_min_qty
+msgid "Sale Inherited Restrict Min Qty"
+msgstr "Успадковане обмеження мінімальної кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_inherited_restrict_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_inherited_restrict_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_inherited_restrict_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_inherited_restrict_multiple_of_qty
+msgid "Sale Inherited Restrict Multiple Of Qty"
+msgstr "Успадковане обмеження кратності кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_multiple_of_qty
+msgid "Sale Multiple Of Qty"
+msgstr "Кратність кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_own_max_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_own_max_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_own_max_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_own_max_qty
+msgid "Sale Own Max Qty"
+msgstr "Власна максимальна кількість продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_own_min_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_own_min_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_own_min_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_own_min_qty
+msgid "Sale Own Min Qty"
+msgstr "Власна мінімальна кількість продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_own_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_own_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_own_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_own_multiple_of_qty
+msgid "Sale Own Multiple Of Qty"
+msgstr "Власна кратність кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_own_restrict_max_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_own_restrict_max_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_own_restrict_max_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_own_restrict_max_qty
+msgid "Sale Own Restrict Max Qty"
+msgstr "Власне обмеження максимальної кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_own_restrict_min_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_own_restrict_min_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_own_restrict_min_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_own_restrict_min_qty
+msgid "Sale Own Restrict Min Qty"
+msgstr "Власне обмеження мінімальної кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_own_restrict_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_own_restrict_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_own_restrict_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_own_restrict_multiple_of_qty
+msgid "Sale Own Restrict Multiple Of Qty"
+msgstr "Власне обмеження кратності кількості продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_restrict_max_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_restrict_max_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_restrict_max_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_restrict_max_qty
+msgid "Sale Restrict Max Qty"
+msgstr "Обмежувати максимальну кількість продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_restrict_min_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_restrict_min_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_restrict_min_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_restrict_min_qty
+msgid "Sale Restrict Min Qty"
+msgstr "Обмежувати мінімальну кількість продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_restrict_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_product__sale_restrict_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_template__sale_restrict_multiple_of_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_restrict_multiple_of_qty
+msgid "Sale Restrict Multiple Of Qty"
+msgstr "Обмежувати кратність кількості продажу"
+
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_category_form
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_template_form
+msgid "Sale Restricted Qty"
+msgstr "Обмежена кількість продажу"

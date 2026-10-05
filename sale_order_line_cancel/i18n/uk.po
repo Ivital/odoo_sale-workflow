@@ -27,3 +27,68 @@ msgstr "Створено"
 #: model:ir.model.fields,field_description:sale_order_line_cancel.field_sale_order_line_cancel__display_name
 msgid "Display Name"
 msgstr "Відображувана назва"
+
+#. module: sale_order_line_cancel
+#: model_terms:ir.ui.view,arch_db:sale_order_line_cancel.sale_order_line_cancel_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: sale_order_line_cancel
+#: model:ir.actions.act_window,name:sale_order_line_cancel.action_sale_order_line_cancel
+#: model_terms:ir.ui.view,arch_db:sale_order_line_cancel.sale_order_form_view
+#: model_terms:ir.ui.view,arch_db:sale_order_line_cancel.sale_order_line_tree_view
+#: model_terms:ir.ui.view,arch_db:sale_order_line_cancel.sale_order_line_view_form_readonly
+msgid "Cancel remaining qty"
+msgstr "Скасувати залишкову кількість"
+
+#. module: sale_order_line_cancel
+#: model_terms:ir.ui.view,arch_db:sale_order_line_cancel.sale_order_form_view
+#: model_terms:ir.ui.view,arch_db:sale_order_line_cancel.sale_order_line_tree_view
+#: model_terms:ir.ui.view,arch_db:sale_order_line_cancel.sale_order_line_view_form_readonly
+msgid "Canceled"
+msgstr "Скасовано"
+
+#. module: sale_order_line_cancel
+#: model:ir.model.fields,field_description:sale_order_line_cancel.field_sale_order_line_cancel__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_order_line_cancel
+#: model:ir.model.fields,field_description:sale_order_line_cancel.field_sale_order_line_cancel__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sale_order_line_cancel
+#: model:ir.model.fields,help:sale_order_line_cancel.field_res_company__on_sale_line_cancel_decrease_line_qty
+#: model:ir.model.fields,help:sale_order_line_cancel.field_res_config_settings__on_sale_line_cancel_decrease_line_qty
+#: model_terms:ir.ui.view,arch_db:sale_order_line_cancel.res_config_settings_form_view
+msgid ""
+"On canceling the remaining qty to deliver of an order line it decreases the "
+"initial quantity"
+msgstr ""
+"Під час скасування залишкової кількості до доставки у рядку замовлення "
+"початкова кількість зменшується"
+
+#. module: sale_order_line_cancel
+#: model:ir.model.fields,field_description:sale_order_line_cancel.field_res_company__on_sale_line_cancel_decrease_line_qty
+#: model:ir.model.fields,field_description:sale_order_line_cancel.field_res_config_settings__on_sale_line_cancel_decrease_line_qty
+msgid "On sale order line cancel decrease line quantity"
+msgstr ""
+"Під час скасування рядка замовлення на продаж зменшувати кількість рядка"
+
+#. module: sale_order_line_cancel
+#: model:ir.model.fields,field_description:sale_order_line_cancel.field_sale_order_line__product_qty_canceled
+msgid "Qty canceled"
+msgstr "Скасована кількість"
+
+#. module: sale_order_line_cancel
+#: model_terms:ir.ui.view,arch_db:sale_order_line_cancel.sale_order_form_view
+#: model_terms:ir.ui.view,arch_db:sale_order_line_cancel.sale_order_line_tree_view
+#: model_terms:ir.ui.view,arch_db:sale_order_line_cancel.sale_order_line_view_form_readonly
+msgid "To Deliver"
+msgstr "До доставки"
+
+#. module: sale_order_line_cancel
+#: model_terms:ir.ui.view,arch_db:sale_order_line_cancel.sale_order_line_cancel_view_form
+msgid "Validate"
+msgstr "Підтвердити"

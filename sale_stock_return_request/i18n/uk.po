@@ -22,3 +22,8 @@ msgstr "Запит на повернення"
 #: model_terms:ir.ui.view,arch_db:sale_stock_return_request.view_stock_return_request_form
 msgid "Sales"
 msgstr "Продажі"
+
+#. module: sale_stock_return_request
+#: model:ir.model.fields,field_description:sale_stock_return_request.field_stock_return_request__sale_order_ids
+msgid "Involved Sales"
+msgstr "Пов’язані продажі"

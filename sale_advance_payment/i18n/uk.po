@@ -88,3 +88,100 @@ msgstr "Посил."
 #: model:ir.model.fields,field_description:sale_advance_payment.field_account_payment__sale_id
 msgid "Sale"
 msgstr "Продаж"
+
+#. module: sale_advance_payment
+#: model:ir.actions.act_window,name:sale_advance_payment.action_view_account_voucher_wizard
+#: model_terms:ir.ui.view,arch_db:sale_advance_payment.view_account_voucher_wizard
+msgid "Advance Payment"
+msgstr "Авансовий платіж"
+
+#. module: sale_advance_payment
+#: model:ir.model.fields,field_description:sale_advance_payment.field_sale_order__advance_payment_status
+msgid "Advance Payment Status"
+msgstr "Статус авансового платежу"
+
+#. module: sale_advance_payment
+#: model:ir.model.fields,field_description:sale_advance_payment.field_account_voucher_wizard__amount_advance
+msgid "Amount advanced"
+msgstr "Авансована сума"
+
+#. module: sale_advance_payment
+#: model_terms:ir.ui.view,arch_db:sale_advance_payment.view_account_voucher_wizard
+msgid "Amount in Order Currency"
+msgstr "Сума у валюті замовлення"
+
+#. module: sale_advance_payment
+#: model_terms:ir.ui.view,arch_db:sale_advance_payment.view_account_voucher_wizard
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: sale_advance_payment
+#: model:ir.model.fields,field_description:sale_advance_payment.field_account_voucher_wizard__journal_currency_id
+msgid "Journal Currency"
+msgstr "Валюта журналу"
+
+#. module: sale_advance_payment
+#: model:ir.model.fields,field_description:sale_advance_payment.field_account_voucher_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_advance_payment
+#: model:ir.model.fields,field_description:sale_advance_payment.field_account_voucher_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sale_advance_payment
+#: model_terms:ir.ui.view,arch_db:sale_advance_payment.view_account_voucher_wizard
+msgid "Make advance payment"
+msgstr "Здійснити авансовий платіж"
+
+#. module: sale_advance_payment
+#: model:ir.model.fields.selection,name:sale_advance_payment.selection__sale_order__advance_payment_status__not_paid
+msgid "Not Paid"
+msgstr "Не сплачено"
+
+#. module: sale_advance_payment
+#: model_terms:ir.ui.view,arch_db:sale_advance_payment.view_account_voucher_wizard
+msgid "Order Currency"
+msgstr "Валюта замовлення"
+
+#. module: sale_advance_payment
+#: model_terms:ir.ui.view,arch_db:sale_advance_payment.view_account_voucher_wizard
+msgid "Order Due Amount"
+msgstr "Сума до сплати за замовленням"
+
+#. module: sale_advance_payment
+#: model:ir.model.fields.selection,name:sale_advance_payment.selection__sale_order__advance_payment_status__paid
+msgid "Paid"
+msgstr "Сплачено"
+
+#. module: sale_advance_payment
+#: model:ir.model.fields.selection,name:sale_advance_payment.selection__sale_order__advance_payment_status__partial
+msgid "Partially Paid"
+msgstr "Частково сплачено"
+
+#. module: sale_advance_payment
+#: model:ir.model.fields,field_description:sale_advance_payment.field_sale_order__account_payment_ids
+#: model_terms:ir.ui.view,arch_db:sale_advance_payment.view_order_form
+msgid "Pay sale advanced"
+msgstr "Сплатити аванс продажу"
+
+#. module: sale_advance_payment
+#: model_terms:ir.ui.view,arch_db:sale_advance_payment.view_account_voucher_wizard
+msgid "Payment Method"
+msgstr "Спосіб оплати"
+
+#. module: sale_advance_payment
+#: model_terms:ir.ui.view,arch_db:sale_advance_payment.view_order_form
+msgid "Payment advances"
+msgstr "Аванси платежів"
+
+#. module: sale_advance_payment
+#: model:ir.model.fields,field_description:sale_advance_payment.field_sale_order__payment_line_ids
+msgid "Payment move lines"
+msgstr "Рядки переміщень платежу"
+
+#. module: sale_advance_payment
+#: model:ir.model.fields,field_description:sale_advance_payment.field_sale_order__amount_residual
+msgid "Residual amount"
+msgstr "Залишкова сума"

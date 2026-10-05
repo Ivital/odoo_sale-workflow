@@ -1,0 +1,64 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 10:13+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: sale_order_line_client_order_ref
+#: model:ir.model.fields.selection,name:sale_order_line_client_order_ref.selection__res_company__so_line_client_ref_policy__sync
+#: model:ir.model.fields.selection,name:sale_order_line_client_order_ref.selection__res_partner__so_line_client_ref_policy__sync
+msgid "Always"
+msgstr "Завжди"
+
+#. module: sale_order_line_client_order_ref
+#: model:ir.model.fields,field_description:sale_order_line_client_order_ref.field_res_company__client_order_ref_in_invoice_line_desc
+#: model:ir.model.fields,field_description:sale_order_line_client_order_ref.field_res_config_settings__client_order_ref_in_invoice_line_desc
+msgid "Client Order Ref In Invoice Line Desc"
+msgstr "Посилання на замовлення клієнта в описі рядка рахунку"
+
+#. module: sale_order_line_client_order_ref
+#: model:ir.model.fields,field_description:sale_order_line_client_order_ref.field_account_move_line__client_order_ref
+#: model:ir.model.fields,field_description:sale_order_line_client_order_ref.field_sale_order_line__client_order_ref
+msgid "Customer Order Ref"
+msgstr "Посилання на замовлення клієнта"
+
+#. module: sale_order_line_client_order_ref
+#: model:ir.model.fields.selection,name:sale_order_line_client_order_ref.selection__res_company__so_line_client_ref_policy__never
+#: model:ir.model.fields.selection,name:sale_order_line_client_order_ref.selection__res_partner__so_line_client_ref_policy__never
+msgid "Never"
+msgstr "Ніколи"
+
+#. module: sale_order_line_client_order_ref
+#: model_terms:ir.ui.view,arch_db:sale_order_line_client_order_ref.report_invoice_document_inherit
+#: model_terms:ir.ui.view,arch_db:sale_order_line_client_order_ref.report_saleorder_document_inherit
+msgid "Order Ref"
+msgstr "Посилання на замовлення"
+
+#. module: sale_order_line_client_order_ref
+#: model:ir.model.fields,field_description:sale_order_line_client_order_ref.field_res_company__so_line_client_ref_policy
+#: model:ir.model.fields,field_description:sale_order_line_client_order_ref.field_res_config_settings__so_line_client_ref_policy
+#: model:ir.model.fields,field_description:sale_order_line_client_order_ref.field_res_partner__so_line_client_ref_policy
+#: model:ir.model.fields,field_description:sale_order_line_client_order_ref.field_res_users__so_line_client_ref_policy
+msgid "SO Line Customer Order Ref Sync Policy"
+msgstr "Політика синхронізації посилання на замовлення клієнта в рядку SO"
+
+#. module: sale_order_line_client_order_ref
+#: model:ir.model.fields,field_description:sale_order_line_client_order_ref.field_res_company__show_client_order_ref_invoice
+#: model:ir.model.fields,field_description:sale_order_line_client_order_ref.field_res_config_settings__show_client_order_ref_invoice
+msgid "Show Client Order Ref Invoice"
+msgstr "Показувати посилання клієнта в рахунку"
+
+#. module: sale_order_line_client_order_ref
+#: model:ir.model.fields,field_description:sale_order_line_client_order_ref.field_res_company__show_client_order_ref_sale
+#: model:ir.model.fields,field_description:sale_order_line_client_order_ref.field_res_config_settings__show_client_order_ref_sale
+msgid "Show Client Order Ref Sale"
+msgstr "Показувати посилання клієнта у продажу"

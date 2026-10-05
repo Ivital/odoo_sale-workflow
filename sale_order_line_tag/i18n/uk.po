@@ -43,3 +43,13 @@ msgstr "Теги рядків замовлення на продаж"
 #: model:ir.model.fields,field_description:sale_order_line_tag.field_sale_order_line__tag_ids
 msgid "Tags"
 msgstr "Теги"
+
+#. module: sale_order_line_tag
+#: model:ir.model.fields,field_description:sale_order_line_tag.field_sale_order_line_tag__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_order_line_tag
+#: model:ir.model.fields,field_description:sale_order_line_tag.field_sale_order_line_tag__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

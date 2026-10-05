@@ -477,3 +477,377 @@ msgstr "Середа"
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__week_list
 msgid "Weekday"
 msgstr "День тижня"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_rating_form
+msgid "Accept"
+msgstr "Прийняти"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__advanced_cycle
+msgid "Advanced Cycle"
+msgstr "Розширений цикл"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_change_hour_form
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_issue_form
+msgid "Apply"
+msgstr "Застосувати"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_reassign_wiz
+msgid "Apply changes"
+msgstr "Застосувати зміни"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: sale_planner_calendar
+#: model:ir.model,name:sale_planner_calendar.model_calendar_event
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__calendar_event_id
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__calendar_event_ids
+msgid "Calendar Event"
+msgstr "Подія календаря"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__calendar_summary_id
+msgid "Calendar Summary"
+msgstr "Підсумок календаря"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_change_hour_form
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_form
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_issue_form
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_rating_form
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_reassign_wiz
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_wizard
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
+msgid "Change hour"
+msgstr "Змінити годину"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
+msgid "Clock"
+msgstr "Годинник"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
+msgid "Commercial name"
+msgstr "Комерційна назва"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__cycle_number
+msgid "Cycle Number"
+msgstr "Номер циклу"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
+msgid "Due"
+msgstr "До сплати"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_form
+msgid "Effective"
+msgstr "Чинний"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__event_done_count
+msgid "Event Done Count"
+msgstr "Кількість виконаних подій"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_company__sale_planner_done_on_sale_confirm
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_config_settings__sale_planner_done_on_sale_confirm
+msgid "Event done when confirm sale"
+msgstr "Подія виконується під час підтвердження продажу"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_reassign_wiz
+msgid "Events to update"
+msgstr "Події для оновлення"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_reassign_wiz
+msgid "Filter values"
+msgstr "Значення фільтра"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
+msgid "Future"
+msgstr "Майбутнє"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
+msgid "Info"
+msgstr "Інформація"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_partner__is_sale_planner_contact
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_users__is_sale_planner_contact
+msgid "Is Sale Planner Contact"
+msgstr "Є контактом планувальника продажів"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
+msgid "Issue"
+msgstr "Проблема"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_form
+msgid "Issues"
+msgstr "Проблеми"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_issue_type__write_uid
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__write_uid
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__write_uid
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__write_uid
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_issue_type__write_date
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__write_date
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__write_date
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__write_date
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__location_url
+msgid "Location Url"
+msgstr "URL місця"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: sale_planner_calendar
+#: model:sale.planner.calendar.issue.type,name:sale_planner_calendar.event_planner_issue_type_missing
+msgid "Missing"
+msgstr "Відсутнє"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
+msgid "My events"
+msgstr "Мої події"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_search
+msgid "My summaries"
+msgstr "Мої підсумки"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_kanban
+msgid "New order"
+msgstr "Нове замовлення"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__new_user_id
+msgid "New salesperson"
+msgstr "Новий продавець"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_reassign_wiz
+msgid "New values"
+msgstr "Нові значення"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_wizard
+msgid "OK"
+msgstr "Гаразд"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__off_planning
+msgid "Off Planning"
+msgstr "Поза плануванням"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_form
+msgid "Off planning"
+msgstr "Поза плануванням"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__partner_mobile
+msgid "Partner Mobile"
+msgstr "Мобільний партнера"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__partner_user_id
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__partner_user_id
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__partner_user_id
+msgid "Partner salesperson"
+msgstr "Продавець контрагента"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
+msgid "Past"
+msgstr "Минуле"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__payment_amount
+msgid "Payment Amount"
+msgstr "Сума платежу"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__payment_count
+msgid "Payment Count"
+msgstr "Кількість платежів"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_form
+msgid "Payment Sheet"
+msgstr "Платіжна відомість"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__event_user_id
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_form
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_issue_tree
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_tree
+msgid "Planner salesperson"
+msgstr "Продавець планувальника"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__reassign_wiz_id
+msgid "Reassign Wiz"
+msgstr "Майстер перепризначення"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__sale_order_count
+msgid "Sale Order Count"
+msgstr "Кількість замовлень на продаж"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__sale_order_subtotal
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__sale_order_subtotal
+msgid "Sale Order Subtotal"
+msgstr "Проміжна сума замовлення на продаж"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_invoice_payment_wiz__sale_planner_calendar_event_id
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_order__sale_planner_calendar_event_id
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_payment_sheet_line__sale_planner_calendar_event_id
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__sale_planner_calendar_event_ids
+msgid "Sale Planner Calendar Event"
+msgstr "Подія календаря планувальника продажу"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_company__sale_planner_forward_months
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_config_settings__sale_planner_forward_months
+msgid "Sale Planner Forward Months"
+msgstr "Місяці наперед у планувальнику продажу"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_company__sale_planner_order_cut_hour
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_config_settings__sale_planner_order_cut_hour
+msgid "Sale Planner Order Cut Hour"
+msgstr "Гранична година замовлення планувальника продажу"
+
+#. module: sale_planner_calendar
+#: model:ir.model,name:sale_planner_calendar.model_sale_invoice_payment_wiz
+msgid "Sale invoice payment wizard"
+msgstr "Майстер оплати рахунку продажу"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_change_hour_form
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_form
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_issue_form
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_rating_form
+msgid "Sale planner calendar event"
+msgstr "Подія календаря планувальника продажу"
+
+#. module: sale_planner_calendar
+#: model:ir.actions.act_window,name:sale_planner_calendar.action_sale_planner_calendar_issue
+#: model:ir.actions.act_window,name:sale_planner_calendar.action_sale_planner_calendar_issue_tree
+msgid "Sale planner calendar issue"
+msgstr "Проблема календаря планувальника продажу"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__target_partner_id
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_calendar_event_form
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_calendar_event_search
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
+msgid "Sale planner partner"
+msgstr "Контрагент планувальника продажу"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_company__sale_planner_mail_to_attendees
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_config_settings__sale_planner_mail_to_attendees
+msgid "Send invitation to attendees"
+msgstr "Надіслати запрошення учасникам"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_company__susbscriptions_backward_days
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_config_settings__susbscriptions_backward_days
+msgid "Susbscriptions Backward Days"
+msgstr "Днів назад для підписок"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_calendar_event_search
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_search
+msgid "Today"
+msgstr "Сьогодні"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_calendar_event_search
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_search
+msgid "Tomorrow"
+msgstr "Завтра"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_kanban
+msgid "Total orders:"
+msgstr "Усього замовлень:"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_form
+msgid "Totals"
+msgstr "Підсумки"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__website_message_ids
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
+msgid "Whatsapp"
+msgstr "WhatsApp"

@@ -51,3 +51,47 @@ msgstr "Замовлення"
 #: model:ir.model.fields,field_description:sale_product_identification.field_product_template_id_category__product_tmpl_id
 msgid "Product Tmpl"
 msgstr "Шаблон товару"
+
+#. module: sale_product_identification
+#: model_terms:ir.ui.view,arch_db:sale_product_identification.confirm_identification_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: sale_product_identification
+#: model_terms:ir.ui.view,arch_db:sale_product_identification.confirm_identification_view
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: sale_product_identification
+#: model_terms:ir.ui.view,arch_db:sale_product_identification.product_template_only_form_view
+msgid "Identification"
+msgstr "Ідентифікація"
+
+#. module: sale_product_identification
+#: model:ir.model.fields,field_description:sale_product_identification.field_product_template_id_category__is_mandatory
+msgid "Is Mandatory"
+msgstr "Обов'язковий"
+
+#. module: sale_product_identification
+#: model:ir.model.fields,field_description:sale_product_identification.field_confirm_identification__write_uid
+#: model:ir.model.fields,field_description:sale_product_identification.field_product_template_id_category__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_product_identification
+#: model:ir.model.fields,field_description:sale_product_identification.field_confirm_identification__write_date
+#: model:ir.model.fields,field_description:sale_product_identification.field_product_template_id_category__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sale_product_identification
+#: model:ir.model.fields,field_description:sale_product_identification.field_product_product__product_tmpl_category_ids
+#: model:ir.model.fields,field_description:sale_product_identification.field_product_template__product_tmpl_category_ids
+msgid "Product Tmpl Category"
+msgstr "Категорія шаблону товару"
+
+#. module: sale_product_identification
+#: model:ir.model.fields,field_description:sale_product_identification.field_product_product__required_identification
+#: model:ir.model.fields,field_description:sale_product_identification.field_product_template__required_identification
+msgid "Required Identification"
+msgstr "Обов'язкова ідентифікація"

@@ -22,3 +22,13 @@ msgstr "Атрибути"
 #: model_terms:ir.ui.view,arch_db:sale_order_line_product_attribute_values.sale_order_line_view_form_readonly
 msgid "Total"
 msgstr "Разом"
+
+#. module: sale_order_line_product_attribute_values
+#: model:ir.model.fields,field_description:sale_order_line_product_attribute_values.field_sale_order_line__all_product_attribute_value_ids
+msgid "All Product Attribute Value"
+msgstr "Усі значення атрибутів товару"
+
+#. module: sale_order_line_product_attribute_values
+#: model_terms:ir.ui.view,arch_db:sale_order_line_product_attribute_values.view_sales_order_line_filter
+msgid "Attribute Values"
+msgstr "Значення атрибутів"

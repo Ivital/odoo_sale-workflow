@@ -17,3 +17,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_line_sequence.field_sale_order_line__visible_sequence
 msgid "Line Number"
 msgstr "Номер рядка"
+
+#. module: sale_order_line_sequence
+#: model:ir.model.fields,field_description:sale_order_line_sequence.field_sale_order__max_line_sequence
+msgid "Max sequence in lines"
+msgstr "Максимальна послідовність у рядках"
+
+#. module: sale_order_line_sequence
+#: model:ir.model.fields,field_description:sale_order_line_sequence.field_account_move_line__related_so_sequence
+msgid "SO Line Number"
+msgstr "Номер рядка SO"

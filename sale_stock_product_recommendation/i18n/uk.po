@@ -32,3 +32,18 @@ msgstr "Складські переміщення"
 #: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__product_uom
 msgid "UoM"
 msgstr "Од. вим."
+
+#. module: sale_stock_product_recommendation
+#: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__free_qty_today
+msgid "Free Qty Today"
+msgstr "Вільна кількість сьогодні"
+
+#. module: sale_stock_product_recommendation
+#: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__qty_to_deliver
+msgid "Qty To Deliver"
+msgstr "Кількість до доставки"
+
+#. module: sale_stock_product_recommendation
+#: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__scheduled_date
+msgid "Scheduled Date"
+msgstr "Запланована дата"

@@ -71,3 +71,18 @@ msgstr "Команди продажів"
 #: model:ir.model.fields,field_description:sale_order_tag.field_sale_order_tag__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: sale_order_tag
+#: model:ir.model.fields,field_description:sale_order_tag.field_sale_order_tag__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_order_tag
+#: model:ir.model.fields,field_description:sale_order_tag.field_sale_order_tag__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sale_order_tag
+#: model_terms:ir.ui.view,arch_db:sale_order_tag.sale_order_tag_view_form
+msgid "tag..."
+msgstr "тег..."

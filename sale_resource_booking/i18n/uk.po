@@ -70,3 +70,59 @@ msgstr "Бронювання ресурсів"
 #: model_terms:ir.ui.view,arch_db:sale_resource_booking.resource_booking_form
 msgid "Sales"
 msgstr "Продажі"
+
+#. module: sale_resource_booking
+#: model_terms:ir.ui.view,arch_db:sale_resource_booking.resource_booking_sale_view_form
+#: model_terms:ir.ui.view,arch_db:sale_resource_booking.sale_order_booking_confirm_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: sale_resource_booking
+#: model:ir.model.fields,field_description:sale_resource_booking.field_resource_booking_sale__write_uid
+#: model:ir.model.fields,field_description:sale_resource_booking.field_sale_order_booking_confirm__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_resource_booking
+#: model:ir.model.fields,field_description:sale_resource_booking.field_resource_booking_sale__write_date
+#: model:ir.model.fields,field_description:sale_resource_booking.field_sale_order_booking_confirm__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sale_resource_booking
+#: model:ir.model.fields,field_description:sale_resource_booking.field_resource_booking__sale_order_id
+msgid "Order Reference"
+msgstr "Посилання на замовлення"
+
+#. module: sale_resource_booking
+#: model_terms:ir.ui.view,arch_db:sale_resource_booking.resource_booking_type_form
+msgid "Quote"
+msgstr "Цитата"
+
+#. module: sale_resource_booking
+#: model:ir.model,name:sale_resource_booking.model_resource_booking
+#: model:ir.model.fields,field_description:sale_resource_booking.field_sale_order__resource_booking_ids
+msgid "Resource Booking"
+msgstr "Бронювання ресурсу"
+
+#. module: sale_resource_booking
+#: model:ir.model.fields,field_description:sale_resource_booking.field_sale_order_line__resource_booking_ids
+#: model_terms:ir.ui.view,arch_db:sale_resource_booking.sale_order_booking_confirm_view_form
+msgid "Resource bookings"
+msgstr "Бронювання ресурсів"
+
+#. module: sale_resource_booking
+#: model:ir.model.fields,field_description:sale_resource_booking.field_product_product__resource_booking_type_combination_rel_id
+#: model:ir.model.fields,field_description:sale_resource_booking.field_product_template__resource_booking_type_combination_rel_id
+msgid "Resource combination"
+msgstr "Комбінація ресурсів"
+
+#. module: sale_resource_booking
+#: model:ir.model.fields,field_description:sale_resource_booking.field_resource_booking__sale_order_line_id
+msgid "Sale order line"
+msgstr "Рядок замовлення на продаж"
+
+#. module: sale_resource_booking
+#: model_terms:ir.ui.view,arch_db:sale_resource_booking.view_order_form
+msgid "Sync bookings"
+msgstr "Синхронізувати бронювання"

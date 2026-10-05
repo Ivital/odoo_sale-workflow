@@ -67,3 +67,54 @@ msgstr "Статус"
 #: model:ir.model.fields,field_description:sale_order_line_price_history.field_sale_order_line_price_history_line__price_unit
 msgid "Unit Price"
 msgstr "Ціна за одиницю"
+
+#. module: sale_order_line_price_history
+#: model_terms:ir.ui.view,arch_db:sale_order_line_price_history.sale_order_line_price_history_view_form
+msgid "Close"
+msgstr "Закрити"
+
+#. module: sale_order_line_price_history
+#: model:ir.model.fields,field_description:sale_order_line_price_history.field_sale_order_line_price_history__line_ids
+msgid "History lines"
+msgstr "Рядки історії"
+
+#. module: sale_order_line_price_history
+#: model:ir.model.fields,field_description:sale_order_line_price_history.field_sale_order_line_price_history__write_uid
+#: model:ir.model.fields,field_description:sale_order_line_price_history.field_sale_order_line_price_history_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_order_line_price_history
+#: model:ir.model.fields,field_description:sale_order_line_price_history.field_sale_order_line_price_history__write_date
+#: model:ir.model.fields,field_description:sale_order_line_price_history.field_sale_order_line_price_history_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sale_order_line_price_history
+#: model:ir.model.fields,field_description:sale_order_line_price_history.field_sale_order_line_price_history_line__order_id
+msgid "Order Reference"
+msgstr "Посилання на замовлення"
+
+#. module: sale_order_line_price_history
+#. odoo-javascript
+#: code:addons/sale_order_line_price_history/static/src/xml/sale_line_price_history_widget.xml:0
+#: model_terms:ir.ui.view,arch_db:sale_order_line_price_history.sale_order_line_price_history_view_form
+#: model_terms:ir.ui.view,arch_db:sale_order_line_price_history.view_order_form
+msgid "Price History"
+msgstr "Історія цін"
+
+#. module: sale_order_line_price_history
+#: model:ir.model.fields,field_description:sale_order_line_price_history.field_sale_order_line_price_history_line__sale_order_line_id
+msgid "Sale Order Line"
+msgstr "Рядок замовлення на продаж"
+
+#. module: sale_order_line_price_history
+#: model_terms:ir.ui.view,arch_db:sale_order_line_price_history.sale_order_line_price_history_view_form
+msgid "Sale history"
+msgstr "Історія продажів"
+
+#. module: sale_order_line_price_history
+#: model:ir.model.fields,field_description:sale_order_line_price_history.field_sale_order_line_price_history__sale_order_line_id
+#: model:ir.model.fields,field_description:sale_order_line_price_history.field_sale_order_line_price_history_line__target_sale_order_line_id
+msgid "Sale order line"
+msgstr "Рядок замовлення на продаж"

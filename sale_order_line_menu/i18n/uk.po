@@ -44,3 +44,48 @@ msgstr "Рядки замовлення"
 #: model_terms:ir.ui.view,arch_db:sale_order_line_menu.view_sales_order_line_filter
 msgid "Sales Order"
 msgstr "Замовлення на продаж"
+
+#. module: sale_order_line_menu
+#: model_terms:ir.ui.view,arch_db:sale_order_line_menu.view_sales_order_line_filter
+msgid "Fully Invoiced"
+msgstr "Повністю виставлено рахунок"
+
+#. module: sale_order_line_menu
+#: model_terms:ir.ui.view,arch_db:sale_order_line_menu.view_sales_order_line_filter
+msgid "Invoice Status"
+msgstr "Статус рахунку"
+
+#. module: sale_order_line_menu
+#: model_terms:ir.ui.view,arch_db:sale_order_line_menu.view_sales_order_line_filter
+msgid "Nothing to Invoice"
+msgstr "Немає що виставляти"
+
+#. module: sale_order_line_menu
+#: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_tree
+msgid "Price Subtotal"
+msgstr "Проміжна сума ціни"
+
+#. module: sale_order_line_menu
+#: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_tree
+msgid "Price Tax"
+msgstr "Ціна з податком"
+
+#. module: sale_order_line_menu
+#: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_tree
+msgid "Price Total"
+msgstr "Загальна ціна"
+
+#. module: sale_order_line_menu
+#: model_terms:ir.ui.view,arch_db:sale_order_line_menu.view_sales_order_line_filter
+msgid "Quotation"
+msgstr "Комерційна пропозиція"
+
+#. module: sale_order_line_menu
+#: model_terms:ir.ui.view,arch_db:sale_order_line_menu.view_sales_order_line_filter
+msgid "Quotation Sent"
+msgstr "Комерційну пропозицію надіслано"
+
+#. module: sale_order_line_menu
+#: model_terms:ir.ui.view,arch_db:sale_order_line_menu.view_sales_order_line_filter
+msgid "To Invoice"
+msgstr "До виставлення рахунку"

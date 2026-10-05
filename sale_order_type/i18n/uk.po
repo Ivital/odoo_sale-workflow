@@ -26,7 +26,7 @@ msgstr "Активний"
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__analytic_account_id
 msgid "Analytic account"
-msgstr ""
+msgstr "Аналітичний рахунок"
 
 #. module: sale_order_type
 #: model_terms:ir.ui.view,arch_db:sale_order_type.sot_sale_order_type_form_view
@@ -37,7 +37,7 @@ msgstr "Архівовано"
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__journal_id
 #: model_terms:ir.ui.view,arch_db:sale_order_type.sot_sale_order_type_search_view
 msgid "Billing Journal"
-msgstr ""
+msgstr "Журнал виставлення рахунків"
 
 #. module: sale_order_type
 #: model_terms:ir.ui.view,arch_db:sale_order_type.res_config_settings_view_form
@@ -99,7 +99,7 @@ msgstr "Назва для відображення"
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__sequence_id
 #: model_terms:ir.ui.view,arch_db:sale_order_type.sot_sale_order_type_search_view
 msgid "Entry Sequence"
-msgstr ""
+msgstr "Послідовність проведень"
 
 #. module: sale_order_type
 #: model_terms:ir.ui.view,arch_db:sale_order_type.sot_sale_order_type_search_view
@@ -169,7 +169,7 @@ msgstr "Назва"
 #. odoo-python
 #: code:addons/sale_order_type/models/sale.py:0
 msgid "New"
-msgstr ""
+msgstr "Новий"
 
 #. module: sale_order_type
 #: model:sale.order.type,name:sale_order_type.normal_sale_type
@@ -185,7 +185,7 @@ msgstr "Умова оплати"
 #. module: sale_order_type
 #: model_terms:ir.ui.view,arch_db:sale_order_type.sot_sale_order_type_search_view
 msgid "Price List"
-msgstr ""
+msgstr "Прайс-лист"
 
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__pricelist_id
@@ -207,7 +207,7 @@ msgstr "Маршрут"
 #: model:ir.model.fields,field_description:sale_order_type.field_res_partner__effective_pricelist_id
 #: model:ir.model.fields,field_description:sale_order_type.field_res_users__effective_pricelist_id
 msgid "Sale Effective Pricelist"
-msgstr ""
+msgstr "Ефективний прайс-лист продажу"
 
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_account_invoice_report__sale_type_id
@@ -216,14 +216,14 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_order_type.view_account_invoice_report_search
 #: model_terms:ir.ui.view,arch_db:sale_order_type.view_order_product_search
 msgid "Sale Order Type"
-msgstr ""
+msgstr "Тип замовлення на продаж"
 
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_res_company__sale_order_type_required
 #: model:ir.model.fields,field_description:sale_order_type.field_res_config_settings__sale_order_type_required
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order__order_type_required
 msgid "Sale Order Type Required"
-msgstr ""
+msgstr "Тип замовлення на продаж обов'язковий"
 
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_account_bank_statement_line__sale_type_id
@@ -275,7 +275,7 @@ msgstr "Продавець"
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__picking_policy
 #: model_terms:ir.ui.view,arch_db:sale_order_type.sot_sale_order_type_search_view
 msgid "Shipping Policy"
-msgstr ""
+msgstr "Політика відвантаження"
 
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order__type_id

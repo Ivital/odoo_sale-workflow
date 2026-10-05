@@ -57,3 +57,47 @@ msgstr "Замовлення на продаж"
 #: model:ir.model.fields,field_description:sale_partner_primeship.field_sale_primeship__start_date
 msgid "Start Date"
 msgstr "Дата початку"
+
+#. module: sale_partner_primeship
+#: model:ir.model.fields,field_description:sale_partner_primeship.field_product_product__primeship_activation
+#: model:ir.model.fields,field_description:sale_partner_primeship.field_product_template__primeship_activation
+msgid "Activates primeship"
+msgstr "Активує primeship"
+
+#. module: sale_partner_primeship
+#: model:ir.model.fields,field_description:sale_partner_primeship.field_res_partner__active_primeship
+#: model:ir.model.fields,field_description:sale_partner_primeship.field_res_users__active_primeship
+msgid "Active Primeship"
+msgstr "Активне Primeship"
+
+#. module: sale_partner_primeship
+#: model:ir.model.fields,field_description:sale_partner_primeship.field_sale_primeship__current
+msgid "Currently Active"
+msgstr "Наразі активний"
+
+#. module: sale_partner_primeship
+#: model:ir.model.fields,field_description:sale_partner_primeship.field_sale_primeship__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_partner_primeship
+#: model:ir.model.fields,field_description:sale_partner_primeship.field_sale_primeship__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sale_partner_primeship
+#: model:ir.model.fields,field_description:sale_partner_primeship.field_product_product__primeship_duration
+#: model:ir.model.fields,field_description:sale_partner_primeship.field_product_template__primeship_duration
+msgid "Primeship duration (in months)"
+msgstr "Тривалість primeship (у місяцях)"
+
+#. module: sale_partner_primeship
+#: model:ir.model.fields,field_description:sale_partner_primeship.field_res_partner__primeship_count
+#: model:ir.model.fields,field_description:sale_partner_primeship.field_res_users__primeship_count
+msgid "Primeships Count"
+msgstr "Кількість Primeship"
+
+#. module: sale_partner_primeship
+#: model:ir.model.fields,field_description:sale_partner_primeship.field_sale_primeship__order_line_id
+msgid "Sale Order Line"
+msgstr "Рядок замовлення на продаж"

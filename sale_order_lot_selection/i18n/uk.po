@@ -24,3 +24,26 @@ msgstr "Домен партії"
 #: model_terms:ir.ui.view,arch_db:sale_order_lot_selection.view_order_product_search
 msgid "Lot"
 msgstr "Партія"
+
+#. module: sale_order_lot_selection
+#: model:ir.model.fields,field_description:sale_order_lot_selection.field_res_company__sale_order_lot_selection_exclude_pending_orders
+#: model:ir.model.fields,field_description:sale_order_lot_selection.field_res_config_settings__sale_order_lot_selection_exclude_pending_orders
+#: model_terms:ir.ui.view,arch_db:sale_order_lot_selection.res_config_settings_view_form
+msgid "Exclude pending orders from the lot selection"
+msgstr "Виключати незавершені замовлення з вибору партії"
+
+#. module: sale_order_lot_selection
+#: model:ir.model.fields,help:sale_order_lot_selection.field_res_company__sale_order_lot_selection_exclude_pending_orders
+#: model:ir.model.fields,help:sale_order_lot_selection.field_res_config_settings__sale_order_lot_selection_exclude_pending_orders
+#: model_terms:ir.ui.view,arch_db:sale_order_lot_selection.res_config_settings_view_form
+msgid ""
+"If this checkbox is selected, serials that can be selected with pending "
+"sales orders will be excluded"
+msgstr ""
+"Якщо вибрано, серійні номери, доступні для вибору в незавершених замовленнях"
+" на продаж, буде виключено"
+
+#. module: sale_order_lot_selection
+#: model_terms:ir.ui.view,arch_db:sale_order_lot_selection.view_order_tree_lot
+msgid "Lot:"
+msgstr "Партія:"

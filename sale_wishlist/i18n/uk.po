@@ -40,3 +40,8 @@ msgstr "Типологія"
 #: code:addons/sale_wishlist/models/res_partner.py:0
 msgid "Wishlists"
 msgstr "Списки бажань"
+
+#. module: sale_wishlist
+#: model:ir.model.fields.selection,name:sale_wishlist.selection__product_set__typology__wishlist
+msgid "Wishlist"
+msgstr "Список бажань"

@@ -23,3 +23,8 @@ msgstr "Опрацювання"
 #: model_terms:ir.ui.view,arch_db:product_customerinfo_elaboration.product_customerinfo_form_view
 msgid "Elaborations"
 msgstr "Опрацювання"
+
+#. module: product_customerinfo_elaboration
+#: model:ir.model.fields,field_description:product_customerinfo_elaboration.field_product_customerinfo__elaboration_note
+msgid "Elaboration Note"
+msgstr "Примітка опрацювання"

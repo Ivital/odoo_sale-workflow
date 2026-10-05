@@ -63,3 +63,74 @@ msgstr "Рядки продажу до доставки"
 #: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery_line__manual_delivery_id
 msgid "Wizard"
 msgstr "Майстер"
+
+#. module: sale_manual_delivery
+#: model_terms:ir.ui.view,arch_db:sale_manual_delivery.manual_delivery_wizard_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: sale_manual_delivery
+#: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery__commercial_partner_id
+msgid "Commercial Partner"
+msgstr "Комерційний контрагент"
+
+#. module: sale_manual_delivery
+#: model_terms:ir.ui.view,arch_db:sale_manual_delivery.manual_delivery_wizard_form
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: sale_manual_delivery
+#: model_terms:ir.ui.view,arch_db:sale_manual_delivery.view_order_form
+msgid "Create Delivery"
+msgstr "Створити доставку"
+
+#. module: sale_manual_delivery
+#: model:ir.actions.act_window,name:sale_manual_delivery.action_wizard_manual_delivery
+#: model:ir.actions.act_window,name:sale_manual_delivery.action_wizard_manual_delivery_line
+msgid "Create Manual Delivery"
+msgstr "Створити ручну доставку"
+
+#. module: sale_manual_delivery
+#: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery__partner_id
+msgid "Delivery Address"
+msgstr "Адреса доставки"
+
+#. module: sale_manual_delivery
+#: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery__carrier_id
+msgid "Delivery Method"
+msgstr "Спосіб доставки"
+
+#. module: sale_manual_delivery
+#: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery__write_uid
+#: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_manual_delivery
+#: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery__write_date
+#: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sale_manual_delivery
+#: model:ir.model,name:sale_manual_delivery.model_manual_delivery
+#: model:ir.model.fields,field_description:sale_manual_delivery.field_crm_team__manual_delivery
+#: model:ir.model.fields,field_description:sale_manual_delivery.field_sale_order__manual_delivery
+msgid "Manual Delivery"
+msgstr "Ручна доставка"
+
+#. module: sale_manual_delivery
+#: model_terms:ir.ui.view,arch_db:sale_manual_delivery.manual_delivery_wizard_form
+msgid "Procured"
+msgstr "Забезпечено"
+
+#. module: sale_manual_delivery
+#: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery_line__qty_procured
+#: model:ir.model.fields,field_description:sale_manual_delivery.field_sale_order_line__qty_procured
+msgid "Quantity Procured"
+msgstr "Забезпечена кількість"
+
+#. module: sale_manual_delivery
+#: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery_line__order_line_id
+msgid "Sale Order Line"
+msgstr "Рядок замовлення на продаж"

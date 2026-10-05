@@ -30,7 +30,7 @@ msgstr ""
 #. module: sale_stock_picking_blocking
 #: model_terms:ir.ui.view,arch_db:sale_stock_picking_blocking.sale_stock_picking_blocking_reason_form_view
 msgid "Applied to"
-msgstr ""
+msgstr "Застосовано до"
 
 #. module: sale_stock_picking_blocking
 #: model:ir.model,name:sale_stock_picking_blocking.model_res_partner
@@ -52,7 +52,7 @@ msgstr "Дата створення"
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_res_partner__default_delivery_block
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_res_users__default_delivery_block
 msgid "Default Delivery Block Reason"
-msgstr ""
+msgstr "Типова причина блокування доставки"
 
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_order__delivery_block_id
@@ -114,7 +114,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:sale_stock_picking_blocking.action_sale_stock_picking_blocking_reason
 #: model:ir.model,name:sale_stock_picking_blocking.model_sale_delivery_block_reason
 msgid "Sale Delivery Block Reason"
-msgstr ""
+msgstr "Причина блокування доставки продажу"
 
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_delivery_block_reason__sale_order_ids

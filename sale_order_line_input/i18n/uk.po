@@ -49,3 +49,43 @@ msgstr "Разом"
 #: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
 msgid "UoM"
 msgstr "Од. вим."
+
+#. module: sale_order_line_input
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
+msgid "Delivered"
+msgstr "Доставлено"
+
+#. module: sale_order_line_input
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
+msgid "Disc.%"
+msgstr "Знижка, %"
+
+#. module: sale_order_line_input
+#: model:ir.model.fields,field_description:sale_order_line_input.field_sale_order_line__force_company_id
+msgid "Forced company"
+msgstr "Примусова компанія"
+
+#. module: sale_order_line_input
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_filter
+msgid "Invoice Related"
+msgstr "Пов’язане з рахунком"
+
+#. module: sale_order_line_input
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_filter
+msgid "Invoice Status"
+msgstr "Статус рахунку"
+
+#. module: sale_order_line_input
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
+msgid "New"
+msgstr "Новий"
+
+#. module: sale_order_line_input
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_filter
+msgid "Order State"
+msgstr "Стан замовлення"
+
+#. module: sale_order_line_input
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
+msgid "Product Variant"
+msgstr "Варіант товару"

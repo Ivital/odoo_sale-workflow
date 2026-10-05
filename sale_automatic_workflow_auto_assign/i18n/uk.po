@@ -17,3 +17,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_automatic_workflow_auto_assign.field_sale_workflow_process__auto_assign
 msgid "Auto assign"
 msgstr "Автопризначення"
+
+#. module: sale_automatic_workflow_auto_assign
+#: model:ir.model.fields.selection,name:sale_automatic_workflow_auto_assign.selection__res_config_settings__sale_workflow_copy_mode__copy_fallback
+msgid "Copy if auto-assign finds none"
+msgstr "Копіювати, якщо автопризначення нічого не знайде"
+
+#. module: sale_automatic_workflow_auto_assign
+#: model:ir.model.fields,field_description:sale_automatic_workflow_auto_assign.field_res_config_settings__sale_workflow_copy_mode
+msgid "Copy workflow on duplication"
+msgstr "Копіювати робочий процес під час дублювання"

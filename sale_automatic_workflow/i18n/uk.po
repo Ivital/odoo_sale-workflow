@@ -66,18 +66,18 @@ msgstr ""
 #. module: sale_automatic_workflow
 #: model:ir.model.fields.selection,name:sale_automatic_workflow.selection__res_config_settings__sale_workflow_copy_mode__copy
 msgid "Copy"
-msgstr ""
+msgstr "Копіювати"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_res_config_settings__sale_workflow_copy_mode
 #: model_terms:ir.ui.view,arch_db:sale_automatic_workflow.res_config_settings_view_form
 msgid "Copy workflow on duplication"
-msgstr ""
+msgstr "Копіювати робочий процес під час дублювання"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__create_invoice
 msgid "Create Invoice"
-msgstr ""
+msgstr "Створити рахунок"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__create_invoice_filter_id
@@ -115,7 +115,7 @@ msgstr "Домен"
 #. module: sale_automatic_workflow
 #: model:ir.model.fields.selection,name:sale_automatic_workflow.selection__res_config_settings__sale_workflow_copy_mode__no_copy
 msgid "Don't copy"
-msgstr ""
+msgstr "Не копіювати"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__invoice_date_is_order_date
@@ -144,7 +144,7 @@ msgstr ""
 #. module: sale_automatic_workflow
 #: model_terms:ir.ui.view,arch_db:sale_automatic_workflow.sale_workflow_process_view_form
 msgid "Invoice Options"
-msgstr ""
+msgstr "Параметри рахунка"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__invoice_service_delivery
@@ -181,7 +181,7 @@ msgstr ""
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__order_filter_id
 msgid "Order Filter"
-msgstr ""
+msgstr "Фільтр замовлення"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__order_filter_domain
@@ -191,7 +191,7 @@ msgstr ""
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__property_payment_journal_id
 msgid "Payment Journal"
-msgstr ""
+msgstr "Журнал платежів"
 
 #. module: sale_automatic_workflow
 #: model_terms:ir.ui.view,arch_db:sale_automatic_workflow.res_config_settings_view_form
@@ -203,7 +203,7 @@ msgstr ""
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__register_payment
 msgid "Register Payment"
-msgstr ""
+msgstr "Зареєструвати платіж"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__payment_filter_id
@@ -230,12 +230,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_account_bank_statement_line__workflow_process_id
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_account_move__workflow_process_id
 msgid "Sale Workflow Process"
-msgstr ""
+msgstr "Процес продажу"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__property_journal_id
 msgid "Sales Journal"
-msgstr ""
+msgstr "Журнал продажів"
 
 #. module: sale_automatic_workflow
 #: model:ir.model,name:sale_automatic_workflow.model_sale_order
@@ -272,12 +272,12 @@ msgstr ""
 #. module: sale_automatic_workflow
 #: model_terms:ir.ui.view,arch_db:sale_automatic_workflow.sale_workflow_process_view_form
 msgid "Set selection based on a search filter:"
-msgstr ""
+msgstr "Задати вибір на основі пошукового фільтра:"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__validate_invoice
 msgid "Validate Invoice"
-msgstr ""
+msgstr "Перевірити рахунок"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__validate_invoice_filter_id
@@ -292,12 +292,12 @@ msgstr ""
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__validate_order
 msgid "Validate Order"
-msgstr ""
+msgstr "Підтвердити замовлення"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__warning
 msgid "Warning Message"
-msgstr ""
+msgstr "Попереджувальне повідомлення"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,help:sale_automatic_workflow.field_sale_workflow_process__send_order_confirmation_mail
