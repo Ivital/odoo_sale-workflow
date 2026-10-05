@@ -44,11 +44,13 @@ msgstr "Журнал виставлення рахунків"
 msgid ""
 "Check this if you want the sale order type required on sale order forms."
 msgstr ""
+"Установіть, якщо тип замовлення на продаж має бути обов’язковим у формах "
+"замовлень на продаж."
 
 #. module: sale_order_type
 #: model_terms:ir.actions.act_window,help:sale_order_type.sot_sale_order_type_action
 msgid "Click to set a new type for sale order."
-msgstr ""
+msgstr "Натисніть, щоб встановити новий тип замовлення продажу."
 
 #. module: sale_order_type
 #: model:ir.model,name:sale_order_type.model_res_company
@@ -116,7 +118,7 @@ msgstr "ID"
 #: model:ir.model.fields,help:sale_order_type.field_res_config_settings__sale_order_type_required
 #: model:ir.model.fields,help:sale_order_type.field_sale_order__order_type_required
 msgid "If checked, the sale orders will require a type."
-msgstr ""
+msgstr "Якщо позначено, для замовлень на продаж потрібно буде вказувати тип."
 
 #. module: sale_order_type
 #: model:ir.model.fields,help:sale_order_type.field_sale_order__picking_policy
@@ -195,7 +197,7 @@ msgstr "Прайс-лист"
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__quotation_validity_days
 msgid "Quotation Validity (Days)"
-msgstr ""
+msgstr "Строк дії комерційної пропозиції (дні)"
 
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_line__route_id
@@ -303,6 +305,8 @@ msgid ""
 "When creating a Sales Order, above pricelist will be replaced by the one set"
 " on the sales order type:"
 msgstr ""
+"Під час створення замовлення на продаж наведений вище прайс-лист буде "
+"замінено прайс-листом, заданим у типі замовлення:"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

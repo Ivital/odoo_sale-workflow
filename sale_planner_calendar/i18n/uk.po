@@ -851,3 +851,281 @@ msgstr "Повідомлення вебсайту"
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
 msgid "Whatsapp"
 msgstr "WhatsApp"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_kanban
+msgid ""
+"<i class=\"fa fa-dollar\"/>\n"
+"                                            <span>Order</span>"
+msgstr ""
+"<i class=\"fa fa-dollar\"/>\n"
+"                                            <span>Замовлення</span>"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_form
+msgid "<span class=\"o_stat_text\">Invoices</span>"
+msgstr "<span class=\"o_stat_text\">Рахунки</span>"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_partner_form
+msgid "<span class=\"o_stat_text\">Planner</span>"
+msgstr "<span class=\"o_stat_text\">Планувальник</span>"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_form
+msgid "<span class=\"o_stat_text\">Sales</span>"
+msgstr "<span class=\"o_stat_text\">Продажі</span>"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_form
+msgid "<span class=\"o_stat_text\">Subtotal</span>"
+msgstr "<span class=\"o_stat_text\">Проміжний підсумок</span>"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__assign_new_salesperson_to_partner
+msgid "Assign New Salesperson To Partner"
+msgstr "Призначити нового продавця контрагенту"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_reassign_wiz
+msgid "Assign new values to selected lines"
+msgstr "Призначити нові значення вибраним рядкам"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.res_config_settings_view_form
+msgid "Backward days to search documents to update subscriptions"
+msgstr "Днів назад для пошуку документів для оновлення підписок"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__calendar_issue_type_id
+msgid "Calendar Issue Type"
+msgstr "Тип проблеми календаря"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_config_settings__sale_planner_calendar_max_duration
+msgid "Calendar event max duration"
+msgstr "Максимальна тривалість події календаря"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
+msgid "Change calendar event status by adding a previous rating"
+msgstr "Змінювати статус події календаря, додаючи попередню оцінку"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__partner_commercial_name
+msgid "Commercial partner name"
+msgstr "Назва комерційного контрагента"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__event_effective_count
+msgid "Event Effective Count"
+msgstr "Кількість ефективних подій"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__event_off_planning_count
+msgid "Event Off Planning Count"
+msgstr "Кількість подій поза плануванням"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__event_total_count
+msgid "Event Total Count"
+msgstr "Загальна кількість подій"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_reassign_wiz
+msgid "Fill events from filter values"
+msgstr "Заповнювати події значеннями фільтра"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,help:sale_planner_calendar.field_calendar_event_type__icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.res_config_settings_view_form
+msgid "Forward months to create calendar events"
+msgstr "Кількість місяців наперед для створення подій календаря"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,help:sale_planner_calendar.field_sale_planner_calendar_summary__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,help:sale_planner_calendar.field_sale_planner_calendar_summary__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_reassign_wiz
+msgid ""
+"If the new end field is set, in addition to creating the recurring event assigned to the new commercial,\n"
+"                                a new recurring event will be created from the end date associated with the current commercial."
+msgstr ""
+"Якщо встановлено нове поле завершення, крім створення повторюваної події, призначеної новому відповідальному за продажі,\n"
+"                                буде створено нову повторювану подію, починаючи з дати завершення, пов'язаної з поточним відповідальним за продажі."
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__invoice_amount_residual
+msgid "Invoice amount due"
+msgstr "Сума до сплати за рахунком"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__is_base_recurrent_event
+msgid "Is Base Recurrent Event"
+msgstr "Є базовою повторюваною подією"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__is_dynamic_end_date
+msgid "Is Dynamic End Date"
+msgstr "Динамічна дата завершення"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,help:sale_planner_calendar.field_sale_planner_calendar_summary__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,help:sale_planner_calendar.field_sale_planner_calendar_summary__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_reassign_wiz
+msgid "Optional actions"
+msgstr "Необов’язкові дії"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__partner_contact_name
+msgid "Partner Contact Name"
+msgstr "Ім’я контактної особи партнера"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__payment_sheet_line_ids
+msgid "Payment Sheet Line"
+msgstr "Рядок платіжної відомості"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.res_config_settings_view_form
+msgid "Sale Planner Calendar"
+msgstr "Календар планувальника продажів"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__sale_planner_rating
+msgid "Sale Planner Rating"
+msgstr "Оцінка планувальника продажів"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__sale_planner_state
+msgid "Sale Planner State"
+msgstr "Стан планувальника продажів"
+
+#. module: sale_planner_calendar
+#: model:ir.actions.act_window,name:sale_planner_calendar.action_sale_planner_calendar_change_hour
+msgid "Sale planner calendar change hour"
+msgstr "Змінити годину календаря планувальника продажів"
+
+#. module: sale_planner_calendar
+#: model:ir.actions.act_window,name:sale_planner_calendar.action_sale_planner_calendar_rating
+msgid "Sale planner calendar rating"
+msgstr "Оцінювання календаря планувальника продажів"
+
+#. module: sale_planner_calendar
+#: model:ir.actions.server,name:sale_planner_calendar.sale_planner_calendar_cron_unsubscribe_ir_actions_server
+msgid "Sale planner calendar: Unsubscribe documents"
+msgstr "Календар планувальника продажу: відписати документи"
+
+#. module: sale_planner_calendar
+#: model:ir.actions.server,name:sale_planner_calendar.cron_update_dynamic_final_date_ir_actions_server
+msgid "Sale planner calendar: Update dynamic event final date"
+msgstr "Календар планувальника продажу: оновити кінцеву дату динамічної події"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__sanitized_partner_mobile
+msgid "Sanitized Partner Mobile"
+msgstr "Очищений мобільний номер контрагента"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.actions.act_window,help:sale_planner_calendar.action_calendar_event
+msgid "Schedule a new calendar event"
+msgstr "Запланувати нову подію календаря"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
+msgid "Search sale planner calendar events"
+msgstr "Шукати події календаря планувальника продажів"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_search
+msgid "Search sale planner calendar summary"
+msgstr "Пошук у зведенні календаря планувальника продажів"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_reassign_wiz
+msgid "Select all lines"
+msgstr "Вибрати всі рядки"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.res_config_settings_view_form
+msgid "Send invitations to attendees when a planner event is created"
+msgstr "Надсилати запрошення учасникам при створенні події планувальника"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.res_config_settings_view_form
+msgid "Set event as done when related sale order is confirmed."
+msgstr ""
+"Позначати подію виконаною, коли пов’язане замовлення продажу підтверджено."
+
+#. module: sale_planner_calendar
+#: model:ir.actions.server,name:sale_planner_calendar.action_set_planner_calendar_event
+msgid "Set planner calendar event"
+msgstr "Встановити подію календаря планувальника"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.res_config_settings_view_form
+msgid ""
+"Show a warning message when duration is more than this time."
+"                                 Set 00:00 to disable warning."
+msgstr ""
+"Показувати попередження, якщо тривалість перевищує цей час. Установіть "
+"00:00, щоб вимкнути попередження."
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_reassign_wiz
+msgid ""
+"The changes will be applied to event records with new commercial user "
+"filled."
+msgstr ""
+"Зміни буде застосовано до записів подій із новим заповненим комерційним "
+"користувачем."
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,help:sale_planner_calendar.field_calendar_event__partner_user_id
+msgid "The internal user in charge of this contact."
+msgstr "Внутрішній користувач, який відповідає за цей контакт."
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.res_config_settings_view_form
+msgid ""
+"Time of the next day until which orders of the current day are assigned"
+msgstr "Час наступного дня, до якого призначаються замовлення поточного дня"
+
+#. module: sale_planner_calendar
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_reassign_wiz
+msgid "Unselect all lines"
+msgstr "Зняти вибір з усіх рядків"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__unsubscribe_date
+msgid "Unsubscribe Date"
+msgstr "Дата відписки"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__unsuscribe_old_salesperson
+msgid "Unsuscribe Old Salesperson"
+msgstr "Відписати попереднього продавця"
+
+#. module: sale_planner_calendar
+#: model:ir.model.fields,help:sale_planner_calendar.field_sale_planner_calendar_summary__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

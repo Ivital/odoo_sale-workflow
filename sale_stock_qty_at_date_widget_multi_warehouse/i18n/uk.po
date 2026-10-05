@@ -18,3 +18,8 @@ msgstr ""
 #: code:addons/sale_stock_qty_at_date_widget_multi_warehouse/static/src/widgets/qty_at_date_widget.xml:0
 msgid "Total"
 msgstr "Разом"
+
+#. module: sale_stock_qty_at_date_widget_multi_warehouse
+#: model:ir.model.fields,field_description:sale_stock_qty_at_date_widget_multi_warehouse.field_sale_order_line__qty_at_date_per_warehouse
+msgid "Qty At Date Per Warehouse"
+msgstr "Кількість на дату за складом"

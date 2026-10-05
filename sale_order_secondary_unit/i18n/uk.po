@@ -70,3 +70,18 @@ msgstr "Вторинна кількість"
 #: model:ir.actions.act_window,name:sale_order_secondary_unit.product_secondary_unit_action
 msgid "Secondary Unit"
 msgstr "Вторинна одиниця"
+
+#. module: sale_order_secondary_unit
+#: model_terms:ir.ui.view,arch_db:sale_order_secondary_unit.report_saleorder_document
+msgid "<span>Second. Qty</span>"
+msgstr "<span>Вторинна кількість</span>"
+
+#. module: sale_order_secondary_unit
+#: model:ir.model.fields,help:sale_order_secondary_unit.field_product_product__sale_secondary_uom_id
+#: model:ir.model.fields,help:sale_order_secondary_unit.field_product_template__sale_secondary_uom_id
+msgid ""
+"In order to set a value, please first add at least one record in 'Secondary "
+"Unit of Measure'"
+msgstr ""
+"Щоб установити значення, спочатку додайте принаймні один запис у «Вторинна "
+"одиниця вимірювання»"

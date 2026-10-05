@@ -86,3 +86,8 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:sale_order_tag.sale_order_tag_view_form
 msgid "tag..."
 msgstr "тег..."
+
+#. module: sale_order_tag
+#: model:ir.model.constraint,message:sale_order_tag.constraint_sale_order_tag_name_uniq
+msgid "Tag name already exists!"
+msgstr "Тег із такою назвою вже існує!"

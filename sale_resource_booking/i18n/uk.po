@@ -126,3 +126,56 @@ msgstr "Рядок замовлення на продаж"
 #: model_terms:ir.ui.view,arch_db:sale_resource_booking.view_order_form
 msgid "Sync bookings"
 msgstr "Синхронізувати бронювання"
+
+#. module: sale_resource_booking
+#: model_terms:ir.ui.view,arch_db:sale_resource_booking.view_order_form
+msgid ""
+"(Re)sync resource bookings. The sync will be done automatically when "
+"confirming the quotation, but you can do it beforehand if needed with this "
+"button. It will create missing resource bookings in pending state, or cancel"
+" the spare ones."
+msgstr ""
+"(Повторно) синхронізувати бронювання ресурсів. Синхронізація виконується "
+"автоматично під час підтвердження комерційної пропозиції, але за потреби її "
+"можна виконати заздалегідь цією кнопкою. Будуть створені відсутні бронювання"
+" ресурсів у стані очікування, а зайві — скасовані."
+
+#. module: sale_resource_booking
+#: model_terms:ir.ui.view,arch_db:sale_resource_booking.sale_order_booking_confirm_view_form
+msgid "Enqueue invitation emails"
+msgstr "Поставити листи-запрошення в чергу"
+
+#. module: sale_resource_booking
+#: model:ir.actions.act_window,name:sale_resource_booking.sale_order_booking_confirm_action
+msgid "Fill booking values"
+msgstr "Заповнити значення бронювання"
+
+#. module: sale_resource_booking
+#: model:ir.actions.act_window,name:sale_resource_booking.resource_booking_sale_action
+msgid "Generate Quotation"
+msgstr "Створити комерційну пропозицію"
+
+#. module: sale_resource_booking
+#: model_terms:ir.ui.view,arch_db:sale_resource_booking.resource_booking_sale_view_form
+msgid "Generate quotation"
+msgstr "Створити комерційну пропозицію"
+
+#. module: sale_resource_booking
+#: model_terms:ir.ui.view,arch_db:sale_resource_booking.resource_booking_type_form
+msgid "Generate quotation."
+msgstr "Створити комерційну пропозицію."
+
+#. module: sale_resource_booking
+#: model:ir.model.fields,field_description:sale_resource_booking.field_sale_order__resource_booking_count
+msgid "Resource bookings count"
+msgstr "Кількість бронювань ресурсів"
+
+#. module: sale_resource_booking
+#: model:ir.model.fields,field_description:sale_resource_booking.field_resource_booking__sale_order_state
+msgid "Sale order state"
+msgstr "Стан замовлення на продаж"
+
+#. module: sale_resource_booking
+#: model_terms:ir.ui.view,arch_db:sale_resource_booking.sale_order_booking_confirm_view_form
+msgid "Save without sending invitations"
+msgstr "Зберегти без надсилання запрошень"

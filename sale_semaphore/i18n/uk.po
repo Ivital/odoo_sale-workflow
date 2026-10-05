@@ -83,3 +83,18 @@ msgstr "Семафор активний"
 #: model:ir.model.fields.selection,name:sale_semaphore.selection__product_template__semaphore_active__yes
 msgid "Yes"
 msgstr "Так"
+
+#. module: sale_semaphore
+#: model:ir.model.fields,field_description:sale_semaphore.field_sale_order_line__semaphore_max_price_danger
+msgid "Semaphore Max Price Danger"
+msgstr "Небезпечна максимальна ціна семафора"
+
+#. module: sale_semaphore
+#: model:ir.model.fields,field_description:sale_semaphore.field_sale_order_line__semaphore_max_price_success
+msgid "Semaphore Max Price Success"
+msgstr "Успішна максимальна ціна семафора"
+
+#. module: sale_semaphore
+#: model:ir.model.fields,field_description:sale_semaphore.field_sale_order_line__semaphore_max_price_warning
+msgid "Semaphore Max Price Warning"
+msgstr "Попередження максимальної ціни семафора"

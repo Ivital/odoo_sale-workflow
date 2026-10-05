@@ -1,0 +1,24 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 13:27+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: sale_timesheet_project_manual
+#: model:ir.model.fields,field_description:sale_timesheet_project_manual.field_sale_order__action_project_manual_allowed
+msgid "Action Project Manual Allowed"
+msgstr "Ручна дія проєкту дозволена"
+
+#. module: sale_timesheet_project_manual
+#: model_terms:ir.ui.view,arch_db:sale_timesheet_project_manual.sale_order_form_view
+msgid "Generate Project/Task"
+msgstr "Створити проєкт/завдання"

@@ -95,3 +95,8 @@ msgstr "Категорія шаблону товару"
 #: model:ir.model.fields,field_description:sale_product_identification.field_product_template__required_identification
 msgid "Required Identification"
 msgstr "Обов'язкова ідентифікація"
+
+#. module: sale_product_identification
+#: model_terms:ir.ui.view,arch_db:sale_product_identification.confirm_identification_view
+msgid "Confirm identifications"
+msgstr "Підтвердити ідентифікації"

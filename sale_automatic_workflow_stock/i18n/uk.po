@@ -29,3 +29,32 @@ msgstr "Процес продажу"
 #: model:ir.model.fields,field_description:sale_automatic_workflow_stock.field_sale_workflow_process__picking_policy
 msgid "Shipping Policy"
 msgstr "Політика відвантаження"
+
+#. module: sale_automatic_workflow_stock
+#: model:ir.model.fields,field_description:sale_automatic_workflow_stock.field_sale_workflow_process__validate_picking
+msgid "Confirm and Transfer Picking"
+msgstr "Підтвердити та передати переміщення"
+
+#. module: sale_automatic_workflow_stock
+#: model:ir.model.fields.selection,name:sale_automatic_workflow_stock.selection__sale_workflow_process__picking_policy__one
+msgid "Deliver all products at once"
+msgstr "Доставити всі товари одразу"
+
+#. module: sale_automatic_workflow_stock
+#: model:ir.model.fields.selection,name:sale_automatic_workflow_stock.selection__sale_workflow_process__picking_policy__direct
+msgid "Deliver each product when available"
+msgstr "Доставляти кожен товар, щойно він доступний"
+
+#. module: sale_automatic_workflow_stock
+#: model:ir.model.fields,field_description:sale_automatic_workflow_stock.field_sale_workflow_process__picking_filter_domain
+msgid "Picking Filter Domain"
+msgstr "Домен фільтра комплектування"
+
+#. module: sale_automatic_workflow_stock
+#: model_terms:ir.ui.view,arch_db:sale_automatic_workflow_stock.sale_workflow_process_view_form_inherit
+msgid ""
+"Set selection based on a search\n"
+"                                filter:"
+msgstr ""
+"Задати вибір на основі пошукового\n"
+"                                фільтра:"

@@ -26,3 +26,48 @@ msgstr "Клієнт вимагає замовлення на закупівлю
 #: model:ir.model.fields,field_description:sale_require_po_doc.field_sale_order__sale_doc
 msgid "Sales Require Documentation"
 msgstr "Продаж вимагає документації"
+
+#. module: sale_require_po_doc
+#: model:ir.model.fields,help:sale_require_po_doc.field_res_partner__customer_need_po
+#: model:ir.model.fields,help:sale_require_po_doc.field_res_users__customer_need_po
+#: model:ir.model.fields,help:sale_require_po_doc.field_sale_order__customer_need_po
+msgid ""
+"A PO number will be required on the Sales Order field for Customer Reference"
+msgstr ""
+"У полі «Посилання клієнта» замовлення на продаж буде обов'язково вказувати "
+"номер замовлення на закупівлю"
+
+#. module: sale_require_po_doc
+#: model:ir.model.fields,help:sale_require_po_doc.field_res_partner__sale_doc
+#: model:ir.model.fields,help:sale_require_po_doc.field_res_users__sale_doc
+#: model:ir.model.fields,help:sale_require_po_doc.field_sale_order__sale_doc
+msgid ""
+"Details of the sales documentation required for this customer. Sales "
+"documentation notes field will be required on Sales Orders This is "
+"complementary to requiring a PO number, and can be used with or without that"
+" setting."
+msgstr ""
+"Відомості про торговельну документацію, необхідну для цього клієнта. Поле "
+"приміток щодо торговельної документації буде обов'язковим у замовленнях на "
+"продаж. Це доповнює вимогу номера замовлення на закупівлю та може "
+"використовуватися разом із нею або без неї."
+
+#. module: sale_require_po_doc
+#: model:ir.model.fields.selection,name:sale_require_po_doc.selection__sale_order__sale_document_option__done
+msgid "Documentation required obtained and archived"
+msgstr "Необхідну документацію отримано та архівовано"
+
+#. module: sale_require_po_doc
+#: model:ir.model.fields.selection,name:sale_require_po_doc.selection__sale_order__sale_document_option__no_need
+msgid "No documentation needed for this Sale"
+msgstr "Для цього продажу документація не потрібна"
+
+#. module: sale_require_po_doc
+#: model:ir.model.fields,field_description:sale_require_po_doc.field_sale_order__sale_document_option
+msgid "Sale Documentation"
+msgstr "Документація продажу"
+
+#. module: sale_require_po_doc
+#: model:ir.model.fields,field_description:sale_require_po_doc.field_sale_order__sale_document_note
+msgid "Sale Documentation Notes"
+msgstr "Примітки до документації продажу"

@@ -17,3 +17,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_transaction_form_link.sale_order_form_view
 msgid "Transactions"
 msgstr "Транзакції"
+
+#. module: sale_transaction_form_link
+#: model:ir.model.fields,field_description:sale_transaction_form_link.field_sale_order__payment_transaction_count
+msgid "Number of payment transactions"
+msgstr "Кількість платіжних транзакцій"

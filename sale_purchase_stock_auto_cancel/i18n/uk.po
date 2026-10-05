@@ -18,3 +18,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_purchase_stock_auto_cancel.field_res_config_settings__purchase_auto_cancel
 msgid "Propagate cancellation on MTO/Dropshipping"
 msgstr "Поширювати скасування на MTO/пряму доставку"
+
+#. module: sale_purchase_stock_auto_cancel
+#: model_terms:ir.ui.view,arch_db:sale_purchase_stock_auto_cancel.res_config_settings_view_form
+msgid ""
+"Automatically cancel purchase orders created from sales orders using MTO or "
+"Dropship rules when the sales order is canceled."
+msgstr ""
+"Автоматично скасовувати замовлення на закупівлю, створені із замовлень на "
+"продаж за правилами MTO або дропшипінгу, коли замовлення на продаж "
+"скасовано."
+
+#. module: sale_purchase_stock_auto_cancel
+#: model_terms:ir.ui.view,arch_db:sale_purchase_stock_auto_cancel.res_config_settings_view_form
+msgid "Purchase Cancellation"
+msgstr "Скасування закупівлі"

@@ -63,3 +63,13 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:sale_order_type_confirm_message.field_sale_order_type_confirm_wizard__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: sale_order_type_confirm_message
+#: model:ir.model.fields,field_description:sale_order_type_confirm_message.field_sale_order_type__confirmation_message
+msgid "Confirmation Message"
+msgstr "Повідомлення підтвердження"
+
+#. module: sale_order_type_confirm_message
+#: model:ir.model.fields,field_description:sale_order_type_confirm_message.field_sale_order_type__has_confirmation_message
+msgid "Has Confirmation Message"
+msgstr "Є повідомлення підтвердження"

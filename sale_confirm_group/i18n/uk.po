@@ -24,3 +24,23 @@ msgstr "Група підтвердження продажу"
 #: model:ir.model.fields,field_description:sale_confirm_group.field_res_config_settings__use_sale_confirmation_groups
 msgid "Use Sale Confirmation Groups"
 msgstr "Використовувати групи підтвердження продажу"
+
+#. module: sale_confirm_group
+#: model_terms:ir.ui.view,arch_db:sale_confirm_group.sale_res_config_settings_view_form_inherit
+msgid ""
+"If the checkbox is flagged and at least 1 group is selected, SO confirmation"
+" will be allowed to such groups only. This is company-specific."
+msgstr ""
+"Якщо прапорець установлено й вибрано принаймні 1 групу, підтвердження "
+"замовлення на продаж буде дозволено лише цим групам. Налаштування окреме для"
+" компанії."
+
+#. module: sale_confirm_group
+#: model_terms:ir.ui.view,arch_db:sale_confirm_group.sale_res_config_settings_view_form_inherit
+msgid "Use SO Confirmation Groups"
+msgstr "Використовувати групи підтвердження SO"
+
+#. module: sale_confirm_group
+#: model:ir.model.fields,field_description:sale_confirm_group.field_sale_order__user_can_confirm
+msgid "User Can Confirm"
+msgstr "Користувач може підтверджувати"

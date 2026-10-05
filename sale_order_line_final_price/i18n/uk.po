@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_line_final_price.field_sale_order_line__price_final
 msgid "Final Price"
 msgstr "Кінцева ціна"
+
+#. module: sale_order_line_final_price
+#: model:ir.model.fields,field_description:sale_order_line_final_price.field_sale_order_line__price_edit_allowed
+msgid "Price Edit Allowed"
+msgstr "Редагування ціни дозволено"

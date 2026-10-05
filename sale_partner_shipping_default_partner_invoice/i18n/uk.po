@@ -18,3 +18,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_partner_shipping_default_partner_invoice.field_res_users__default_partner_invoice_id
 msgid "Default Invoice Address"
 msgstr "Типова адреса для рахунку"
+
+#. module: sale_partner_shipping_default_partner_invoice
+#: model:ir.model.fields,help:sale_partner_shipping_default_partner_invoice.field_res_partner__default_partner_invoice_id
+#: model:ir.model.fields,help:sale_partner_shipping_default_partner_invoice.field_res_users__default_partner_invoice_id
+msgid ""
+"The specified partner will be proposed as the invoice address in the sales "
+"order when this address is set as the shipping address."
+msgstr ""
+"Указаного контрагента буде запропоновано як адресу виставлення рахунку в "
+"замовленні на продаж, коли ця адреса встановлена як адреса доставки."

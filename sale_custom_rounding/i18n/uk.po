@@ -22,3 +22,17 @@ msgstr "Округляти глобально"
 #: model:ir.model.fields.selection,name:sale_custom_rounding.selection__sale_order__tax_calculation_rounding_method_override__round_per_line
 msgid "Round per Line"
 msgstr "Округляти за рядком"
+
+#. module: sale_custom_rounding
+#: model:ir.model.fields,help:sale_custom_rounding.field_sale_order__tax_calculation_rounding_method_override
+msgid ""
+"How total tax amount is computed. If no value selected, the method defined "
+"in the company is used."
+msgstr ""
+"Визначає спосіб обчислення загальної суми податку. Якщо значення не вибране,"
+" використовується метод, визначений у компанії."
+
+#. module: sale_custom_rounding
+#: model:ir.model.fields,field_description:sale_custom_rounding.field_sale_order__tax_calculation_rounding_method_override
+msgid "Tax Calculation Rounding Method Override"
+msgstr "Перевизначення методу округлення обчислення податку"

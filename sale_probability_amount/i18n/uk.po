@@ -22,3 +22,8 @@ msgstr "Разом"
 #: model:ir.model.fields,field_description:sale_probability_amount.field_sale_order__probability
 msgid "Winning sale %"
 msgstr "Виграні продажі %"
+
+#. module: sale_probability_amount
+#: model:ir.model.fields,field_description:sale_probability_amount.field_sale_order__expected_amount_cur
+msgid "Expected Amount in currency"
+msgstr "Очікувана сума у валюті"

@@ -40,3 +40,32 @@ msgstr "Перевіряти продаж лише за пакуванням н�
 #: model_terms:ir.ui.view,arch_db:product_set_sell_only_by_packaging.product_template_form_view
 msgid "View all lines"
 msgstr "Переглянути всі рядки"
+
+#. module: product_set_sell_only_by_packaging
+#: model:ir.actions.server,name:product_set_sell_only_by_packaging.cron_check_packaging_ir_actions_server
+msgid "Check sale by packaging on wishlist lines"
+msgstr "Перевіряти продаж за пакуванням у рядках списку бажань"
+
+#. module: product_set_sell_only_by_packaging
+#: model:ir.model.fields,help:product_set_sell_only_by_packaging.field_product_set_line__sell_only_by_packaging
+msgid ""
+"Restrict the usage of this product on sale order lines without packaging "
+"defined"
+msgstr ""
+"Обмежити використання цього товару в рядках замовлення на продаж без "
+"визначеного пакування"
+
+#. module: product_set_sell_only_by_packaging
+#: model_terms:ir.ui.view,arch_db:product_set_sell_only_by_packaging.product_template_form_view
+msgid ""
+"There are product set lines associated to this product\n"
+"                    which do not have a packaging associated.\n"
+"                    It would be better to check them all.\n"
+"                    If you don't take any action,\n"
+"                    a cron will assign such lines to the first available packaging."
+msgstr ""
+"З цим товаром пов'язані рядки набору товарів,\n"
+"                    для яких не задано пакування.\n"
+"                    Рекомендується перевірити їх усі.\n"
+"                    Якщо нічого не робити,\n"
+"                    cron-завдання призначить таким рядкам перше доступне пакування."

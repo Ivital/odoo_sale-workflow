@@ -33,3 +33,8 @@ msgstr "Позначити завершеним"
 #: model_terms:ir.ui.view,arch_db:sale_order_finish_service.view_sales_order_filter
 msgid "Unfinished"
 msgstr "Незавершено"
+
+#. module: sale_order_finish_service
+#: model_terms:ir.ui.view,arch_db:sale_order_finish_service.view_order_form
+msgid "Unmark as Finished"
+msgstr "Зняти позначку завершення"

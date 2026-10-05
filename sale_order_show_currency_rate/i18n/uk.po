@@ -23,3 +23,17 @@ msgstr "Курс обміну"
 #: model:ir.model.fields,field_description:sale_order_show_currency_rate.field_res_config_settings__sale_order_currency_report_id
 msgid "Sale Order Report Reference Currency"
 msgstr "Довідкова валюта звіту замовлення на продаж"
+
+#. module: sale_order_show_currency_rate
+#: model_terms:ir.ui.view,arch_db:sale_order_show_currency_rate.report_saleorder_document_currency_rate
+msgid ""
+"<strong>Informative Exchange Rate</strong><br/>\n"
+"                            1"
+msgstr ""
+"<strong>Інформаційний валютний курс</strong><br/>\n"
+"                            1"
+
+#. module: sale_order_show_currency_rate
+#: model_terms:ir.ui.view,arch_db:sale_order_show_currency_rate.res_config_settings_view_form
+msgid "Report Reference Currency"
+msgstr "Довідкова валюта звіту"

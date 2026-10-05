@@ -89,3 +89,23 @@ msgstr "Стан замовлення"
 #: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
 msgid "Product Variant"
 msgstr "Варіант товару"
+
+#. module: sale_order_line_input
+#: model:ir.model.fields,field_description:sale_order_line_input.field_sale_order_line__company_price_amount
+msgid "Company Price Amount"
+msgstr "Сума ціни компанії"
+
+#. module: sale_order_line_input
+#: model:ir.model.fields,field_description:sale_order_line_input.field_sale_order_line__company_price_tax_incl_excl
+msgid "Company Price Tax Incl Excl"
+msgstr "Ціна компанії з/без податку"
+
+#. module: sale_order_line_input
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_filter
+msgid "Not Invoice Related"
+msgstr "Не пов’язано з рахунком"
+
+#. module: sale_order_line_input
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
+msgid "Type to find a product..."
+msgstr "Введіть для пошуку товару..."

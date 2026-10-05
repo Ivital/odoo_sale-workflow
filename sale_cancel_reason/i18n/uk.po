@@ -26,7 +26,7 @@ msgstr ""
 #. module: sale_cancel_reason
 #: model_terms:ir.ui.view,arch_db:sale_cancel_reason.view_order_form
 msgid "Cancellation reason:"
-msgstr ""
+msgstr "Причина скасування:"
 
 #. module: sale_cancel_reason
 #: model_terms:ir.ui.view,arch_db:sale_cancel_reason.view_sale_order_cancel
@@ -34,6 +34,8 @@ msgid ""
 "Choose the reason for the cancellation of the\n"
 "                        sale order."
 msgstr ""
+"Виберіть причину скасування\n"
+"                        замовлення на продаж."
 
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason__create_uid

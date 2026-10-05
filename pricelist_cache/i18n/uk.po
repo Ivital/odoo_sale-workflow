@@ -107,3 +107,28 @@ msgstr "Оновлення кешу прайс-листа пропущено"
 #: model:ir.model.fields,field_description:pricelist_cache.field_product_pricelist_cache__product_id
 msgid "Product Variant"
 msgstr "Варіант товару"
+
+#. module: pricelist_cache
+#: model_terms:ir.ui.view,arch_db:pricelist_cache.view_partner_property_form
+msgid "Display Customer Prices"
+msgstr "Показувати ціни клієнта"
+
+#. module: pricelist_cache
+#: model_terms:ir.ui.view,arch_db:pricelist_cache.product_pricelist_view
+msgid "Display Pricelist Prices"
+msgstr "Показувати ціни прайс-листа"
+
+#. module: pricelist_cache
+#: model:ir.model.fields,field_description:pricelist_cache.field_product_pricelist__is_pricelist_cache_computed
+msgid "Is Pricelist Cache Computed"
+msgstr "Кеш прайс-листа обчислено"
+
+#. module: pricelist_cache
+#: model:ir.model.fields,field_description:pricelist_cache.field_product_pricelist__parent_pricelist_ids
+msgid "Parent Pricelist"
+msgstr "Батьківський прайс-лист"
+
+#. module: pricelist_cache
+#: model:ir.actions.server,name:pricelist_cache.cron_reset_pricelist_cache_ir_actions_server
+msgid "Reset pricelist cache"
+msgstr "Скинути кеш прайс-листа"

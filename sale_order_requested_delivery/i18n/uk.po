@@ -24,3 +24,28 @@ msgstr "Запитана доставка — кінець"
 #: model:ir.model.fields,field_description:sale_order_requested_delivery.field_sale_order_line__requested_delivery_period_start
 msgid "Requested Delivery - Start"
 msgstr "Запитана доставка — початок"
+
+#. module: sale_order_requested_delivery
+#: model_terms:ir.ui.view,arch_db:sale_order_requested_delivery.view_order_form
+msgid "Req. Delivery end"
+msgstr "Необх. завершення доставки"
+
+#. module: sale_order_requested_delivery
+#: model_terms:ir.ui.view,arch_db:sale_order_requested_delivery.view_order_form
+msgid "Req. Delivery start"
+msgstr "Необх. початок доставки"
+
+#. module: sale_order_requested_delivery
+#: model:ir.model.fields,field_description:sale_order_requested_delivery.field_sale_order__requested_delivery_period_display
+msgid "Requested Delivery Period"
+msgstr "Запитаний період доставки"
+
+#. module: sale_order_requested_delivery
+#: model_terms:ir.ui.view,arch_db:sale_order_requested_delivery.view_order_form
+msgid "Requested Delivery end"
+msgstr "Кінець запитаної доставки"
+
+#. module: sale_order_requested_delivery
+#: model_terms:ir.ui.view,arch_db:sale_order_requested_delivery.view_order_form
+msgid "Requested Delivery start"
+msgstr "Початок запитаної доставки"

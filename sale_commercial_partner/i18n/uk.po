@@ -41,3 +41,36 @@ msgstr "Використовувати фільтр комерційного к�
 #: model:ir.model.fields,field_description:sale_commercial_partner.field_res_config_settings__use_shipping_commercial_partner_filter
 msgid "Use Shipping Commercial Partner Filter"
 msgstr "Використовувати фільтр комерційного контрагента доставки"
+
+#. module: sale_commercial_partner
+#: model_terms:ir.ui.view,arch_db:sale_commercial_partner.res_config_settings_view_form
+msgid "Filter Invoice Address by Customer’s Commercial Partner"
+msgstr "Фільтрувати адресу рахунка за комерційним контрагентом клієнта"
+
+#. module: sale_commercial_partner
+#: model_terms:ir.ui.view,arch_db:sale_commercial_partner.res_config_settings_view_form
+msgid "Filter Shipping Address by Customer’s Commercial Partner"
+msgstr "Фільтрувати адресу доставки за комерційним контрагентом клієнта"
+
+#. module: sale_commercial_partner
+#: model_terms:ir.ui.view,arch_db:sale_commercial_partner.res_config_settings_view_form
+msgid ""
+"If enabled, the delivery address can only be selected from partners whose "
+"commercial partner is the same as the sales order’s customer."
+msgstr ""
+"Якщо ввімкнено, адресу доставки можна вибирати лише серед партнерів, "
+"комерційний партнер яких збігається з клієнтом замовлення на продаж."
+
+#. module: sale_commercial_partner
+#: model_terms:ir.ui.view,arch_db:sale_commercial_partner.res_config_settings_view_form
+msgid ""
+"If enabled, the invoice address can only be selected from partners whose "
+"commercial partner is the same as the sales order’s customer."
+msgstr ""
+"Якщо ввімкнено, адресу рахунку можна вибирати лише серед партнерів, "
+"комерційний партнер яких збігається з клієнтом замовлення на продаж."
+
+#. module: sale_commercial_partner
+#: model:ir.model.fields,field_description:sale_commercial_partner.field_sale_order__partner_shipping_domain
+msgid "Partner Shipping Domain"
+msgstr "Домен доставки контрагента"

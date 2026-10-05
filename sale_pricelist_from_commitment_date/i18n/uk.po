@@ -26,3 +26,30 @@ msgstr "Дата зобов'язання продажу в заголовку"
 #: model:ir.model.fields,field_description:sale_pricelist_from_commitment_date.field_sale_order__sale_require_commitment_date
 msgid "Sale Require Commitment Date"
 msgstr "Вимагати дату зобов'язання для продажу"
+
+#. module: sale_pricelist_from_commitment_date
+#: model_terms:ir.ui.view,arch_db:sale_pricelist_from_commitment_date.res_config_settings_view_form
+msgid ""
+"Display the Delivery Date field in header (after the Quotation/Order Date "
+"field) on the sales order form for better visibility."
+msgstr ""
+"Відображати поле «Дата доставки» в заголовку (після поля дати комерційної "
+"пропозиції/замовлення) у формі замовлення на продаж для кращої видимості."
+
+#. module: sale_pricelist_from_commitment_date
+#: model_terms:ir.ui.view,arch_db:sale_pricelist_from_commitment_date.res_config_settings_view_form
+msgid ""
+"If enabled, the Delivery Date field on the sales order will be required."
+msgstr ""
+"Якщо ввімкнено, поле «Дата доставки» в замовленні на продаж буде "
+"обов’язковим."
+
+#. module: sale_pricelist_from_commitment_date
+#: model_terms:ir.ui.view,arch_db:sale_pricelist_from_commitment_date.res_config_settings_view_form
+msgid "Require Delivery Date"
+msgstr "Вимагати дату доставки"
+
+#. module: sale_pricelist_from_commitment_date
+#: model_terms:ir.ui.view,arch_db:sale_pricelist_from_commitment_date.res_config_settings_view_form
+msgid "Show Delivery Date in Header"
+msgstr "Показувати дату доставки в заголовку"

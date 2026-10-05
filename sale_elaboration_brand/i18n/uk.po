@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_elaboration_brand.field_stock_move__product_brand_id
 msgid "Brand"
 msgstr "Бренд"
+
+#. module: sale_elaboration_brand
+#: model:ir.model.fields,help:sale_elaboration_brand.field_stock_move__product_brand_id
+msgid "Select a brand for this product"
+msgstr "Виберіть бренд для цього товару"

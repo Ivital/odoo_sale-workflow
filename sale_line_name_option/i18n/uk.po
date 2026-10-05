@@ -18,3 +18,15 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_line_name_option.field_res_config_settings__no_product_code_in_sale_line_name
 msgid "No Product Code In Sale Line Name"
 msgstr "Не включати код товару в назву рядка продажу"
+
+#. module: sale_line_name_option
+#: model_terms:ir.ui.view,arch_db:sale_line_name_option.res_config_settings_view_form
+msgid "If enabled, product codes will be omitted from sale order line names."
+msgstr ""
+"Якщо ввімкнено, коди товарів буде вилучено з назв рядків замовлення на "
+"продаж."
+
+#. module: sale_line_name_option
+#: model_terms:ir.ui.view,arch_db:sale_line_name_option.res_config_settings_view_form
+msgid "No Product Code in Sale Line Name"
+msgstr "Не показувати код товару в назві рядка продажу"

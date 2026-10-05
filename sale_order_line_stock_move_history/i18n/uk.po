@@ -32,3 +32,13 @@ msgstr "Посилання"
 #: model_terms:ir.ui.view,arch_db:sale_order_line_stock_move_history.stock_move_line_history
 msgid "Unit"
 msgstr "Одиниця"
+
+#. module: sale_order_line_stock_move_history
+#: model_terms:ir.ui.view,arch_db:sale_order_line_stock_move_history.stock_move_line_history
+msgid "Stock Move History"
+msgstr "Історія рухів запасів"
+
+#. module: sale_order_line_stock_move_history
+#: model_terms:ir.ui.view,arch_db:sale_order_line_stock_move_history.view_order_form_inherit_stock_moves
+msgid "View Stock Moves History"
+msgstr "Переглянути історію переміщень запасів"

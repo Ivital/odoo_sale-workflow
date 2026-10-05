@@ -34,3 +34,28 @@ msgstr "Автоматично скасовувати прострочене з�
 #: model:ir.model.fields,field_description:sale_validity_auto_cancel.field_res_config_settings__sale_validity_auto_cancel_days
 msgid "Auto-cancel expired quotations after (days)"
 msgstr "Автоматично скасовувати прострочені пропозиції через (днів)"
+
+#. module: sale_validity_auto_cancel
+#: model:ir.actions.server,name:sale_validity_auto_cancel.cron_sale_validity_auto_cancel_ir_actions_server
+msgid "Cancel Expired Quotations"
+msgstr "Скасувати прострочені комерційні пропозиції"
+
+#. module: sale_validity_auto_cancel
+#: model:ir.model.fields,help:sale_validity_auto_cancel.field_res_partner__auto_cancel_expired_so
+#: model:ir.model.fields,help:sale_validity_auto_cancel.field_res_users__auto_cancel_expired_so
+#: model:ir.model.fields,help:sale_validity_auto_cancel.field_sale_order__auto_cancel_expired_so
+msgid ""
+"If unchecked, you will be able to restrict \n"
+"this contact's expired SO from being auto-canceled."
+msgstr ""
+"Якщо не позначено, можна буде заборонити\n"
+"автоматичне скасування прострочених замовлень на продаж цього контакту."
+
+#. module: sale_validity_auto_cancel
+#: model_terms:ir.ui.view,arch_db:sale_validity_auto_cancel.res_config_settings_view_form
+msgid ""
+"Quotations will be automatically cancelled after the expiration date plus "
+"the number of days specified."
+msgstr ""
+"Комерційні пропозиції автоматично скасовуватимуться після дати завершення "
+"дії плюс указана кількість днів."

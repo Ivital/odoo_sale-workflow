@@ -48,3 +48,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:sale_invoice_blocking.field_invoice_blocking_reason__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: sale_invoice_blocking
+#: model:ir.model.fields,field_description:sale_invoice_blocking.field_sale_order__invoice_blocking_reason_id
+msgid "Blocking for invoicing"
+msgstr "Блокування виставлення рахунка"

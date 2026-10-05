@@ -23,3 +23,12 @@ msgstr "Автоматична перевірка PO"
 #: model_terms:ir.ui.view,arch_db:sale_purchase_stock_auto_confirm.res_config_settings_view_form
 msgid "Purchase stock"
 msgstr "Запаси закупівлі"
+
+#. module: sale_purchase_stock_auto_confirm
+#: model_terms:ir.ui.view,arch_db:sale_purchase_stock_auto_confirm.res_config_settings_view_form
+msgid ""
+"Automatically validate purchase orders created from sales orders using MTO "
+"or Dropship rules."
+msgstr ""
+"Автоматично підтверджувати замовлення на закупівлю, створені із замовлень на"
+" продаж за правилами MTO або дропшипінгу."

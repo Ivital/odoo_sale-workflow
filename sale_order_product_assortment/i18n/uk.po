@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_product_assortment.field_sale_order__allowed_product_ids
 msgid "Allowed Products"
 msgstr "Дозволені товари"
+
+#. module: sale_order_product_assortment
+#: model:ir.model.fields,field_description:sale_order_product_assortment.field_sale_order__has_allowed_products
+msgid "Has Allowed Products"
+msgstr "Має дозволені товари"

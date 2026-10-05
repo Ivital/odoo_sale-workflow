@@ -27,3 +27,23 @@ msgstr "Копіювати, якщо автопризначення нічого
 #: model:ir.model.fields,field_description:sale_automatic_workflow_auto_assign.field_res_config_settings__sale_workflow_copy_mode
 msgid "Copy workflow on duplication"
 msgstr "Копіювати робочий процес під час дублювання"
+
+#. module: sale_automatic_workflow_auto_assign
+#: model:ir.model.fields,field_description:sale_automatic_workflow_auto_assign.field_sale_workflow_process__auto_assign_priority
+msgid "Auto Assign Priority"
+msgstr "Автопризначення пріоритету"
+
+#. module: sale_automatic_workflow_auto_assign
+#: model:ir.model.fields,field_description:sale_automatic_workflow_auto_assign.field_sale_workflow_process__auto_assign_domain
+msgid "Auto assign domain"
+msgstr "Домен автопризначення"
+
+#. module: sale_automatic_workflow_auto_assign
+#: model_terms:ir.ui.view,arch_db:sale_automatic_workflow_auto_assign.sale_workflow_process_view_form
+msgid "Automatic assignation"
+msgstr "Автоматичне призначення"
+
+#. module: sale_automatic_workflow_auto_assign
+#: model_terms:ir.ui.view,arch_db:sale_automatic_workflow_auto_assign.sale_workflow_process_view_form
+msgid "Workflow automatic assignation"
+msgstr "Автоматичне призначення робочого процесу"

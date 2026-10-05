@@ -53,3 +53,29 @@ msgstr "Показувати знижку з податком"
 #: model:ir.model.fields,field_description:sale_discount_display_amount.field_sale_order_line__price_total_no_discount
 msgid "Total Without Discount"
 msgstr "Разом без знижки"
+
+#. module: sale_discount_display_amount
+#: model_terms:ir.ui.view,arch_db:sale_discount_display_amount.sale_discount_display_amount_document
+msgid "<strong>Total Without Discount</strong>"
+msgstr "<strong>Усього без знижки</strong>"
+
+#. module: sale_discount_display_amount
+#: model_terms:ir.ui.view,arch_db:sale_discount_display_amount.res_config_settings_view_form_display_discount_with_tax
+msgid ""
+"OFF = Shows the Discount without TAX<br/>ON = Shows the Discount with TAX"
+msgstr "ВИМК = показує знижку без ПДВ<br/>УВІМК = показує знижку з ПДВ"
+
+#. module: sale_discount_display_amount
+#: model:ir.model.fields,field_description:sale_discount_display_amount.field_sale_order__price_subtotal_no_discount
+msgid "Price Subtotal No Discount"
+msgstr "Проміжний підсумок ціни без знижки"
+
+#. module: sale_discount_display_amount
+#: model:ir.model.fields,field_description:sale_discount_display_amount.field_sale_order__price_total_no_discount
+msgid "Price Total No Discount"
+msgstr "Загальна ціна без знижки"
+
+#. module: sale_discount_display_amount
+#: model:ir.model.fields,field_description:sale_discount_display_amount.field_sale_order_line__price_subtotal_no_discount
+msgid "Subtotal Without Discount"
+msgstr "Проміжний підсумок без знижки"

@@ -45,3 +45,8 @@ msgstr "Списки бажань"
 #: model:ir.model.fields.selection,name:sale_wishlist.selection__product_set__typology__wishlist
 msgid "Wishlist"
 msgstr "Список бажань"
+
+#. module: sale_wishlist
+#: model_terms:ir.ui.view,arch_db:sale_wishlist.res_partner_view_form
+msgid "<span class=\"o_stat_text\">Wishlists</span>"
+msgstr "<span class=\"o_stat_text\">Списки бажань</span>"

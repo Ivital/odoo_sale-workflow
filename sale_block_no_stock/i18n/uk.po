@@ -119,3 +119,87 @@ msgstr "Макс. кількість (од.)"
 #: model_terms:ir.ui.view,arch_db:sale_block_no_stock.sale_order_block_wizard_view
 msgid "or"
 msgstr "або"
+
+#. module: sale_block_no_stock
+#: model_terms:ir.ui.view,arch_db:sale_block_no_stock.sale_order_block_wizard_view
+msgid "Adjust Packaging Quantity"
+msgstr "Налаштувати кількість пакування"
+
+#. module: sale_block_no_stock
+#: model_terms:ir.ui.view,arch_db:sale_block_no_stock.sale_order_block_wizard_view
+msgid "Adjust UoM Quantity"
+msgstr "Скоригувати кількість UoM"
+
+#. module: sale_block_no_stock
+#: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard__confirmation_allowed
+msgid "Allowed to confirm"
+msgstr "Дозволено підтверджувати"
+
+#. module: sale_block_no_stock
+#: model_terms:ir.ui.view,arch_db:sale_block_no_stock.res_config_settings_view_form
+msgid "Avoid selling more product than you have in stock or planned"
+msgstr "Не продавати більше товару, ніж є в запасі або заплановано"
+
+#. module: sale_block_no_stock
+#: model_terms:ir.ui.view,arch_db:sale_block_no_stock.res_config_settings_view_form
+msgid "Blocking sales due to lack of stock"
+msgstr "Блокування продажів через відсутність запасу"
+
+#. module: sale_block_no_stock
+#: model_terms:ir.ui.view,arch_db:sale_block_no_stock.res_config_settings_view_form
+msgid "Field to compare against the quantity demanded"
+msgstr "Поле для порівняння із запитаною кількістю"
+
+#. module: sale_block_no_stock
+#: model_terms:ir.ui.view,arch_db:sale_block_no_stock.res_config_settings_view_form
+msgid "Groups allowed to bypass the block"
+msgstr "Групи, яким дозволено обходити блокування"
+
+#. module: sale_block_no_stock
+#: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard__is_packaging_adjustable
+msgid "Is Packaging Adjustable"
+msgstr "Пакування можна регулювати"
+
+#. module: sale_block_no_stock
+#: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard__is_uom_adjustable
+msgid "Is Uom Adjustable"
+msgstr "Одиницю виміру можна коригувати"
+
+#. module: sale_block_no_stock
+#: model_terms:ir.ui.view,arch_db:sale_block_no_stock.sale_order_block_wizard_view
+msgid "Move to New Order"
+msgstr "Перемістити до нового замовлення"
+
+#. module: sale_block_no_stock
+#: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard__sale_line_block_ids
+msgid "Sale Block Lines"
+msgstr "Заблокувати рядки продажу"
+
+#. module: sale_block_no_stock
+#: model_terms:ir.ui.view,arch_db:sale_block_no_stock.sale_order_block_wizard_view
+msgid "Sale Order Block"
+msgstr "Блокування замовлення на продаж"
+
+#. module: sale_block_no_stock
+#: model:ir.actions.act_window,name:sale_block_no_stock.sale_order_block_wizard_action
+msgid "Sale Order Blocked to Confirm"
+msgstr "Замовлення продажу заблоковано для підтвердження"
+
+#. module: sale_block_no_stock
+#: model_terms:ir.ui.view,arch_db:sale_block_no_stock.sale_order_block_wizard_view
+msgid ""
+"This order cannot be confirmed because it contains products that are not in "
+"stock. Please manage the following products before confirming the order."
+msgstr ""
+"Це замовлення не можна підтвердити, оскільки воно містить товари, яких немає"
+" в наявності. Опрацюйте наведені товари перед підтвердженням."
+
+#. module: sale_block_no_stock
+#: model_terms:ir.ui.view,arch_db:sale_block_no_stock.sale_order_block_wizard_view
+msgid "You are going to confirm the Sale Order with not solved lines"
+msgstr "Ви збираєтеся підтвердити замовлення продажу з невирішеними рядками"
+
+#. module: sale_block_no_stock
+#: model_terms:ir.ui.view,arch_db:sale_block_no_stock.sale_order_block_wizard_view
+msgid "You are going to move pending lines to a new order"
+msgstr "Ви збираєтеся перемістити очікувані рядки до нового замовлення"

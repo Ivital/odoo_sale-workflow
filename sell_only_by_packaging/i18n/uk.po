@@ -24,3 +24,18 @@ msgstr "Мінімальна кількість для продажу"
 #: model:ir.model.fields,field_description:sell_only_by_packaging.field_product_template__sell_only_by_packaging
 msgid "Only sell by packaging"
 msgstr "Продавати лише в пакуванні"
+
+#. module: sell_only_by_packaging
+#: model:ir.model.fields,field_description:sell_only_by_packaging.field_product_packaging__force_sale_qty
+msgid "Force sale quantity"
+msgstr "Примусова кількість продажу"
+
+#. module: sell_only_by_packaging
+#: model:ir.model.fields,help:sell_only_by_packaging.field_product_product__sell_only_by_packaging
+#: model:ir.model.fields,help:sell_only_by_packaging.field_product_template__sell_only_by_packaging
+msgid ""
+"Restrict the usage of this product on sale order lines without packaging "
+"defined"
+msgstr ""
+"Обмежити використання цього товару в рядках замовлення на продаж без "
+"визначеного пакування"

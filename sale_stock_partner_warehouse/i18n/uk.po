@@ -24,3 +24,17 @@ msgstr "Склад продажу"
 #: model:ir.model.fields,field_description:sale_stock_partner_warehouse.field_res_config_settings__sale_warehouse_by_partner_shipping
 msgid "Sale Warehouse By Partner Shipping"
 msgstr "Склад продажу за адресою доставки контрагента"
+
+#. module: sale_stock_partner_warehouse
+#: model_terms:ir.ui.view,arch_db:sale_stock_partner_warehouse.res_config_settings_view_form
+msgid ""
+"If enabled, the sale order will propose the warehouse from the shipping "
+"address, falling back to the customer's warehouse if none is set."
+msgstr ""
+"Якщо ввімкнено, у замовленні на продаж буде запропоновано склад з адреси "
+"доставки, а якщо його немає — склад клієнта."
+
+#. module: sale_stock_partner_warehouse
+#: model_terms:ir.ui.view,arch_db:sale_stock_partner_warehouse.res_config_settings_view_form
+msgid "Prioritize Shipping Partner in Sale Warehouse Proposal"
+msgstr "Надавати пріоритет контрагенту доставки у пропозиції складу продажу"

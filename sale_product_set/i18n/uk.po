@@ -42,17 +42,17 @@ msgstr "Додати набір"
 #. module: sale_product_set
 #: model:ir.actions.act_window,name:sale_product_set.act_open_wizard_product_set_add_from_order
 msgid "Add set in sale order"
-msgstr ""
+msgstr "Додати набір у замовлення на продаж"
 
 #. module: sale_product_set
 #: model_terms:ir.ui.view,arch_db:sale_product_set.product_set_add_form_view
 msgid "Add set in sale order line"
-msgstr ""
+msgstr "Додати набір у рядок замовлення на продаж"
 
 #. module: sale_product_set
 #: model:ir.actions.act_window,name:sale_product_set.act_open_wizard_product_set_add_from_set
 msgid "Add set to sale order"
-msgstr ""
+msgstr "Додати набір до замовлення на продаж"
 
 #. module: sale_product_set
 #: model_terms:ir.ui.view,arch_db:sale_product_set.product_set_add_form_view
@@ -135,7 +135,7 @@ msgstr "Замовлення на продаж"
 #. module: sale_product_set
 #: model:ir.model.fields,field_description:sale_product_set.field_sale_product_set_wizard__skip_existing_products
 msgid "Skip Existing Products"
-msgstr ""
+msgstr "Пропускати наявні товари"
 
 #. module: sale_product_set
 #: model:ir.model,name:sale_product_set.model_sale_product_set_wizard
@@ -153,6 +153,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_product_set.res_config_settings_inherit_view
 msgid "Product Sets"
 msgstr "Набори товарів"
+
+#. module: sale_product_set
+#: model_terms:ir.ui.view,arch_db:sale_product_set.res_config_settings_inherit_view
+msgid ""
+"Archive/unarchive product sets related to partners together with partner"
+msgstr ""
+"Архівувати/розархівовувати набори товарів, пов’язані з партнерами, разом із "
+"партнером"
+
+#. module: sale_product_set
+#: model:ir.model.fields,field_description:sale_product_set.field_res_config_settings__archive_partner_product_sets
+msgid "Sync product sets active state with partner"
+msgstr "Синхронізувати активний стан наборів товарів із контрагентом"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

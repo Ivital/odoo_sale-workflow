@@ -17,3 +17,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_automatic_workflow_periodicity.field_sale_workflow_process__next_execution
 msgid "Next Execution"
 msgstr "Наступне виконання"
+
+#. module: sale_automatic_workflow_periodicity
+#: model:ir.model.fields,field_description:sale_automatic_workflow_periodicity.field_sale_workflow_process__periodicity_check_create_date
+msgid "Enforce on creation time"
+msgstr "Застосовувати під час створення"
+
+#. module: sale_automatic_workflow_periodicity
+#: model:ir.model.fields,field_description:sale_automatic_workflow_periodicity.field_sale_workflow_process__periodicity
+msgid "Run every (in seconds)"
+msgstr "Запускати кожні (у секундах)"
+
+#. module: sale_automatic_workflow_periodicity
+#: model_terms:ir.ui.view,arch_db:sale_automatic_workflow_periodicity.sale_workflow_process_view_form
+msgid "Workflow execution periodicity"
+msgstr "Періодичність виконання робочого процесу"

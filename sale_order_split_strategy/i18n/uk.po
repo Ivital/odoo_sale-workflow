@@ -113,3 +113,23 @@ msgstr "стратегія."
 #: model_terms:ir.ui.view,arch_db:sale_order_split_strategy.split_to
 msgid "using"
 msgstr "використовуючи"
+
+#. module: sale_order_split_strategy
+#: model_terms:ir.ui.view,arch_db:sale_order_split_strategy.res_config_settings_view_form_sale_exception
+msgid "How split errors are to be reported"
+msgstr "Як повідомляти про помилки розділення"
+
+#. module: sale_order_split_strategy
+#: model:ir.model.fields,field_description:sale_order_split_strategy.field_sale_order_split_strategy__remove_empty_sections_after_split
+msgid "Remove Empty Sections After Split"
+msgstr "Видаляти порожні секції після розділення"
+
+#. module: sale_order_split_strategy
+#: model_terms:ir.ui.view,arch_db:sale_order_split_strategy.split_to
+msgid "This sale order had some of its lines split to"
+msgstr "Деякі рядки цього замовлення продажу було розділено до"
+
+#. module: sale_order_split_strategy
+#: model_terms:ir.ui.view,arch_db:sale_order_split_strategy.split_from
+msgid "This sale order was created after splitting lines from"
+msgstr "Це замовлення продажу створено після розділення рядків із"

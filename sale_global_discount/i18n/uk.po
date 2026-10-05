@@ -37,3 +37,18 @@ msgstr "Глобальні знижки продажу"
 #: model:ir.model.fields,field_description:sale_global_discount.field_sale_order__amount_global_discount
 msgid "Total Global Discounts"
 msgstr "Загальна сума глобальних знижок"
+
+#. module: sale_global_discount
+#: model_terms:ir.ui.view,arch_db:sale_global_discount.report_saleorder_document
+msgid "<strong>Subtl. before disc.</strong>"
+msgstr "<strong>Проміжний підсумок до знижки</strong>"
+
+#. module: sale_global_discount
+#: model:ir.model.fields,field_description:sale_global_discount.field_sale_order__amount_total_before_global_discounts
+msgid "Amount Total Before Discounts"
+msgstr "Загальна сума до знижок"
+
+#. module: sale_global_discount
+#: model:ir.model.fields,field_description:sale_global_discount.field_sale_order__global_discount_ids_readonly
+msgid "Sale Global Discounts (readonly)"
+msgstr "Глобальні знижки продажу (лише читання)"

@@ -30,3 +30,13 @@ msgstr "Параметр попередження продажу"
 #: model_terms:ir.ui.view,arch_db:sale_warn_option.sale_warn_option_product_form
 msgid "Select a warning option"
 msgstr "Виберіть параметр попередження"
+
+#. module: sale_warn_option
+#: model:ir.model.fields.selection,name:sale_warn_option.selection__warn_option__allowed_warning_usage__partner_sale_warn
+msgid "(Partner) Warning on the Sales Order"
+msgstr "(Контрагент) Попередження в замовленні на продаж"
+
+#. module: sale_warn_option
+#: model:ir.model.fields.selection,name:sale_warn_option.selection__warn_option__allowed_warning_usage__product_sale_warn
+msgid "(Product) Warning when Selling this Product"
+msgstr "(Товар) Попередження під час продажу цього товару"

@@ -52,3 +52,8 @@ msgstr "Попередні редакції"
 #: model:ir.model.fields,field_description:sale_order_revision.field_sale_order__revision_count
 msgid "Previous versions count"
 msgstr "Кількість попередніх версій"
+
+#. module: sale_order_revision
+#: model_terms:ir.ui.view,arch_db:sale_order_revision.view_order_form
+msgid "New Revision of Quotation"
+msgstr "Нова ревізія комерційної пропозиції"

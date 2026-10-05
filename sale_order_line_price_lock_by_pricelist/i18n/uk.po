@@ -32,3 +32,13 @@ msgstr "Категорія товару"
 #: model:ir.model.fields.selection,name:sale_order_line_price_lock_by_pricelist.selection__product_pricelist__lock_product_prices_applied_on__0_product_variant
 msgid "Product Variant"
 msgstr "Варіант товару"
+
+#. module: sale_order_line_price_lock_by_pricelist
+#: model:ir.model.fields,field_description:sale_order_line_price_lock_by_pricelist.field_product_pricelist__lock_product_prices_applied_on
+msgid "Lock price when rule is applied on"
+msgstr "Блокувати ціну, коли правило застосовано до"
+
+#. module: sale_order_line_price_lock_by_pricelist
+#: model:ir.model.fields,field_description:sale_order_line_price_lock_by_pricelist.field_sale_order_line__origin_pricelist_item_id
+msgid "Origin Pricelist Item"
+msgstr "Початкова позиція прайс-листа"

@@ -91,3 +91,8 @@ msgstr "Встановити кількості"
 #: model_terms:ir.ui.view,arch_db:sale_product_multi_add.view_import_product_to_sale2
 msgid "or"
 msgstr "або"
+
+#. module: sale_product_multi_add
+#: model_terms:ir.ui.view,arch_db:sale_product_multi_add.sale_order_mass_import_form
+msgid "Add multiple products"
+msgstr "Додати кілька товарів"

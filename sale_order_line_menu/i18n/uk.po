@@ -89,3 +89,17 @@ msgstr "Комерційну пропозицію надіслано"
 #: model_terms:ir.ui.view,arch_db:sale_order_line_menu.view_sales_order_line_filter
 msgid "To Invoice"
 msgstr "До виставлення рахунку"
+
+#. module: sale_order_line_menu
+#: model:ir.model.fields,help:sale_order_line_menu.field_sale_order_line__date_order
+msgid ""
+"Creation date of draft/sent orders,\n"
+"Confirmation date of confirmed orders."
+msgstr ""
+"Дата створення чернеток/надісланих замовлень,\n"
+"дата підтвердження підтверджених замовлень."
+
+#. module: sale_order_line_menu
+#: model_terms:ir.ui.view,arch_db:sale_order_line_menu.view_sales_order_line_filter
+msgid "Upselling Opportunity"
+msgstr "Можливість додаткового продажу"

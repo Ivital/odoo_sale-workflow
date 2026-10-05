@@ -17,3 +17,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_line_chained_move.field_sale_order_line__chained_move_ids
 msgid "Chained Move"
 msgstr "Ланцюгове переміщення"
+
+#. module: sale_order_line_chained_move
+#: model:ir.model.fields,field_description:sale_order_line_chained_move.field_stock_rule__preserve_separate_so_lines
+msgid "Preserve Separate Sale Order Lines"
+msgstr "Зберігати окремі рядки замовлення на продаж"
+
+#. module: sale_order_line_chained_move
+#: model:ir.model.fields,field_description:sale_order_line_chained_move.field_stock_move__related_sale_line_id
+msgid "Related Sale Line"
+msgstr "Пов’язаний рядок продажу"

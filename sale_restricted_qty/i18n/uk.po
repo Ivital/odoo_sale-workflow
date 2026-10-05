@@ -499,3 +499,91 @@ msgstr "Обмежувати кратність кількості продаж�
 #: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_product_template_form
 msgid "Sale Restricted Qty"
 msgstr "Обмежена кількість продажу"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_category__sale_restrict_max_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_product__sale_restrict_max_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_template__sale_restrict_max_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_restrict_max_qty
+msgid ""
+"Decide if the maximum quantity constraint is strictly enforced (Blocking) or if it only triggers a warning (Warning).\n"
+"Use 'Warning' if you want to allow large orders that exceed strict policies under special conditions."
+msgstr ""
+"Визначає, чи обмеження максимальної кількості застосовується суворо («Блокування») або лише викликає попередження («Попередження»).\n"
+"Використовуйте «Попередження», якщо потрібно дозволяти великі замовлення, що за особливих умов перевищують суворі правила."
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_category__sale_restrict_min_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_product__sale_restrict_min_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_template__sale_restrict_min_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_restrict_min_qty
+msgid ""
+"Decide if the minimum quantity constraint is strictly enforced (Blocking) or if it only triggers a warning (Warning).\n"
+"Use 'Warning' if you want to allow exceptions like selling samples or leftover stock."
+msgstr ""
+"Визначає, чи обмеження мінімальної кількості застосовується суворо («Блокування») або лише викликає попередження («Попередження»).\n"
+"Використовуйте «Попередження», якщо потрібно дозволяти винятки, наприклад продаж зразків або залишків запасу."
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_category__sale_restrict_multiple_of_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_product__sale_restrict_multiple_of_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_template__sale_restrict_multiple_of_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_restrict_multiple_of_qty
+msgid ""
+"Decide if the multiple-of quantity constraint is strictly enforced (Blocking) or if it only triggers a warning (Warning).\n"
+"Use 'Warning' to allow selling non-standard quantities for special cases like clearing leftover stock."
+msgstr ""
+"Визначає, чи обмеження кратності кількості застосовується суворо («Блокування») або лише викликає попередження («Попередження»).\n"
+"Використовуйте «Попередження», щоб у спеціальних випадках дозволяти продаж нестандартних кількостей, наприклад для реалізації залишків запасу."
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__is_multiple_of_qty_set
+msgid "Is Multiple Of Qty Set"
+msgstr "Є кратним заданій кількості"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__is_not_multiple_of_qty
+msgid "Is Not Multiple Of Qty"
+msgstr "Не є кратним кількості"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__restrict_max_qty
+msgid "Restrict Max Qty"
+msgstr "Обмежити максимальну кількість"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__restrict_min_qty
+msgid "Restrict Min Qty"
+msgstr "Обмежити мінімальну кількість"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__restrict_multiple_of_qty
+msgid "Restrict Multiple Of Qty"
+msgstr "Обмежити кратність кількості"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_category__sale_max_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_product__sale_max_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_template__sale_max_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_sale_order_line__max_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_max_qty
+msgid "The maximum quantity of product that can be sold."
+msgstr "Максимальна кількість товару, яку можна продати."
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_category__sale_min_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_product__sale_min_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_template__sale_min_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_sale_order_line__min_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_min_qty
+msgid "The minimum quantity of product that can be sold."
+msgstr "Мінімальна кількість товару, яку можна продати."
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_category__sale_multiple_of_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_product__sale_multiple_of_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_template__sale_multiple_of_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_sale_order_line__multiple_of_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_sale_product_restricted_qty_mixin__sale_multiple_of_qty
+msgid "The multiple-of quantity of product that can be sold."
+msgstr "Кратність кількості товару, яку можна продати."

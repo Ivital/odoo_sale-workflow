@@ -24,3 +24,22 @@ msgstr "Адреса прямої доставки"
 #: model:ir.model.fields,field_description:sale_partner_address_restrict.field_res_config_settings__sale_partner_address_restriction
 msgid "Sale Partner Address Restriction"
 msgstr "Обмеження адреси контрагента продажу"
+
+#. module: sale_partner_address_restrict
+#: model_terms:ir.ui.view,arch_db:sale_partner_address_restrict.res_config_settings_view_form
+msgid "Address restriction"
+msgstr "Обмеження адреси"
+
+#. module: sale_partner_address_restrict
+#: model_terms:ir.ui.view,arch_db:sale_partner_address_restrict.res_config_settings_view_form
+msgid ""
+"Check this if you want to restrict the address selection to contacts of same"
+" company."
+msgstr ""
+"Установіть, якщо потрібно обмежити вибір адрес контактами тієї самої "
+"компанії."
+
+#. module: sale_partner_address_restrict
+#: model:ir.model.fields,field_description:sale_partner_address_restrict.field_sale_order__partner_address_restriction_domain
+msgid "Partner Address Restriction Domain"
+msgstr "Домен обмеження адреси контрагента"

@@ -19,3 +19,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_order_amount_to_invoice.view_quotation_tree_with_onboarding
 msgid "To Invoice"
 msgstr "До виставлення рахунку"
+
+#. module: sale_order_amount_to_invoice
+#: model_terms:ir.ui.view,arch_db:sale_order_amount_to_invoice.view_order_form
+msgid "<span class=\"fw-bold small\">Amount To Invoice:</span>"
+msgstr "<span class=\"fw-bold small\">Сума до виставлення:</span>"
+
+#. module: sale_order_amount_to_invoice
+#: model:ir.model.fields,field_description:sale_order_amount_to_invoice.field_sale_order__untaxed_amount_to_invoice
+msgid "Untaxed Amount To Invoice"
+msgstr "Сума без податків до виставлення рахунка"

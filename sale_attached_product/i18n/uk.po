@@ -29,3 +29,8 @@ msgstr "Прикріплені товари"
 #: model:ir.model.fields,field_description:sale_attached_product.field_sale_order_line__is_attached_line
 msgid "Is Attached Line"
 msgstr "Є прикріпленим рядком"
+
+#. module: sale_attached_product
+#: model:ir.model.fields,field_description:sale_attached_product.field_sale_order_line__attached_from_line_id
+msgid "Attached From Line"
+msgstr "Прикріплено з рядка"

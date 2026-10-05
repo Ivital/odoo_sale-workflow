@@ -17,3 +17,28 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_shipping_info_helper.field_sale_order__item_amount_tax
 msgid "Item Amount Tax"
 msgstr "Сума податку елемента"
+
+#. module: sale_shipping_info_helper
+#: model:ir.model.fields,field_description:sale_shipping_info_helper.field_sale_order__item_amount_total
+msgid "Item Amount Total"
+msgstr "Загальна сума позиції"
+
+#. module: sale_shipping_info_helper
+#: model:ir.model.fields,field_description:sale_shipping_info_helper.field_sale_order__item_amount_untaxed
+msgid "Item Amount Untaxed"
+msgstr "Сума позиції без податку"
+
+#. module: sale_shipping_info_helper
+#: model:ir.model.fields,field_description:sale_shipping_info_helper.field_sale_order__shipping_amount_tax
+msgid "Shipping Amount Tax"
+msgstr "Податок на суму доставки"
+
+#. module: sale_shipping_info_helper
+#: model:ir.model.fields,field_description:sale_shipping_info_helper.field_sale_order__shipping_amount_total
+msgid "Shipping Amount Total"
+msgstr "Загальна сума доставки"
+
+#. module: sale_shipping_info_helper
+#: model:ir.model.fields,field_description:sale_shipping_info_helper.field_sale_order__shipping_amount_untaxed
+msgid "Shipping Amount Untaxed"
+msgstr "Сума доставки без податків"

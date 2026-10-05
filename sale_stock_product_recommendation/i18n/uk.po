@@ -47,3 +47,28 @@ msgstr "Кількість до доставки"
 #: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__scheduled_date
 msgid "Scheduled Date"
 msgstr "Запланована дата"
+
+#. module: sale_stock_product_recommendation
+#: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__warehouse_id
+msgid "Default Warehouse"
+msgstr "Склад за замовчуванням"
+
+#. module: sale_stock_product_recommendation
+#: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__display_qty_widget
+msgid "Display Qty Widget"
+msgstr "Показувати віджет кількості"
+
+#. module: sale_stock_product_recommendation
+#: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__forecast_expected_date
+msgid "Forecast Expected Date"
+msgstr "Очікувана дата прогнозу"
+
+#. module: sale_stock_product_recommendation
+#: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__qty_available_today
+msgid "Qty Available Today"
+msgstr "Кількість доступна сьогодні"
+
+#. module: sale_stock_product_recommendation
+#: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__virtual_available_at_date
+msgid "Virtual Available At Date"
+msgstr "Віртуально доступно на дату"

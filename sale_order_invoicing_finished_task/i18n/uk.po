@@ -30,3 +30,21 @@ msgstr "Завдання"
 #: model:ir.model.fields,field_description:sale_order_invoicing_finished_task.field_project_task__invoicing_finished_task
 msgid "Invoicing control by task"
 msgstr "Контроль виставлення рахунків за завданням"
+
+#. module: sale_order_invoicing_finished_task
+#: model_terms:ir.ui.view,arch_db:sale_order_invoicing_finished_task.edit_project_task_track
+msgid ""
+"<span class=\"text-success\" invisible=\"not invoiceable\">Invoiceable</span>\n"
+"                    <span class=\"text-danger\" invisible=\"invoiceable\">Not Invoiceable</span>"
+msgstr ""
+"<span class=\"text-success\" invisible=\"not invoiceable\">Можна виставити рахунок</span>\n"
+"                    <span class=\"text-danger\" invisible=\"invoiceable\">Не можна виставити рахунок</span>"
+
+#. module: sale_order_invoicing_finished_task
+#: model:ir.model.fields,help:sale_order_invoicing_finished_task.field_product_product__invoicing_finished_task
+#: model:ir.model.fields,help:sale_order_invoicing_finished_task.field_product_template__invoicing_finished_task
+#: model:ir.model.fields,help:sale_order_invoicing_finished_task.field_project_task__invoicing_finished_task
+msgid "Invoice the order lines only when the task is set to invoiceable"
+msgstr ""
+"Виставляти рахунок за рядками замовлення лише тоді, коли завдання позначено "
+"як таке, що підлягає виставленню рахунку"

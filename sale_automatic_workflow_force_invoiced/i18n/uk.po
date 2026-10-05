@@ -40,3 +40,13 @@ msgstr "Задати вибір на основі пошукового філь�
 #: code:addons/sale_automatic_workflow_force_invoiced/models/sale_workflow_process.py:0
 msgid "Validate Invoice"
 msgstr "Перевірити рахунок"
+
+#. module: sale_automatic_workflow_force_invoiced
+#: model:ir.model.fields,field_description:sale_automatic_workflow_force_invoiced.field_sale_workflow_process__force_invoice_order_filter_id
+msgid "Force Invoice Order Filter"
+msgstr "Фільтр примусового виставлення рахунка за замовленням"
+
+#. module: sale_automatic_workflow_force_invoiced
+#: model:ir.model.fields,field_description:sale_automatic_workflow_force_invoiced.field_sale_workflow_process__force_invoice_order_filter_domain
+msgid "Force Invoice Order Filter Domain"
+msgstr "Домен фільтра примусового виставлення рахунка"

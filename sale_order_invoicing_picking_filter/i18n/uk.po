@@ -22,3 +22,24 @@ msgstr "Виставлено рахунок"
 #: model:ir.model.fields,field_description:sale_order_invoicing_picking_filter.field_sale_advance_payment_inv__stock_picking_ids
 msgid "Pickings"
 msgstr "Переміщення"
+
+#. module: sale_order_invoicing_picking_filter
+#: model_terms:ir.ui.view,arch_db:sale_order_invoicing_picking_filter.sale_order_invoiceing_picking_filter_invoice_wizard
+msgid ""
+"<span invisible=\"not there_are_service_product\">\n"
+"                        There are any non-invoiced service products among the selected pickings\n"
+"                    </span>"
+msgstr ""
+"<span invisible=\"not there_are_service_product\">\n"
+"                        Серед вибраних переміщень є невиставлені сервісні товари\n"
+"                    </span>"
+
+#. module: sale_order_invoicing_picking_filter
+#: model:ir.model.fields,field_description:sale_order_invoicing_picking_filter.field_sale_advance_payment_inv__inv_service_products
+msgid "Invoice Service Products"
+msgstr "Товари-послуги рахунка"
+
+#. module: sale_order_invoicing_picking_filter
+#: model:ir.model.fields,field_description:sale_order_invoicing_picking_filter.field_sale_advance_payment_inv__there_are_service_product
+msgid "There are a Service Product"
+msgstr "Є товар-послуга"

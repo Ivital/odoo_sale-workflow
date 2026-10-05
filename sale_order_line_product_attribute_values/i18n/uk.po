@@ -32,3 +32,8 @@ msgstr "Усі значення атрибутів товару"
 #: model_terms:ir.ui.view,arch_db:sale_order_line_product_attribute_values.view_sales_order_line_filter
 msgid "Attribute Values"
 msgstr "Значення атрибутів"
+
+#. module: sale_order_line_product_attribute_values
+#: model:ir.model.fields,field_description:sale_order_line_product_attribute_values.field_sale_order_line__all_product_template_attribute_value_ids
+msgid "Product Template Attribute Values"
+msgstr "Значення атрибутів шаблону товару"

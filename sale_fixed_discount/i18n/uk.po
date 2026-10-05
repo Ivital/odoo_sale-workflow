@@ -27,3 +27,8 @@ msgstr "<span>Сума знижки (%)</span>"
 #: model:ir.model.fields,field_description:sale_fixed_discount.field_sale_order_line__discount_fixed
 msgid "Discount (Fixed)"
 msgstr "Знижка (фіксована)"
+
+#. module: sale_fixed_discount
+#: model_terms:ir.ui.view,arch_db:sale_fixed_discount.sale_order_portal_content
+msgid "<span>Disc. Fixed Amount</span>"
+msgstr "<span>Фіксована сума знижки</span>"

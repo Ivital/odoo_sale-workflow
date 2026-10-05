@@ -31,3 +31,8 @@ msgstr "Сума до виставлення рахунку"
 #: model_terms:ir.ui.view,arch_db:sale_order_invoice_amount.view_quotation_list_with_onboarding_invoiced_amount
 msgid "Invoiced Amount"
 msgstr "Виставлена сума"
+
+#. module: sale_order_invoice_amount
+#: model_terms:ir.ui.view,arch_db:sale_order_invoice_amount.view_order_list_invoiced_amount
+msgid "Amount to invoice"
+msgstr "Сума до виставлення рахунку"

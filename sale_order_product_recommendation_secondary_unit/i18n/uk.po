@@ -37,3 +37,8 @@ msgstr "Вторинна одиниця"
 #: model:ir.model.fields,field_description:sale_order_product_recommendation_secondary_unit.field_sale_order_recommendation_line__units_included
 msgid "Units Included"
 msgstr "Включені одиниці"
+
+#. module: sale_order_product_recommendation_secondary_unit
+#: model:ir.model.fields,field_description:sale_order_product_recommendation_secondary_unit.field_sale_order_recommendation_line__product_uom_readonly
+msgid "Product Uom Readonly"
+msgstr "Одиниця виміру товару лише для читання"

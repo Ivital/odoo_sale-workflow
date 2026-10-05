@@ -41,3 +41,19 @@ msgstr "Політика виставлення рахунків за товар
 #: model:ir.model.fields,field_description:sale_invoice_policy.field_res_config_settings__sale_default_invoice_policy
 msgid "Sale Default Invoice Policy"
 msgstr "Типова політика виставлення рахунку продажу"
+
+#. module: sale_invoice_policy
+#: model_terms:ir.ui.view,arch_db:sale_invoice_policy.view_sales_config
+msgid ""
+"Choose the default policy that will be applied for new sale orders (the "
+"'Invoicing Policy' configuration is the policy for new products)."
+msgstr ""
+"Виберіть стандартну політику для нових замовлень на продаж («Політика "
+"виставлення рахунків» — це політика для нових товарів)."
+
+#. module: sale_invoice_policy
+#: model:ir.model.fields,help:sale_invoice_policy.field_res_company__sale_default_invoice_policy
+#: model:ir.model.fields,help:sale_invoice_policy.field_res_config_settings__sale_default_invoice_policy
+msgid "This will be the default invoice policy for sale orders."
+msgstr ""
+"Це буде типовою політикою виставлення рахунків для замовлень на продаж."

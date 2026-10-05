@@ -23,3 +23,18 @@ msgstr "Повністю доставлено"
 #: model:ir.model.fields,field_description:sale_invoice_delivery_state.field_res_users__invoice_policy
 msgid "Invoice Policy"
 msgstr "Політика виставлення рахунків"
+
+#. module: sale_invoice_delivery_state
+#: model:ir.model.fields.selection,name:sale_invoice_delivery_state.selection__res_partner__invoice_policy__partially
+msgid "Partially Delivered"
+msgstr "Частково доставлено"
+
+#. module: sale_invoice_delivery_state
+#: model:ir.model.fields,help:sale_invoice_delivery_state.field_res_partner__invoice_policy
+#: model:ir.model.fields,help:sale_invoice_delivery_state.field_res_users__invoice_policy
+msgid ""
+"Partially Delivered: Invoice when the customer is partially delivered.\n"
+"Fully Delivered: Invoice when the customer is fully delivered."
+msgstr ""
+"Частково доставлено: виставляти рахунок, коли клієнту доставлено частину замовлення.\n"
+"Повністю доставлено: виставляти рахунок, коли клієнту доставлено все замовлення."

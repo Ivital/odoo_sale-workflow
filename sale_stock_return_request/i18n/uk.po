@@ -27,3 +27,23 @@ msgstr "Продажі"
 #: model:ir.model.fields,field_description:sale_stock_return_request.field_stock_return_request__sale_order_ids
 msgid "Involved Sales"
 msgstr "Пов’язані продажі"
+
+#. module: sale_stock_return_request
+#: model_terms:ir.ui.view,arch_db:sale_stock_return_request.view_order_form
+msgid "Create Return Request"
+msgstr "Створити запит на повернення"
+
+#. module: sale_stock_return_request
+#: model:ir.actions.act_window,name:sale_stock_return_request.action_sale_stock_return_request_tree
+msgid "Sale Return Requests"
+msgstr "Запити на повернення продажу"
+
+#. module: sale_stock_return_request
+#: model:ir.model.fields,field_description:sale_stock_return_request.field_stock_return_request__filter_sale_order_ids
+msgid "Selected order(s)"
+msgstr "Вибрані замовлення"
+
+#. module: sale_stock_return_request
+#: model:ir.model.fields,field_description:sale_stock_return_request.field_sale_order__show_create_return_request
+msgid "Show Create Return Request"
+msgstr "Показувати «Створити запит на повернення»"

@@ -23,3 +23,8 @@ msgstr "Дата останньої доставки"
 #: model_terms:ir.ui.view,arch_db:sale_stock_last_date.view_order_product_search
 msgid "Sent yesterday"
 msgstr "Надіслано вчора"
+
+#. module: sale_stock_last_date
+#: model_terms:ir.ui.view,arch_db:sale_stock_last_date.view_order_product_search
+msgid "Last Delivery Date"
+msgstr "Дата останньої доставки"

@@ -62,3 +62,72 @@ msgstr "Показувати посилання клієнта в рахунку
 #: model:ir.model.fields,field_description:sale_order_line_client_order_ref.field_res_config_settings__show_client_order_ref_sale
 msgid "Show Client Order Ref Sale"
 msgstr "Показувати посилання клієнта у продажу"
+
+#. module: sale_order_line_client_order_ref
+#: model:ir.model.fields,help:sale_order_line_client_order_ref.field_res_partner__so_line_client_ref_policy
+#: model:ir.model.fields,help:sale_order_line_client_order_ref.field_res_users__so_line_client_ref_policy
+msgid ""
+"Controls how the Sales Order's Customer Order Reference is applied to sales order lines. This setting overrides the company-level configuration.\n"
+"- Always: copy the order value when it's updated.\n"
+"- Never: never sync the order value to lines."
+msgstr ""
+"Визначає, як «Посилання замовлення клієнта» із замовлення на продаж застосовується до рядків замовлення. Це налаштування має пріоритет над конфігурацією компанії.\n"
+"- Завжди: копіювати значення замовлення до рядків після його оновлення.\n"
+"- Ніколи: не синхронізувати значення замовлення з рядками."
+
+#. module: sale_order_line_client_order_ref
+#: model_terms:ir.ui.view,arch_db:sale_order_line_client_order_ref.view_invoice_config_settings
+msgid ""
+"If selected, the Order Ref column will be added to the lines in the invoice "
+"report (PDF)"
+msgstr ""
+"Якщо вибрано, стовпець «Посилання на замовлення» буде додано до рядків звіту"
+" рахунку (PDF)"
+
+#. module: sale_order_line_client_order_ref
+#: model_terms:ir.ui.view,arch_db:sale_order_line_client_order_ref.view_sale_config_settings
+msgid ""
+"If selected, the Order Ref column will be added to the lines in the sale "
+"report (PDF)"
+msgstr ""
+"Якщо вибрано, стовпець «Посилання на замовлення» буде додано до рядків звіту"
+" про продаж (PDF)"
+
+#. module: sale_order_line_client_order_ref
+#: model_terms:ir.ui.view,arch_db:sale_order_line_client_order_ref.view_sale_config_settings
+msgid "Include Customer Order Reference in Invoice Line Description"
+msgstr "Включати посилання на замовлення клієнта в опис рядка рахунка"
+
+#. module: sale_order_line_client_order_ref
+#: model_terms:ir.ui.view,arch_db:sale_order_line_client_order_ref.view_sale_config_settings
+msgid "Sales Order Line Customer Order Ref Sync(chronization) Policy"
+msgstr ""
+"Політика синхронізації посилання на замовлення клієнта в рядку продажу"
+
+#. module: sale_order_line_client_order_ref
+#: model_terms:ir.ui.view,arch_db:sale_order_line_client_order_ref.view_sale_config_settings
+msgid ""
+"Select the policy to sync the customer order reference from the sales order "
+"to its lines."
+msgstr ""
+"Виберіть політику синхронізації посилання на замовлення клієнта із "
+"замовлення на продаж до його рядків."
+
+#. module: sale_order_line_client_order_ref
+#: model_terms:ir.ui.view,arch_db:sale_order_line_client_order_ref.view_invoice_config_settings
+msgid "Show Customer Order Reference in Invoice Reports (PDF)"
+msgstr "Показувати посилання на замовлення клієнта у звітах рахунків (PDF)"
+
+#. module: sale_order_line_client_order_ref
+#: model_terms:ir.ui.view,arch_db:sale_order_line_client_order_ref.view_sale_config_settings
+msgid "Show Customer Order Reference in Sale Reports (PDF)"
+msgstr "Показувати посилання на замовлення клієнта у звітах продажу (PDF)"
+
+#. module: sale_order_line_client_order_ref
+#: model_terms:ir.ui.view,arch_db:sale_order_line_client_order_ref.view_sale_config_settings
+msgid ""
+"When enabled, the invoice line description will begin with the customer "
+"order reference, followed by a new line and the original description."
+msgstr ""
+"Якщо ввімкнено, опис рядка рахунку починатиметься з посилання на замовлення "
+"клієнта, потім нового рядка та початкового опису."

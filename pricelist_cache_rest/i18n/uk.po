@@ -18,3 +18,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:pricelist_cache_rest.field_res_config_settings__pricelist_cache_auhorize_apikey_ids
 msgid "Pricelist Cache Auhorize Apikey"
 msgstr "Авторизація API-ключа кешу прайс-листа"
+
+#. module: pricelist_cache_rest
+#: model_terms:ir.ui.view,arch_db:pricelist_cache_rest.res_config_settings_view_form_pricelist_cache_rest_inherit
+msgid "<b>Authorized Pricelist Cache API keys</b>"
+msgstr "<b>Авторизовані API-ключі кешу прайс-листа</b>"
+
+#. module: pricelist_cache_rest
+#: model:ir.model.fields,help:pricelist_cache_rest.field_res_company__pricelist_cache_auhorize_apikey_ids
+#: model:ir.model.fields,help:pricelist_cache_rest.field_res_config_settings__pricelist_cache_auhorize_apikey_ids
+msgid "API keys that can retrieve pricelist data via REST endpoints."
+msgstr ""
+"Ключі API, які можуть отримувати дані прайс-листа через REST-кінцеві точки."
+
+#. module: pricelist_cache_rest
+#: model_terms:ir.ui.view,arch_db:pricelist_cache_rest.res_config_settings_view_form_pricelist_cache_rest_inherit
+msgid ""
+"Defines the list of api keys authorized to retrieve prices from the api"
+msgstr "Визначає список API-ключів, авторизованих для отримання цін через API"
