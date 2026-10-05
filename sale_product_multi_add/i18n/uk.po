@@ -12,3 +12,43 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_sale_product_multi_add
 msgid "Sale Product Multi Add"
 msgstr "Масове додавання товарів до продажу"
+
+#. module: sale_product_multi_add
+#: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products__create_uid
+#: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products_items__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: sale_product_multi_add
+#: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products__create_date
+#: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products_items__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: sale_product_multi_add
+#: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products__display_name
+#: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products_items__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: sale_product_multi_add
+#: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products__items
+msgid "Items"
+msgstr "Елементи"
+
+#. module: sale_product_multi_add
+#: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products__products
+#: model_terms:ir.ui.view,arch_db:sale_product_multi_add.view_import_product_to_sale
+#: model_terms:ir.ui.view,arch_db:sale_product_multi_add.view_import_product_to_sale2
+msgid "Products"
+msgstr "Товари"
+
+#. module: sale_product_multi_add
+#: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products_items__quantity
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: sale_product_multi_add
+#: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products_items__wizard_id
+msgid "Wizard"
+msgstr "Майстер"

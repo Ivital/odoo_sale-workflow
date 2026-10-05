@@ -1,0 +1,236 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_wiz__amount
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet_line__amount
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.report_sale_payment_sheet
+msgid "Amount"
+msgstr "Сума"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_line_wiz__amount_residual
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.sale_invoice_payment_wiz
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.view_invoice_tree
+msgid "Amount Due"
+msgstr "Сума до сплати"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__company_id
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet_line__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: sale_payment_sheet
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.view_sale_payment_sheet_search
+msgid "Confirmed"
+msgstr "Підтверджено"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_line_wiz__create_uid
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_wiz__create_uid
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__create_uid
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet_line__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_line_wiz__create_date
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_wiz__create_date
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__create_date
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet_line__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_line_wiz__currency_id
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_wiz__currency_id
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__date
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet_line__date
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.report_sale_payment_sheet
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.view_sale_payment_sheet_search
+msgid "Date"
+msgstr "Дата"
+
+#. module: sale_payment_sheet
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.report_sale_payment_sheet
+msgid "Description"
+msgstr "Опис"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_line_wiz__display_name
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_wiz__display_name
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__display_name
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet_line__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_line_wiz__invoice_date_due
+msgid "Due Date"
+msgstr "Термін оплати"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_line_wiz__invoice_id
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet_line__invoice_id
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.report_sale_payment_sheet
+msgid "Invoice"
+msgstr "Рахунок-фактура"
+
+#. module: sale_payment_sheet
+#: model:ir.actions.act_window,name:sale_payment_sheet.action_invoice_sale_payment_sheet
+#: model:ir.ui.menu,name:sale_payment_sheet.sale_payment_invoice
+msgid "Invoices"
+msgstr "Рахунки-фактури"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_line_wiz__is_selected
+msgid "Is Selected"
+msgstr "Вибрано"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_wiz__journal_id
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__journal_id
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.view_sale_payment_sheet_search
+msgid "Journal"
+msgstr "Журнал"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet_line__name
+msgid "Label"
+msgstr "Мітка"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet_line__note
+msgid "Notes"
+msgstr "Нотатки"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_wiz__partner_id
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet_line__partner_id
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.report_sale_payment_sheet
+msgid "Partner"
+msgstr "Партнер"
+
+#. module: sale_payment_sheet
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.sale_invoice_payment_wiz
+msgid "Payment"
+msgstr "Платіж"
+
+#. module: sale_payment_sheet
+#: model:ir.ui.menu,name:sale_payment_sheet.sale_payment_sheet_menu
+msgid "Payments"
+msgstr "Платежі"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__rating_ids
+msgid "Ratings"
+msgstr "Рейтинги"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_wiz__ref
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__name
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet_line__ref
+#: model:ir.model.fields.selection,name:sale_payment_sheet.selection__sale_payment_sheet__group_lines__ref
+msgid "Reference"
+msgstr "Посилання"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_wiz__user_id
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__user_id
+msgid "Responsible"
+msgstr "Відповідальний"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet_line__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet_line__sheet_id
+msgid "Sheet"
+msgstr "Аркуш"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__line_ids
+msgid "Sheet lines"
+msgstr "Рядки аркуша"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_line_wiz__state
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__state
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet_line__state
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.view_sale_payment_sheet_search
+msgid "Status"
+msgstr "Статус"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_line_wiz__amount_total
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_payment_sheet__amount_total
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.sale_invoice_payment_wiz
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.view_invoice_tree
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.view_sale_payment_sheet_form
+msgid "Total"
+msgstr "Разом"
+
+#. module: sale_payment_sheet
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.view_invoice_tree
+msgid "Total Amount"
+msgstr "Загальна сума"
+
+#. module: sale_payment_sheet
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet.view_sale_payment_sheet_form
+msgid "Transactions"
+msgstr "Транзакції"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields.selection,name:sale_payment_sheet.selection__sale_payment_sheet__state__confirm
+msgid "Validated"
+msgstr "Підтверджено"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_line_wiz__wiz_id
+msgid "Wiz"
+msgstr "Майстер"
+
+#. module: sale_payment_sheet
+#: model:ir.model.fields,field_description:sale_payment_sheet.field_sale_invoice_payment_wiz__wiz_line_ids
+msgid "Wiz Line"
+msgstr "Рядок майстра"

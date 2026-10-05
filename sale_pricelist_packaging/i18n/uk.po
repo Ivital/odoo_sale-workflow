@@ -9,6 +9,12 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: sale_pricelist_packaging
-#: model:ir.module.module,shortdesc:base.module_sale_pricelist_packaging model:ir.module.module,summary:base.module_sale_pricelist_packaging
+#: model:ir.module.module,shortdesc:base.module_sale_pricelist_packaging
+#: model:ir.module.module,summary:base.module_sale_pricelist_packaging
 msgid "Sale Pricelist Packaging"
 msgstr "Пакування в прайс-листі продажів"
+
+#. module: sale_pricelist_packaging
+#: model:ir.model.fields,field_description:sale_pricelist_packaging.field_product_pricelist_item__packaging_id
+msgid "Packaging"
+msgstr "Пакування"

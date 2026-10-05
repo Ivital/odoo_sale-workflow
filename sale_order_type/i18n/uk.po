@@ -16,13 +16,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__active
 msgid "Active"
-msgstr ""
+msgstr "Активний"
 
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__analytic_account_id
@@ -32,7 +31,7 @@ msgstr ""
 #. module: sale_order_type
 #: model_terms:ir.ui.view,arch_db:sale_order_type.sot_sale_order_type_form_view
 msgid "Archived"
-msgstr ""
+msgstr "Архівовано"
 
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__journal_id
@@ -59,7 +58,7 @@ msgstr ""
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__company_id
 msgid "Company"
-msgstr ""
+msgstr "Компанія"
 
 #. module: sale_order_type
 #: model:ir.model,name:sale_order_type.model_res_config_settings
@@ -132,7 +131,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__incoterm_id
 #: model_terms:ir.ui.view,arch_db:sale_order_type.sot_sale_order_type_search_view
 msgid "Incoterm"
-msgstr ""
+msgstr "Інкотермс"
 
 #. module: sale_order_type
 #: model:ir.model.fields,help:sale_order_type.field_sale_order__incoterm
@@ -164,7 +163,7 @@ msgstr "Останнє оновлення"
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__name
 msgid "Name"
-msgstr "Name"
+msgstr "Назва"
 
 #. module: sale_order_type
 #. odoo-python
@@ -181,7 +180,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__payment_term_id
 #: model_terms:ir.ui.view,arch_db:sale_order_type.sot_sale_order_type_search_view
 msgid "Payment Term"
-msgstr ""
+msgstr "Умова оплати"
 
 #. module: sale_order_type
 #: model_terms:ir.ui.view,arch_db:sale_order_type.sot_sale_order_type_search_view
@@ -191,7 +190,7 @@ msgstr ""
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__pricelist_id
 msgid "Pricelist"
-msgstr ""
+msgstr "Прайс-лист"
 
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__quotation_validity_days
@@ -202,7 +201,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_line__route_id
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__route_id
 msgid "Route"
-msgstr ""
+msgstr "Маршрут"
 
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_res_partner__effective_pricelist_id
@@ -231,7 +230,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_type.field_account_move__sale_type_id
 #: model_terms:ir.ui.view,arch_db:sale_order_type.sot_invoice_search
 msgid "Sale Type"
-msgstr ""
+msgstr "Тип продажу"
 
 #. module: sale_order_type
 #: model:ir.model,name:sale_order_type.model_sale_advance_payment_inv
@@ -257,19 +256,19 @@ msgstr ""
 #: model:ir.actions.act_window,name:sale_order_type.sot_sale_order_type_action
 #: model:ir.ui.menu,name:sale_order_type.sot_sale_order_type_menu
 msgid "Sales Order Types"
-msgstr ""
+msgstr "Типи замовлень на продаж"
 
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__team_id
 #: model_terms:ir.ui.view,arch_db:sale_order_type.sot_sale_order_type_search_view
 msgid "Sales Team"
-msgstr ""
+msgstr "Команда продажів"
 
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__user_id
 #: model_terms:ir.ui.view,arch_db:sale_order_type.sot_sale_order_type_search_view
 msgid "Salesperson"
-msgstr ""
+msgstr "Продавець"
 
 #. module: sale_order_type
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order__picking_policy
@@ -296,13 +295,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_type.field_sale_order_type__warehouse_id
 #: model_terms:ir.ui.view,arch_db:sale_order_type.sot_sale_order_type_search_view
 msgid "Warehouse"
-msgstr ""
+msgstr "Склад"
 
 #. module: sale_order_type
 #: model_terms:ir.ui.view,arch_db:sale_order_type.res_partner_sale_type_form_view
 msgid ""
-"When creating a Sales Order, above pricelist will be replaced by the one set "
-"on the sales order type:"
+"When creating a Sales Order, above pricelist will be replaced by the one set"
+" on the sales order type:"
 msgstr ""
 
 #~ msgid "Last Modified on"

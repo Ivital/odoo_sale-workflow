@@ -12,3 +12,8 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_sale_order_product_recommendation_secondary_unit
 msgid "Add secondary unit to recommend products wizard"
 msgstr "Додає додаткову одиницю вимірювання до майстра рекомендованих товарів"
+
+#. module: sale_order_product_recommendation_secondary_unit
+#: model:ir.model.fields,field_description:sale_order_product_recommendation_secondary_unit.field_sale_order_recommendation_line__secondary_uom_id
+msgid "Second unit"
+msgstr "Друга одиниця"
